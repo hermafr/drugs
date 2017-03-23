@@ -22,6 +22,8 @@ true_positives = 0
 false_positives = 0
 false_negatives = 0
 
+single_word_mode = True
+
 for tdoc in test:
     for sentence in tdoc.sentences:
         if len(sentence.text) > 0:
@@ -31,9 +33,16 @@ for tdoc in test:
             words = [w for w in words if len(w) > 0]
             print("words: " + str(words))
             drugs = []
+            last_word_was_drug = False
             for word in words:
                 if extract_features_and_classify(word, nb):
-                    drugs.append(word)
+                    if last_word_was_drug and not single_word_mode:
+                        drugs[-1] = drugs[-1] + " " + word
+                    else:
+                        drugs.append(word)
+                    last_word_was_drug = True
+                else:
+                    last_word_was_drug = False
             print("prediction: " + str(drugs))
             entity_texts = []
             for entity in sentence.entities:

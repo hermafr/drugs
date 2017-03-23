@@ -42,6 +42,10 @@ def trained_naive_bayes(dataset):
     return nb
 
 def extract_features_and_classify(word, nb):
+    # rule based classification
+    if len(word) < 2:
+        return False
+    # naive bayes if no rule applied
     features = []
     features.append(("word_length", len(word)))
     features.append(("uppercase_start", starts_with_uppercase(word)))
