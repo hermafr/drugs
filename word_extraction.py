@@ -1,8 +1,5 @@
 from corpus_reader import read_dataset
 
-#p(c|x) = p(x|c) * p(c)
-
-
 def overwrite(txt, begin, end, symbol = "#"):
     return txt[0:begin] + symbol * (end - begin) + txt[end:len(txt)]
 
@@ -29,7 +26,8 @@ def get_word_lists_from_sentence(sentence):
             for pos in entity.char_offset:
                 txt = overwrite(txt, pos[0], pos[1])
             for word in entity.text.split(" "):
-                drug_words.append(word)
+                if len(word) > 0:
+                    drug_words.append(word)
         txt = remove_puntuations(txt)
         txt = txt.replace("#", "")
         for word in txt.split(" "):

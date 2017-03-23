@@ -43,7 +43,7 @@ class NaiveBayes:
             freq = self.class_frequencies[c]
         freq = freq + EPSILON
         p = freq / self.n
-        verbose(str(c) + "\t" + str(freq) + "\t" + str(self.n) + "\t" + str(p))
+        verbose("class\t" + str(c) + "\t" + str(freq) + "\t" + str(self.n) + "\t" + str(p))
         return p
     
     def p_feature_given_class(self, feature_name, value, class_label):
@@ -54,7 +54,7 @@ class NaiveBayes:
         freq = freq + EPSILON
         divisor = self.f_counters[feature_name][class_label]
         p = freq / divisor
-        verbose(str(value) + "\t" + str(freq) + "\t" + str(divisor) + "\t" + str(p))
+        verbose(feature_name + "\t" + str(value) + "\t" + str(freq) + "\t" + str(divisor) + "\t" + str(p))
         return p
     
     def get_prob(self, features, c):
