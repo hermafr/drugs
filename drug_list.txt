@@ -1,0 +1,2973 @@
+(+)-NANM	7
+(-)-NANM	8
+(-)-erythro-fluorocitrate	7
+(R)-warfarin	1
+(S)-warfarin	1
+1,25(OH)2D3	7
+1,3-difluoro-2-propanol	8
+1,3-difluoroacetone	8
+1-methyl-4-phenyl-1,2,5,6-tetrahydropyridine	1
+16,16-dimethylprostaglandin E2	2
+18-MC	16
+18-Methoxycoronaridine	1
+25-Dihydroxycholecalciferol D3	1
+25-O-desacetyl metabolites	1
+25-O-desacetylrifabutin	2
+3-Hydroxydesloratadine	2
+3-hydroxy levobupivacaine	1
+3-hydroxy-1,4-benzodiazepine	1
+3-hydroxydesloratadine	1
+3H-spiroperidol	5
+4-hydroxy-estazolam	1
+4-hydroxyatomoxetine	1
+4-hydroxytamoxifen	1
+4-hydroxytolbutamide	2
+4-methylpyrazole	3
+5-DFCR	1
+5-DFUR	1
+5-FU	2
+5-HT1 agonists	5
+5-HT1B/1D Agonists	1
+5-HT1B/1D agonists	1
+5-HT3 antagonists	1
+5-HT3 antiemetics	1
+5-fluorouracil	5
+5-oxo-desethylzaleplon	1
+5-oxo-desethylzaleplon glucuronide	1
+5HT3 Antagonists	1
+5HT3 antagonist class	1
+6-MP	1
+6-beta-naltrexol	1
+6-deoxy penciclovir	1
+6-mercaptopurine	1
+6-thiouric acid	1
+6MNA	3
+8-cyclopentyl-1,3-dipropylxanthine	1
+8-phenyltheophylline	1
+99mTc-MDP	2
+99mTc-methylene diphosphonate	1
+ABILIFY	4
+ACE Inhibitors	3
+ACE inhibitor	6
+ACE inhibitors	30
+ACE-inhibitors	7
+ACEI	2
+ACTH	9
+ACZONE	1
+ADL 8-2698	6
+ADL-8-2698	1
+AED	9
+AEDs	16
+AKINETON	1
+ALFENTA	7
+ALLEGRA	2
+ALPHAGAN P	3
+AMERGE	1
+AMEVIVE	15
+AMICAR	4
+ANTACID	1
+ANTICOAGULANTS	1
+AOM	2
+APOKYN	2
+ARAVA	6
+ARB	2
+ARIMIDEX	3
+ASA	1
+ATACAND	1
+ATROVENT	3
+AUGMENTIN XR	4
+AVASTIN	5
+AVONEX	4
+AXERT	4
+AZA	1
+AZOPT	2
+Abciximab	3
+Acamprosate	5
+Acarbose	10
+Accutane	18
+Acebutolol	1
+Acellular vaccines	1
+Acetaminophen	11
+Acetazolamide	9
+Acetohydroxamic acid	1
+Acetylcysteine	1
+Acetylsalicylic acid	1
+Acidifying agents	1
+Acitretin	1
+Activase	5
+Adenocard	4
+Adenosine	2
+Adrenergic Agents	1
+Adrenergic blockers	4
+Advil	1
+Agenerase	1
+Agents with b-blocking properties	1
+Agonist/antagonist analgesics	1
+Albendazole sulfoxide	2
+Albuterol	2
+Alcohol	14
+Aldomet	1
+Aleve	2
+Aliskiren	3
+Allopurinol	5
+Alosetron	2
+Alpha-agonists	1
+Alpha-blockers	1
+Alprazolam	3
+Aluminum	1
+Amantadine	2
+Aminoglutethimide	4
+Aminoglycosides	2
+Aminophylline	1
+Aminosalicylic acid	2
+Amiodarone	16
+Amitriptyline	2
+Amoxicillin	1
+Amphetamines	24
+Amphotericin	1
+Amphotericin B	3
+Ampicillin	2
+Amprenavir	14
+Anabolic steroids	2
+Anabolin	1
+Anadrol	1
+Anafranil	9
+Anagrelide	5
+Anakinra	1
+Analgesic	1
+Anaprox	1
+Anastrozole	3
+Anavar	1
+Ancobon	1
+Androgens	3
+Anesthetic	1
+Anesthetics	3
+Angiomax	6
+Angiotensin Converting Enzyme (ACE) inhibitors	2
+Angiotensin II Receptor Antagonists	2
+Angiotensln Converting Enzyme Inhibitors	1
+Antabuse	2
+Antacid	3
+Antacid Products	1
+Antacids	27
+Anti-HIV Protease Inhibitors	1
+Anti-HIV Reverse Transcriptase Inhibitors	1
+Anti-HIV protease inhibitors	1
+Anti-Migraine	1
+Anti-arrhythmics	1
+Antiarrhythmic agents, class I	1
+Antiarrhythmics	6
+Antibiotics	6
+Anticholinergic agents	3
+Anticholinergic drugs	2
+Anticholinergics	2
+Anticholinesterases	2
+Anticoagulant	1
+Anticoagulants	22
+Anticonvulsants	6
+Antidepressants	4
+Antidiabetic Agents	2
+Antidiabetic drug	1
+Antidiabetic drugs	4
+Antidiabetics	2
+Antiepileptic Drugs	5
+Antiepileptic drugs	1
+Antifungal	1
+Antifungal Agents	1
+Antifungals	3
+Antigout medications	1
+Antihistamines	11
+Antihypertensive	1
+Antihypertensive Medication	1
+Antihypertensive medications	1
+Antihypertensives	4
+Antiminth	1
+Antimycobacterial	1
+Antimycobacterial Agents	2
+Antimycobacterial agents	2
+Antineoplastic agents	2
+Antipsychotic drugs	1
+Antipyrine	3
+Antiretroviral	2
+Antiretroviral Agents	1
+Antiretroviral Drugs	1
+Antithrombotics	2
+Antithyroid agents	2
+Antizol	3
+Apraclonidine	1
+Aprepitant	42
+AquaMEPHYTON	1
+Aralen	1
+Aranesp	1
+Arecoline	1
+Argatroban	11
+Arginine	2
+Aricept	1
+Aripiprazole	4
+Arthropan	1
+As(V)	8
+Ascorbic acid	2
+Aspirin	24
+Astemizole	1
+Astramorph	1
+Atarax	1
+Atazanavir	1
+Atomoxetine	1
+Atorvastatin	4
+Atovaquone	1
+Atracurium	2
+Atromid-S	5
+Atropine	1
+Auranofin	2
+Azathioprine	1
+Azithromycin	4
+Azlocillin	1
+Azole Antifungals	1
+Azulfidine	1
+BARACLUDE	3
+BARBITURATES	1
+BETAGAN	2
+BEXTRA	5
+BOTOX	1
+BREVIBLOC	13
+BROVANA	10
+BUSULFEX	4
+Bacteriostatic Antibiotics	1
+Bactrim	1
+Barbiturates	4
+Benazepril	1
+Bentiromide	1
+Benzodiazepines	7
+Benzthiazide	1
+Benzyl alcohol	1
+Benzylpenicillin	1
+Bepridil	4
+Beta Blockers	2
+Beta blockers	2
+Beta-Blockers	2
+Beta-adrenergic Blocking Agents	2
+Beta-adrenergic blocking agents	4
+Beta-adrenergic blocking drugs	1
+Beta-adrenergic receptor antagonists	1
+Beta-blockers	5
+Beta-blocking Agents	1
+Betaseron	4
+Bexarotene	1
+Bezalip	8
+Bezalip retard	6
+BiCNU	1
+Bile acid binding resins	1
+Bile acid sequestrants	1
+Bismuth	1
+Bismuth subsalicylate	1
+Bisphosphonates	1
+Bombesin	1
+Boric acid	1
+Bosentan	6
+Bretylium Tosylate	3
+Broad-Spectrum Antibiotics	1
+Broad-spectrum antibiotics	1
+Bromocriptine mesylate	1
+Buforin II	2
+Bumetanide	1
+Buprenorphine	1
+Butalbital	1
+Butyrophenones	1
+CAMPTOSAR	11
+CANCIDAS	10
+CASODEX	2
+CBZ	1
+CCNU	7
+CEFOTAN	3
+CELEBREX	10
+CENTRAL NERVOUS SYSTEM DEPRESSANTS	1
+CGS 21680	2
+CGS21680	1
+CHOLESTYRAMINE	3
+CIMETlDINE	1
+CLOLAR	2
+CMC-Cys	3
+CMI	4
+CNS depressant drugs	7
+CNS depressants	22
+CNS stimulants	1
+CNS-depressant drug	1
+COLAZAL	1
+COLESTID	3
+COLESTlD	1
+COPAXONE	4
+COPEGUS	9
+COREG	4
+COUMARIN ANTICOAGULANTS	1
+CPA	2
+CRIXIVAN	17
+CYP1A2	1
+CYP2C9	5
+CYP2D6	3
+CYP3A4	17
+Caffeine	5
+Calan SR	1
+Calcidiol	3
+Calcitriol	3
+Calcium	5
+Calcium Antagonist	1
+Calcium Channel Blockers	2
+Calcium channel blockers	2
+Calcium channel blocking agents	1
+Campath	2
+Captopril	2
+Carbamazepine	27
+Carbamazepine epoxide	1
+Carbidopa	1
+Carbimazole	3
+Carboplatin	1
+Cardiac Glycosides	1
+Cardiac glycosides	3
+Carmustine	1
+Caspofungin	1
+Castor oil	1
+Cataflam	1
+Catecholamine-depleting drugs	1
+Caverject	1
+Cefizox	1
+Cefuroxime	1
+Celecoxib	1
+Celexa	2
+Central Nervous System Depressants	1
+Central nervous system depressant	1
+Cephalosporins	5
+Cerebyx	5
+Cerivastatin	3
+Cerubidine	6
+Cetrotide	1
+Cevimeline	3
+Charcoal	1
+Chirocaine	3
+Chloral hydrate	2
+Chloramphenicol	2
+Chloromycetin	1
+Chloroquine	1
+Chlorotrianisene	1
+Chlorpromazine	4
+Chlorpropamide	2
+Chlorprothixene	1
+Chlorthalidone	3
+Cholestyramine	18
+Cholestytamine	1
+Cholinesterase Inhibitors	1
+Cimetidine	40
+Cisapride	6
+Cisplatin	2
+Citalopram	2
+Clarithromycin	7
+Clidinium	1
+Clindamycin	1
+Clofibric acid	1
+Clomipramine HCl	1
+Clonazepam	4
+Clonidine	3
+Clonidine hydrochloride	1
+Clostridium difficile toxin A	2
+Clozapine	15
+Co	1
+Cobalt	1
+Cocaine	1
+Codeine	1
+Colchicine	3
+Colestipol	3
+Coly-Mycin M	4
+Combination Oral Contraceptives	1
+Combination hormonal contraceptives	1
+Compazine	2
+Contraceptive	1
+Contraceptives	11
+Cordarone	2
+Cordarone I.V.	1
+Corticosteroids	15
+Corticotropin	4
+Coumadin	1
+Coumarin Anticoagulant	1
+Coumarin Anticoagulants	2
+Coumarin-Type Anticoagulants	1
+Crixivan	1
+Cromolyn sodium	2
+Cuprimine	1
+Curariform muscle relaxants	1
+Cyanokit	1
+Cyclopentolate	1
+Cyclophosphamide	3
+Cyclopropane	1
+Cyclosporin	3
+Cyclosporine	16
+Cyclosporine A	1
+Cypermethrin	1
+Cysteine	2
+Cytadren	1
+Cytochalasin D	2
+Cytokines	2
+Cytosine arabinoside	1
+Cytotoxic Agents	1
+D-Ala2-metenkephalinamide	1
+D-penicillamine	1
+D.H.E. 45	7
+DCG-IV	4
+DEET	3
+DHA	1
+DIABINESE	4
+DIAMOX	3
+DIDREX	1
+DIFFERIN	3
+DIGOXIN	1
+DILAUDID	1
+DISULFIRAM	3
+DOSTINEX	1
+DOXIL	3
+DPCPX	2
+DURAGESIC	4
+Dactinomycin	1
+Danazol	1
+Dantrium	3
+Dantrolene	1
+Dapsone	1
+Dasatinib	3
+Daunorubicin	1
+Daypro	1
+Deferasirox	1
+Delavirdine	1
+Deltasone	1
+Depakene	1
+Depakote	1
+Depen	1
+Descarboethoxyloratadine	2
+Desloratadine	2
+Desmopressin	2
+Desyrel	1
+Dexamethasone	6
+Dexbrompheniramine	2
+Dexfenfluramine	1
+Dexrazoxane	1
+Dextromethorphan	3
+Diasone	1
+Diazepam	4
+Diazoxide	1
+Diclofenac	7
+Dicumarol	3
+Didanosine	6
+Diethyl pyrocarbonate	1
+Diflunisal	2
+Digitalis	8
+Digitalis Glycosides	1
+Digitalis glycosides	3
+Digoxin	32
+Dihydroergotamine	1
+Dihydropyridine	1
+Dilantin	3
+Diltiazem	4
+Dimenhydrinate	1
+Diphenhydramine	2
+Diphenhydramine hydrochloride	1
+Diphenoxylate HCl	1
+Dipyridamole	2
+Disalcid	1
+Disopyramide	1
+Disulfiram	3
+Diuretic	2
+Diuretic agents	3
+Diuretics	6
+Diuril	1
+Divalproex	1
+Dofetilide	3
+Dolasetron	2
+Dolasetron mesylate	1
+Dopamine	1
+Dopamine Antagonists	1
+Dopamine D2 receptor antagonists	1
+Doxazosin mesylate	2
+Doxepin	1
+Doxorubicin	2
+Doxylamine	1
+Duloxetine	17
+DynaCirc	4
+EACA	1
+EDECRIN	2
+EGF	6
+ELLENCE	5
+ELSPAR	3
+EMCYT	1
+EMTRIVA	1
+ENABLEX	3
+ENBREL	7
+EPA	7
+EQUETROTM	14
+ERBITUX	2
+ERGAMISOL	1
+ERGOMAR	2
+ERYTHROMYCIN	1
+ETHANOL	1
+ETHYOL	1
+ETOPOPHOS	1
+EULEXIN	1
+EXTRANEAL	9
+Echistatin	1
+Edetate calcium disodium	1
+Efavirenz	5
+Eldepryl	1
+Enalapril	3
+Enflurane	2
+Enoxacin	5
+Enoxaparin	1
+Entacapone	1
+Ephedrine	2
+Epinephrine	4
+Epirubicin	1
+Eplerenone	1
+Eprosartan	3
+Ergot	1
+Ergot Derivatives	1
+Ergot alkaloids	1
+Ergot-Containing Drugs	1
+Ergotamine	3
+Erythromycin	15
+Esomeprazole	3
+Estazolam	2
+Estrogen	3
+Estrogens	4
+Eszopiclone	2
+Ethanol	7
+Ethinyl Estradiol	1
+Ethinyl estradiol	6
+Ethopropazine	2
+Ethosuximide	2
+Ethotoin	1
+Ethoxzolamide	1
+Ethyl alcohol	1
+Etodolac	4
+Etofibrate	1
+Etomidate	1
+Etonogestrel	1
+Etretinate	1
+Everolimus	4
+Exemestane	1
+Exjade	8
+FACTIVE	6
+FASLODEX	3
+FBAL	1
+FLEXERIL	2
+FLOLAN	6
+FLUDARA	1
+FLUOTHANE	3
+FORADIL	10
+FORTOVASE	4
+FOSCAVIR	4
+FROVA	3
+Factrel	2
+Fe	4
+Felbamate	1
+Felbatol	24
+Felodipine	1
+Femara	3
+Fenbufen	2
+Fenfluramine	1
+Fentanyl	6
+Fexofenadine	2
+Fibric Acid Derivatives	1
+Finasteride	2
+Flavoridin	1
+Flecainide	1
+Floxuridine	1
+Fluconazole	6
+Flucytosine	1
+Fluoroquinolones	1
+Fluoxetine	7
+Flupenthixol	3
+Flurbiprofen	4
+Fluvastatin	1
+Fluvoxamine	13
+Folic acid	2
+Fondaparinux	3
+Fortovase	1
+Foscarnet	1
+Fosinopril	1
+Fosinopril sodium	1
+Fulvestrant	5
+Furadantin	1
+Furazolidone	1
+Furosemide	14
+Furoxone	1
+GABITRIL	5
+GL	5
+Gabapentin	3
+Ganciclovir	2
+Ganoderma lucidum extract	1
+Gantrisin	1
+Gastrointestinal acidifying agents	1
+Gemfibrozil	1
+Gemzar	1
+Gentamicin	3
+Gentamycin	1
+Geocillin	1
+Ginkgo biloba	1
+Gleevec	13
+Glibenclamide	1
+Gliftor	1
+Glucose	3
+Glyburide	6
+Gold	2
+Green tea polyphenols	1
+Grepafloxacin	2
+Gris-PEG	1
+Griseofulvin	2
+Guanethidine	1
+H 2 -receptor antagonists	2
+H 2 receptor antagonists	1
+H1 Blockers	1
+H1 blockers	1
+H1-blocking agents	1
+H2 Blockers	3
+H2 Receptor Antagonists	1
+H2 antagonists	2
+H2 blockers	5
+H2 receptor antagonists	1
+H2-Receptor Antagonists	1
+H2-antagonists	3
+HALDOL	3
+HCTZ	6
+HEMABATE	1
+HEXALEN	3
+HIV Antiviral Agents	1
+HIV Protease Inhibitors	2
+HIV protease inhibitors	3
+HIVID	8
+HMG-CoA Reductase Inhibitor	1
+HMG-CoA Reductase Inhibitors	3
+HMG-CoA Reductase inhibitors	1
+HMG-CoA reductase inhibitor	3
+HMG-CoA reductase inhibitor class	1
+HMG-CoA reductase inhibitors	12
+HMGCoA reductase inhibitors	1
+HUMIRA	4
+HUMORSOL	1
+HYDROXYZINE	1
+Haloperidol	5
+Heparin	6
+Heparin Sodium	1
+Heparin sodium	1
+Histamine H2 antagonists	1
+Histamine H2-receptor antagonists	2
+Hormonal Contraceptives	2
+Human growth hormone	1
+Hydrochlorothiazide	6
+Hydrocodone	2
+Hydrocortisone	2
+Hydrodiuril	1
+Hydroxychloroquine	1
+Hypnotics	2
+Hypoglycemic Agents	2
+Hypoglycemics	6
+IDV	2
+IMITREX	1
+INAPSINE	3
+INDOCIN	28
+INH	1
+INOmax	2
+INSPRA	7
+INVIRASE	7
+IOPIDINE	2
+IRESSA	5
+ISUPREL	1
+Ibandronate	7
+Ibogaine	3
+Ibuprofen	6
+Imidazoles	1
+Imipramine	3
+Imipramine hydrochloride	1
+Imitrex	2
+Immunosuppressants	2
+Immunosuppressive	1
+Immunosuppressive Drugs	1
+Immunosuppressive drugs	1
+Imuran	1
+Inderal	1
+Indinavir	12
+Indocin	1
+Indocyanine green	1
+Indomethacin	6
+Inhibitors of HMG-CoA reductase	1
+Innovar	3
+Innovar Vet	1
+InsP(3)	6
+Insulin	6
+Insulins	1
+Interferon beta	2
+Intestinal adsorbents	1
+Invirase	1
+Iodinated Contrast Media	1
+Iodine	1
+Irinotecan	1
+Iron	2
+Iron Supplements	1
+Isocarboxazid	5
+Isoflurane	3
+Isoniazid	6
+Isoproterenol	1
+Isoproterenol hydrochloride	1
+Itraconazole	25
+Jacalin	2
+KCl	1
+KEMSTRO	1
+KEMSTROTM	1
+KRM-1648	5
+Kadian	1
+Kaletra	1
+Keflex	1
+Keppra	9
+Kerlone	2
+Ketamine	3
+Ketoconazole	44
+Ketoprofen	3
+Ketorolac	2
+Kineret	3
+Kytril	1
+L-CCG-1	4
+L-NAME	1
+L-arginine	4
+L-glutamine	7
+L-histidine	2
+L-lysine	1
+L-methionine	1
+L-phenylalanine	3
+L-tryptophan	1
+L-tyrosine	1
+LEUSTATIN	2
+LEVSIN	3
+LEVULAN KERASTICK	2
+LEXAPRO	6
+LODOSYN	2
+Labetalol HCl	2
+Lamivudine	3
+Lamprene	1
+Lanoxicaps	1
+Lanoxin	1
+Lansoprazole	3
+Lapatinib	6
+Leucovorin	2
+Leukocyte transfusions	1
+Levetiracetam	3
+Levo-Dromoran	4
+Levodopa	2
+Levofloxacin	1
+Levosimendan	1
+Levothyroxine Sodium	1
+Lincomycin	1
+Linezolid	1
+Lipitor	1
+Lithium	29
+Lithium carbonate	3
+Lithostat	1
+Lodine	13
+Lofexidine	2
+Lomefloxacin	1
+Loop Diuretics	1
+Loperamide	2
+Lopinavir	3
+Lopressor	1
+Loratadine	4
+Lorazepam	2
+Losartan	1
+Lotensin	5
+Lovastatin	3
+Lovenox	1
+MAO Inhibitors	3
+MAO inhibitor	8
+MAO inhibitors	32
+MAO-B inhibitor	1
+MAO-inhibitors	1
+MAOI	8
+MAOI antidepressants	2
+MAOIs	7
+MAXIPIME	1
+MEPRON	5
+METH	5
+MEVACOR	1
+MHD	12
+MICRONASE	4
+MIDAMOR	2
+MONUROL	2
+MPTP	5
+MS Contin	1
+MTX	7
+MYOBLOC	1
+Maalox	8
+Maalox TC	3
+Macrolide Antibiotics	1
+Macrolide antibiotics	2
+Macrolides	1
+Magan	1
+Magnesium	11
+Magnesium-Aluminum Hydroxide	1
+Maprotiline	1
+Marplan	2
+Matulane	1
+Meclofenamate sodium	2
+Medrol	1
+Medroxyprogesterone Acetate	1
+Mefloquine	11
+Mellaril	1
+Mentax	1
+Meperidine	2
+Mephenytoin	1
+Mercaptopurine	2
+Mesantoin	1
+Metformin	3
+Methadone	6
+Methamphetamine	1
+Methenamine	3
+Methionine	1
+Methotrexate	16
+Methyldopa	1
+Methylprednisolone	1
+Methylxanthines	1
+Metoclopramide	2
+Metoprolol	1
+Mexate	1
+Midazolam	3
+Mineral Oil	1
+Mineral oil	1
+Misonidazole	4
+Mithracin	1
+Mixed Agonist/Antagonist Opioid Analgesics	1
+Monoamine Oxidase Inhibitors	5
+Monoamine oxidase (MAO) inhibitors	2
+Monoamine oxidase inhibitors	1
+Morphine	7
+Motrin	1
+Multivitamins	2
+Mylotarg	2
+Myochrysine	1
+N-allylnormetazocine	2
+N-desmethylclozapine	1
+N-desmethyldiazepam	2
+N-diethyl-m-toluamide	1
+N-methyllevallorphan	2
+N6-cyclopentyladenosine	1
+NANM	3
+NARCOTICS	1
+NEUPOGEN	1
+NIMBEX	15
+NIZORAL	5
+NNRTI	3
+NNRTIs	4
+NON-NARCOTIC ANALGESICS	1
+NORVIR	1
+NPH human insulin	2
+NRTIs	2
+NSAID	8
+NSAIDS	1
+NSAIDs	68
+NTG	1
+NUROMAX	6
+NaCMC	8
+NaFlu	5
+Nabilone	2
+Nafazodone	1
+Nalfon	7
+Naltrexone	1
+Naprosyn	1
+Naproxen	7
+Narcotic analgesics	1
+Nardil	2
+Nateglinide	1
+Natrecor	3
+Nefazodone	1
+Nelfinavir	6
+Neomycin	1
+Neoral	1
+Netilmicin	1
+Neuroleptic	1
+Neuroleptic Drugs	1
+Neuromuscular Blockers	1
+Neurontin	7
+Nevirapine	11
+Niacin	3
+Nicardipine HCl	1
+Nicotine	3
+Nicotinic Acid	1
+Nicotinic acid	1
+Nifedipine	3
+Nimodipine	2
+Nimotop	2
+Nitrates	3
+Nitrofurantoin	2
+Nitroglycerin	1
+Nizatidine	1
+Nizoral	2
+Non-nucleoside reverse transcriptase inhibitors	2
+Non-pegylated interferon alfa-2a	1
+Non-selective MAO inhibitors	1
+Non-selective monoamine oxidase (MAO) inhibitors	1
+Non-steroidal Anti-inflammatory Agents	2
+Non-steroidal Anti-inflammatory Drugs	2
+Non-steroidal anti-inflammatory agents	1
+Non-steroidal anti-inflammatory drugs	1
+Noncardioselective beta-blockers	1
+Nondepolarizing Muscle Relaxants	1
+Nonsteroidal Anti-Inflammatory Drugs	2
+Nonsteroidal Anti-inflammatory Drugs	1
+Nonsteroidal Antiinflammatory	1
+Nonsteroidal Antiinflammatory Drug	1
+Nonsteroidal anti-inflammatory agents	3
+Nonsteroidal anti-inflammatory drugs	1
+Norepinephrine	3
+Norethindrone	3
+Norfloxacin	1
+Norpace	5
+Norpace CR	1
+Norvir	1
+NovoLog	9
+NovoSeven	3
+Nuprin	1
+Nydrazid	2
+OCs	1
+OMNICEF	5
+ORENCIA	5
+OVCON-35	1
+OXC	2
+Ocupress	1
+Olanzapine	6
+Omeprazole	5
+Omniscan	2
+Opiate agonists	1
+Opioid analgesics	1
+Opioids	2
+Orasone	1
+Orlistat	2
+Ortho-Novum	3
+Orudis	3
+Orudis KT	1
+Oruvail	1
+Oxcarbazepine	2
+Oxytocin	1
+PABA	1
+PAH	3
+PCP	22
+PEGANONE	3
+PEGASYS	23
+PERSANTINE	1
+PGF2alpha	4
+PHENYTOIN	6
+PI	5
+PIPRACIL	2
+PLENDIL	2
+PLETAL	2
+POC	1
+POCs	3
+PPIs	2
+PRECEDEX	4
+PRINIVIL	14
+PROCRIT	1
+PROLEUKIN	11
+PROPECIA	1
+PROSCAR	1
+PROSTIN E2	1
+PTX	8
+Paclitaxel	1
+Palytoxin	1
+Panretin	3
+Parnate	2
+Paroxetine	5
+Pediapred	1
+Peganone	1
+Pentamidine	3
+Penthrane	1
+Pepto-Bismol	1
+Perhexiline hydrogen maleate	1
+Permitil	1
+Phencyclidine	1
+Phenergan	2
+Phenobarbital	16
+Phenothiazine-related compounds	1
+Phenothiazines	4
+Phenurone	1
+Phenylbutazone	2
+Phenytoin	39
+Phospholine Iodide	2
+Physostigmine	2
+Pimozide	1
+Piperacillin sodium	1
+Plaquenil	1
+Platelet inhibitors	1
+Plenaxis	5
+Pletal	1
+Plicamycin	1
+Ponstel	3
+Potassium	2
+Potassium-Sparing Diuretics	2
+Potassium-depleting diuretics	1
+Potassium-sparing diuretics	4
+Praziquantel	1
+Prednisolone	1
+Prednisone	1
+Prelone	2
+Primaquine	1
+Primidone	2
+ProSom	1
+Probenecid	25
+Procainamide	1
+Progesterone	1
+Prolixin	2
+Promethazine	1
+Pronestyl	2
+Propanolol	1
+Propantheline	1
+Propoxyphene	3
+Propranolol	5
+Proquin XR	4
+Prostigmin	1
+Prostin VR Pediatric	1
+Protease Inhibitors	2
+Protease inhibitor	1
+Protease inhibitors	2
+Proton Pump Inhibitors	2
+Prozac	1
+Psychoactive Drugs	1
+Pulmozyme	1
+Purinethol	2
+Pyrantel	1
+Pyrazolone Derivatives	1
+Quetiapine fumarate	1
+Quinamm	1
+Quinidex	1
+Quinidine	6
+Quinine	1
+Quinolone Antibiotic	1
+Quinolones	11
+R warfarin	1
+R(+) warfarin	1
+R- warfarin	1
+R-warfarin	4
+RAPTIVA	4
+REFLUDAN	1
+REGRANEX	2
+REMICADE	1
+RESIN	2
+REVIA	6
+REVLIMID	1
+ROMAZICON	8
+RR	7
+Ranitidine	5
+Rebif	4
+Relafen	1
+Resins	1
+Resveratrol	2
+Ribavirin	4
+Rifabutin	9
+Rifadin	1
+Rifamate	1
+Rifampicin	2
+Rifampin	20
+Ritonavir	9
+Robinul	2
+Rocaltrol	3
+Rofecoxib	4
+S warfarin	1
+S(-) warfarin	2
+S(-)warfarin	1
+S- warfarin	1
+S-warfarin	3
+SCH-23390	1
+SINEQUAN	2
+SMX	5
+SN38	2
+SPRYCEL	14
+SSRI	16
+SSRIs	21
+STADOL NS	10
+STRATTERA	3
+SUBOXONE	3
+SUBUTEX	4
+SULAR	3
+SUPRAX	2
+SUSTIVA	24
+SYNAREL	1
+Salicylate	2
+Salicylates	2
+Salicylic acid	1
+Sandimmune	1
+Saquinavir	9
+Sectral	1
+Sedative	1
+Sedatives	3
+Selective Serotonin Reuptake Inhibitors	1
+Selective serotonin reuptake inhibitors	2
+Selegiline	2
+Sensipar	7
+Septra	1
+Serentil	1
+Seroquel	1
+Serotonergic Agents	1
+Sertraline	2
+Short-Acting beta2-agonists	1
+Sildenafil	5
+Sildenafil citrate	2
+Simulect	5
+Simvastatin	2
+Sirolimus	2
+Skeletal muscle relaxants	3
+Slow-channel calcium blockers	1
+Sodium Iodide	1
+Sodium Pertechnetate Tc99m	1
+Sodium cephalothin	1
+Sodium thiosulfate	1
+Solganal	1
+Soliris	1
+Somatrem	1
+Somatropin	1
+Sonata	9
+Soriatane	5
+Sparine	1
+Spermine	3
+Sporanox	2
+Starlix	10
+Statins	1
+Stavudine	1
+Stelazine	1
+Steroids	1
+Succinylcholine	1
+Sucralfate	5
+Sulfacetamide	1
+Sulfamethoxazole	1
+Sulfapyridine	1
+Sulfonylureas	1
+Sulfoxone	1
+Sulindac	1
+Sumatriptan	4
+Survanta	5
+Sympathomimetic Agents	1
+Sympathomimetic amines	1
+Synkayvite	1
+Systemic Corticosteroids	1
+Systemic corticosteroids	1
+T.A.	1
+T3	1
+T4	1
+TAM	4
+TAMBOCOR	11
+TAO	1
+TARCEVA	5
+TAXOL	25
+TAXOTERE	2
+TCA	28
+TCAs	10
+TENORMIN	2
+TIKOSYN	14
+TML	2
+TMP	5
+TNF antagonist	1
+TNF antagonists	2
+TNF blocking agents	2
+TNF-blocking agent	1
+TNF-blocking agents	1
+TNFa-blocking agents	1
+TORADOL	13
+TRACLEER	6
+TRACRIUM	4
+TRANXENE	3
+TRICOR	7
+TRISENOX	2
+TYKERB	2
+TYSABRI	4
+Tacrolimus	1
+Tadalafil	2
+Tagamet	6
+Targretin	2
+Tegison	1
+Tegretol	3
+Telithromycin	1
+Temaril	1
+Tenormin	1
+Terfenadine	5
+Tetracycline	2
+Tetracyclines	2
+Thalidomide	1
+Theo-Dur	2
+Theobromine	1
+Theophylline	19
+Thiazide Diuretics	1
+Thiazide diuretics	2
+Thiazide drugs	1
+Thiazides	9
+Thiolated carboxymethylcellulose	1
+Thioridazine	1
+Thorazine	2
+Thrombolytic agents	1
+Thyroid	1
+Thyroid hormone	1
+Thyroid hormones	1
+Thyroid preparations	1
+Thyroxine	1
+Tiagabine	4
+Tiazac	1
+Tilade	1
+Tindal	1
+Tizoxanide	1
+Tolazamide	1
+Tolbutamide	4
+Topamax	1
+Trecator	2
+Trecator-SC	1
+Trexan	1
+Triamterene	1
+Triazolam	3
+Tricyclic Antidepressants	3
+Tricyclic antidepressants	9
+Trilafon	1
+Trileptal	14
+Trilisate	1
+Trimethoprim	1
+Tubocurarine	1
+Tylenol	3
+Type 1C antiarrhythmics	8
+Type II pyrethroid	1
+UROXATRAL	2
+Ultram	1
+Uricosuric Agents	2
+Uricosuric drugs	1
+Urinary acidifying	1
+Urinary acidifying agents	1
+VAPRISOL	1
+VASOTEC	2
+VELCADE	3
+VIDEX	15
+VIOXX	20
+VIRACEPT	23
+VISTIDE	3
+Vaccines	2
+Valdecoxib	5
+Valdecoxib 10 mg	1
+Valium	2
+Valproate	8
+Valproic Acid	1
+Valproic acid	3
+Vardenafil	36
+Vasoconstrictors	1
+Vasodilators	1
+Vasopressor	1
+Vecuronium	1
+Venlafaxine	1
+Verapamil	5
+Veratrum alkaloids	2
+Vesprin	1
+Viagra	1
+Vidaza	1
+Videx	5
+Viracept	1
+Vitamin A	2
+Vitamin B3	1
+Vitamin D	6
+Vitamin D2	3
+Vitamin D3	4
+Vitamin E	2
+Vitamin K	2
+Vitrasert	2
+Voltaren	1
+WARFARIN	1
+WELLBUTRIN	7
+Warfarin	31
+WelChol	4
+Winstrol	1
+Xanax	1
+Xigris	7
+ZDV	3
+ZEBETA	7
+ZEVALIN	2
+ZINECARD	2
+ZOLADEX	1
+ZYVOX	4
+Zalcitabine	2
+Zaleplon	1
+Zarontin	1
+Zidovudine	3
+Zimelidine	1
+Zmax	1
+Zofran	1
+a-methyldopa	1
+abatacept	1
+acamprosate	3
+acebutolol	2
+acenocoumarol	2
+acetaldehyde	3
+acetaminophen	36
+acetazolamide	1
+acetophenazine	1
+acetylcysteine	1
+acetylsalicylic acid	10
+acidifying agents	2
+acitretin	12
+activated charcoal	1
+activated prothrombin complex concentrates	1
+acyclovir	2
+adefovir dipivoxil	1
+adenosine	8
+adrenal corticosteroids	1
+adrenaline	2
+adrenergic	1
+adrenergic agents	1
+adrenergic agonists	2
+adrenergic beta-receptor blockers	1
+adrenergic bronchodilators	1
+adrenergic drugs	1
+adrenergic neuron blocking agents	1
+adrenocortical steroid	1
+adrenocortical steroids	2
+agents with b-blocking properties	4
+albendazole	5
+albendazole sulfoxide	3
+albuterol	4
+alcohol	93
+alcohols	1
+alefacept	2
+alendronate	2
+alfentanil	5
+alfentanyl	1
+aliskiren	10
+alkalinizing agents	1
+allopurinol	33
+allopurinol sodium	1
+almotriptan	9
+alosetron	21
+alpha interferon	1
+alpha-adrenergic blocking agents	2
+alpha-adrenergic stimulants	1
+alpha-blocker	1
+alpha-blockers	4
+alprazolam	34
+alprostadil	1
+altretamine	1
+aluminum	23
+aluminum hydoxide	1
+aluminum hydroxide	9
+aluminum/magnesium hydroxide antacids	1
+amantadine	6
+amikacin	3
+amiloride	8
+aminocaproic acid	1
+aminoglutethimide	2
+aminoglycoside	8
+aminoglycoside antibiotic	1
+aminoglycoside antibiotics	7
+aminoglycosides	18
+aminoglycosidic antibiotics	1
+aminophylline	5
+aminopyrine	2
+aminosalicylic acid	5
+amiodarone	62
+amitriptyline	8
+amitriptyline HCl	3
+amizyl	1
+amlodipine	3
+ammonium chloride	2
+amoxicillin	4
+amphetamine	19
+amphetamines	21
+amphotericin	2
+amphotericin B	23
+ampicillin	19
+amprenavir	18
+amrinone	1
+amyl nitrite	1
+amylase	1
+anabolic hormones	1
+anabolic steroids	2
+anaesthetic agents	1
+anagrelide	11
+anakinra	9
+analgesic adjuvants	1
+analgesic agents	1
+analgesic drugs	1
+analgesics	4
+anastrozole	5
+androgen	1
+androgens	9
+anesthesia	1
+anesthetic	3
+anesthetic agents	2
+anesthetic solutions	3
+anesthetics	32
+angiotensin	2
+angiotensin 1	1
+angiotensin 2	1
+angiotensin II receptor antagonists	3
+angiotensin converting enzyme inhibitors	3
+angiotensin- converting enzyme (ACE) inhibitors	1
+angiotensin-converting enzyme (ACE) inhibitors	1
+angiotensin-converting enzyme inhibitor	1
+angiotensin-converting enzyme inhibitors	1
+angiotensins	1
+anidulafungin	1
+anileridine	1
+anion exchange resin	1
+anion-exchange resins	1
+anionic exchange resins	1
+anisindione	1
+antacid	17
+antacid preparations	2
+antacid products	2
+antacids	45
+anti platelet agents	1
+anti-anxiety drugs	1
+anti-arrhythmic	1
+anti-arrhythmic agents	1
+anti-coagulants	1
+anti-depressants	1
+anti-helminthic	1
+anti-hypertensive drug	1
+anti-hypertensives	1
+anti-infectives	1
+anti-inflammatory	1
+anti-malarial drugs	1
+anti-neoplastic agents	1
+anti-ulcer	1
+antianxiety agents	3
+antianxiety drugs	1
+antiarrhythmic	4
+antiarrhythmic agent	1
+antiarrhythmic agents	4
+antiarrhythmic drug	1
+antiarrhythmic drugs	1
+antiarrhythmics	6
+antibacterial	1
+antibacterial drug	1
+antibiotic	1
+antibiotic agents	1
+antibiotics	34
+antibodies	1
+anticholinergic	8
+anticholinergic agent	1
+anticholinergic agents	3
+anticholinergic compounds	1
+anticholinergic drugs	7
+anticholinergic medications	1
+anticholinergics	7
+anticholinesterase	1
+anticholinesterase agents	3
+anticholinesterase drugs	1
+anticholinesterases	1
+anticoagulant	40
+anticoagulant agents	2
+anticoagulant medication	1
+anticoagulants	53
+anticoagulants of the coumarin type	2
+anticoagulants of the warfarin type	1
+anticonvulsant	9
+anticonvulsant agents	2
+anticonvulsant drugs	1
+anticonvulsant medications	1
+anticonvulsants	8
+antidepressant	2
+antidepressant agents	1
+antidepressant drugs	2
+antidepressants	25
+antidepressants of the MAO inhibitor class	1
+antidiabetic	1
+antidiabetic agent	1
+antidiabetic agents	4
+antidiabetic drug	4
+antidiabetic drugs	3
+antidiabetic medication	1
+antidiabetic products	1
+antidiabetics	2
+antiemetics	1
+antiepileptic drugs	5
+antiestrogen	2
+antiestrogens	1
+antifungal agents	2
+antifungal drug	1
+antifungals	1
+antiglaucoma agents	1
+antigout drugs	1
+antigout medications	1
+antihistamines	43
+antihistaminic	1
+antihistaminics	6
+antihyperlipidemics	1
+antihypertensive	3
+antihypertensive agents	7
+antihypertensive compounds	1
+antihypertensive drugs	9
+antihypertensive medications	2
+antihypertensives	5
+antimicrobial agents	1
+antimuscarinics	1
+antineoplastic agents	4
+antineoplastic drugs	1
+antiparkinson drugs	1
+antiparkinsonian agents	1
+antiparkinsonian drug	1
+antiplatelet agents	2
+antiplatelet medication	1
+antipsychotic agents	2
+antipsychotic drug	1
+antipsychotic medications	1
+antipsychotics	8
+antipyretics	1
+antipyrine	9
+antiretroviral	6
+antiretroviral agents	2
+antiretroviral drugs	1
+antiretroviral medication	1
+antiretroviral medications	1
+antiretroviral nucleoside analogues	1
+antithrombin 3	1
+antithrombin III	4
+antithrombotic agent	1
+antithyroid agents	1
+antithyroid drugs	1
+antituberculosis drug	1
+antituberculous drugs	1
+antivirals	1
+anxiolytic	1
+anxiolytics	1
+apomorphine	11
+apraclonidine	3
+aprepitant	14
+arbutamine	4
+ardeparin	1
+arginine	4
+aripiprazole	24
+arsenate	5
+ascorbic acid	6
+asparaginase	2
+aspirin	79
+aspirins	1
+astemizole	20
+atazanavir	8
+atenolol	12
+atomoxetine	4
+atorvastatin	27
+atovaquone	3
+atracurium	11
+atropine	10
+atropine sulfate	1
+atypical antipsychotic	2
+atypical neuroleptic	1
+auranofin	1
+azathioprine	15
+azithromycin	29
+azole antifungal	1
+azole antifungal agents	3
+azole antifungals	5
+azoles	1
+azoxymethane	2
+b-Adrenergic Blocking Agents	1
+b-adrenergic blocking agents	1
+b-blocking agent	1
+b-blocking drug	1
+b-lactam antibiotics	3
+b-lactams	1
+bacitracin	5
+baclofen	6
+bacteriostatic antibiotic	2
+barbituates	1
+barbiturates	46
+belladonna alkaloids	1
+benazepril	1
+bentoquatam	1
+benzocaine	1
+benzodiazepine	7
+benzodiazepine class	1
+benzodiazepines	36
+benzothiadiazines	1
+benzothiazepine	1
+benzoxazinorifamycin	1
+benzyl alcohol	1
+bepridil	3
+bepridil hydrochloride	6
+beta adrenergic antagonists	1
+beta adrenergic blockers	1
+beta adrenergic blocking agents	3
+beta adrenergic-blocking agents	1
+beta blocker	3
+beta blockers	12
+beta blocking agents	1
+beta-adrenergic antagonists	1
+beta-adrenergic blocker	1
+beta-adrenergic blockers	2
+beta-adrenergic blocking agent	1
+beta-adrenergic blocking agents	12
+beta-adrenergic blocking drug	1
+beta-adrenergic receptor blockers	1
+beta-adrenergic receptor blocking agent	1
+beta-adrenergic receptor blocking agents	1
+beta-adrenergic-blocking agents	1
+beta-adrenoceptor blocking agents	2
+beta-agonist	1
+beta-agonist bronchodilator drugs	1
+beta-agonists	3
+beta-blocker	7
+beta-blockers	28
+beta-blocking	1
+beta-blocking agent	2
+beta-blocking agents	5
+beta-endorphin	9
+beta-interferon	1
+beta-lactam antibiotics	1
+beta-receptor agonist drugs	1
+beta-receptor blockers	1
+beta2 agonists	1
+beta2-agonist	1
+beta2-agonists	1
+beta2-agonists.	1
+betablockers	1
+bexarotene	6
+bezafibrate	2
+bile acid binding resin	2
+bile acid sequestrants	1
+bishydroxy-coumarin	1
+bishydroxycoumarin	2
+bismuth subsalicylate	3
+bisphosphonates	1
+bitolterol	2
+bivalirudin	1
+bleomycin	2
+blood thinner	4
+bombesin	5
+boric acid	1
+bortezomib	1
+bosentan	22
+botulinum neurotoxin	2
+botulinum toxin	3
+brinzolamide	3
+broad-spectrum antibiotics	1
+bromelains	2
+bromocriptine	3
+bromocriptine mesylate	4
+bronchodilators	5
+budesonide	10
+buforin II	2
+bumetanide	12
+buprenorphine	5
+bupropion	18
+buspirone	4
+buspirone HCl	4
+buspirone hydrochloride	1
+busulfan	4
+butalbital	1
+butenafine HCl	1
+butorphanol	10
+butyrophenone classes of antipsychotic agents	1
+butyrophenones	6
+cabergoline	1
+caffeine	41
+calcitriol	6
+calcium	20
+calcium acetate	1
+calcium antagonist	4
+calcium antagonists	5
+calcium blockers	3
+calcium carbonate	1
+calcium channel	1
+calcium channel antagonists	2
+calcium channel blocker	3
+calcium channel blockers	16
+calcium channel blocking agents	1
+calcium channel blocking drugs	3
+calcium channel-blockers	1
+calcium channel-blocking drugs	1
+calcium-blocking agents	1
+calcium-channel blockers	3
+calcium-channel-blocking agents	1
+calcium-entry antagonists	1
+calcium-entry blockers	1
+calcium-entry blocking agents	1
+candesartan	1
+candesartan cilexetil	1
+cannabinoids	1
+capecitabine	6
+captopril	19
+carbachol	6
+carbamate insecticide	1
+carbamazepine	83
+carbamazepine 10, 11 epoxide	1
+carbamazepine 10,11-epoxide	1
+carbamazepine epoxide	2
+carbenicillin indanyl sodium	1
+carbidopa	3
+carbonic anhydrase inhibitor	1
+carbonic anhydrase inhibitors	4
+carboxymethylcellulose-cysteine	1
+carboxytolbutamide	2
+cardiac glycosides	8
+cardioplegic solutions	1
+cardioselective beta-blocker	1
+cardioselective beta-blockers	1
+cardiotrast	1
+carvedilol	7
+caspofungin	5
+caspofungin acetate	1
+catecholamine depletors	1
+catecholamines	4
+cefamandole	1
+cefamandole naftate	1
+cefazolin	4
+cefdinir	11
+cefditoren	1
+cefditoren pivoxil	6
+cefepime	1
+cefixime	1
+cefmenoxime	1
+cefoperazone	1
+cefotaxime sodium	1
+cefotetan	2
+cefoxitin	3
+cefprozil	2
+ceftazidime	4
+ceftibuten	11
+cefuroxime	1
+celecoxib	12
+central nervous system (CNS) depressants	2
+central nervous system depressant	1
+central nervous system depressants	11
+central nervous system stimulants	1
+centrally acting drugs	2
+cephalexin	5
+cephaloridine	1
+cephalosporin	1
+cephalosporin antibiotics	5
+cephalosporins	11
+cephalothin	2
+cephalothin sodium	1
+cerivastatin	5
+cerivastatin sodium	11
+cerulein	2
+cetirizine	7
+cevimeline	3
+charcoal	1
+chemotherapeutic agents	1
+chloral hydrate	8
+chlorambucil	1
+chloramphenicol	7
+chlordiazepoxide	12
+chloroprocaine	1
+chloroquine	11
+chlorothiazide	4
+chlorpheniramine	2
+chlorpromazine	6
+chlorpropamide	9
+chlorprothixene	5
+chlortetracycline	1
+chlorthalidone	4
+cholestryramine	1
+cholestyramine	21
+choline salicylate	1
+cholinesterase inhibitors	3
+chymotrypsin	2
+ciclesonide	5
+ciclosporin	1
+cilostazol	3
+cimetidine	93
+cimetidine 400 mg	1
+cinacalcet	2
+cinchophen	2
+cinoxacin	4
+ciprofloxacin	30
+cis-platinum	1
+cisapride	51
+cisplatin	21
+citalopram	24
+clarithromycin	31
+clidinium	1
+clindamycin	12
+clobazam	1
+clofarabine	2
+clofazimine	1
+clofibrate	8
+clofibric acid	1
+clomiphene citrate	1
+clonazepam	14
+clonidine	31
+clonidine hydrochloride	1
+clorazepate dipotassium	1
+clotrimazole	1
+cloxacillin	6
+clozapine	22
+clozapine N-oxide	1
+co-trimoxazole	1
+coagulation factor	1
+cobalt	9
+cocaine	22
+codeine	5
+colchicine	2
+colestipol	9
+colestipol hydrochloride	12
+colistin	2
+combination hormonal contraceptives	7
+combined hormonal contraceptives	2
+combined oral contraceptives	2
+conivaptan	1
+contortrostatin	7
+contraceptive	13
+contraceptive agents	1
+contraceptive product	1
+contraceptives	48
+conventional antipsychotics	1
+copper sulfate	1
+coronary vasodilators	1
+cortico-steroids	1
+corticosteroid	15
+corticosteroids	55
+corticotropin	2
+coumaphos	7
+coumarin	10
+coumarin anticoagulant	3
+coumarin anticoagulants	7
+coumarin derivatives	2
+coumarin drugs	2
+coumarin-derivative anticoagulants	3
+coumarin-type anticoagulants	5
+coumarins	4
+cromolyn sodium	1
+curare-like compounds	2
+cyclic antidepressants	1
+cyclophosphamide	12
+cyclopropane	2
+cycloserine	1
+cyclosporin	6
+cyclosporin A	1
+cyclosporine	84
+cyclosporine A	3
+cypermethrin	4
+cysteine	5
+cytochalasin D	1
+cytostatic agent	1
+cytotoxic	1
+cytotoxic agents	1
+d-amphetamine	9
+dacarbazine	1
+dalfopristin	1
+danazol	4
+dantrolene	2
+dantrolene sodium	3
+dapsone	7
+dapsone hydroxylamine	2
+daptomycin	2
+darifenacin	1
+dasatinib	9
+debrisoquin	3
+decamethonium	1
+decitabine	4
+decongestant drugs	1
+decongestants	1
+deferasirox	3
+dehydro-aripiprazole	1
+dehydroaripiprazole	2
+delavirdine	8
+delta(1)-selective opioids	1
+denileukin diftitox	1
+des-ciclesonide	4
+desacetyldiltiazem	1
+desbutyl levobupivacaine	1
+descarboethoxyloratadine	2
+desethylamiodarone	2
+desflurane	2
+desipramine	16
+desipramine hydrochloride	1
+desloratadine	4
+desmethylastemizole	1
+desmethylastermizole	1
+desmethyldiltiazem	1
+dexamethasone	21
+dexfenfluramine	7
+dexmedetomidine	1
+dexrazoxane	2
+dextran	5
+dextromethorphan	8
+dextromethorphan hydrobromide	1
+dextropropoxyphene	1
+dextrose	1
+dextrothyroxine	2
+dezocine	1
+diagnostic monoclonal antibodies	1
+dialysis solutions	1
+diazepam	39
+diazoxide	5
+diclofenac	18
+dicumarol	6
+dicyclomine	1
+didanosine	22
+dideoxyinosine	6
+diethyl pyrocarbonate	3
+diethylpropion	3
+diethylstilbestrol	1
+diflunisal	28
+digestive enzyme preparations	1
+digitalis	29
+digitalis glycosides	4
+digitalis preparations	4
+digitoxin	7
+digoxin	209
+dihydroergotamine	9
+dihydroergotamine mesylate	7
+dihydropyridine calcium antagonists	1
+dihydropyridine calcium channel blockers	4
+dihydropyridine derivative	1
+dihydrotachysterol	1
+diltiazem	53
+diltiazem hydrochloride	5
+dinoprost	1
+diphenhydramine	3
+diphenidol	3
+diphenoxylate	2
+diphenoxylate hydrochloride	1
+diphenylhydantoin	1
+dipyridamole	8
+dipyrone	1
+dirithromycin	13
+disopyramide	17
+disopyramide phosphate	3
+disulfiram	19
+diuretic	29
+diuretic agents	1
+diuretics	51
+divalproex sodium	1
+dmPGE2	10
+dobutamine	4
+docetaxel	1
+dofetilide	17
+dofetillide	1
+dolasetron	4
+dolasetron mesylate	1
+dopa decarboxylase inhibitor	3
+dopa-decarboxylase inhibitor	1
+dopamine	12
+dopamine HCl	7
+dopamine agonist	1
+dopamine agonists	2
+dopamine antagonists	3
+dopaminergic agents	1
+dorzolamide	2
+doxapram	3
+doxazosin	6
+doxazosin mesylate	2
+doxepin	3
+doxorubicin	12
+doxorubicin HCL	1
+doxorubicin HCl	1
+doxorubicinol	1
+doxycycline	6
+doxylamine	2
+droperidol	2
+drug	1
+drugs	6
+duloxetine	13
+dyphylline	2
+echistatin	2
+edetate calcium disodium	1
+edrophonium	1
+efavirenz	25
+egg	1
+emetic	2
+enalapril	13
+enalaprilat	3
+encainide	2
+endotoxin	11
+enflurane	6
+enfuvirtide	2
+enhancers	1
+enkephalins	3
+enoxacin	18
+enoximone	1
+entacapone	8
+entecavir	3
+ephedrine	1
+epinephrine	27
+epirubicin	6
+eplerenone	6
+eprosartan	3
+eptifibatide	1
+erection-supporting medication	2
+ergocalciferol	1
+ergonovine	3
+ergot	2
+ergot alkaloid class	1
+ergot alkaloids	2
+ergot derivatives	2
+ergot-type medications	3
+ergot-type oxytocic drugs	3
+ergotamine	12
+erlotinib	4
+ertapenem	7
+erythrohydrobupropion	1
+erythromycin	79
+erythromycins	1
+escitalopram	22
+esmolol HCl	1
+esomeprazole	7
+estazolam	10
+estradiol	12
+estrogen	13
+estrogen-containing compounds	1
+estrogens	20
+eszopiclone	10
+etanercept	4
+ethacrynic acid	6
+ethambutol	5
+ethanol	47
+ethchlorvynol	5
+ethinamate	1
+ethinyl estradiol	22
+ethinylestradiol	2
+ethionamide	3
+ethosuximide	8
+ethotoin	1
+ethoxzolamide	1
+ethyl alcohol	2
+ethynyl estradiol	2
+etidronate	1
+etodolac	14
+etofibrate	6
+etomidate	3
+etoposide	4
+etretinate	2
+everolimus	9
+exemestane	2
+famciclovir	1
+famotidine	8
+fat soluble vitamins	4
+fat-soluble vitamins	2
+felbamate	20
+felodipine	23
+fenbufen	2
+fenfluramine	1
+fenofibrate	5
+fenofibric acid	3
+fenoldopam	3
+fenoprofen	8
+fentanyl	8
+fentayl	1
+ferrous sulfate	2
+fexofenadine	9
+fexofenadine hydrochloride	6
+fibrate	2
+fibrate drugs	1
+fibrates	6
+fibric acid derivatives	1
+fibrinogen	2
+filipin	5
+finasteride	6
+flavoridin	2
+flecainide	25
+fluconazole	19
+flucytosine	4
+fludrocortisone acetate	1
+flumazenil	4
+fluoroquinolone antibiotic	1
+fluoroquinolones	4
+fluorouracil	1
+fluoxetine	48
+fluoxetine hydrochloride	1
+flupenthixol	1
+fluphenazine	3
+flurbiprofen	16
+flutamide	1
+fluvastatin	16
+fluvoxamine	40
+fluvoxamine maleate	3
+folic acid	10
+folic acid antagonists	2
+fondaparinux	2
+fondaparinux sodium	3
+formoterol	2
+formoterol fumarate	1
+foscarnet	5
+fosfomycin	2
+fosinopril	4
+fosinopril sodium	4
+fosinoprilat	3
+fosphenytoin	4
+frovatriptan	1
+fulvestrant	11
+furafylline	1
+furazolidone	2
+furosemide	49
+gabapentin	26
+galangin	2
+gallamine	1
+ganciclovir	4
+ganglion blocking compounds	1
+ganglionic adrenergic blocking drugs	1
+ganglionic blocking agents	3
+ganglionic peripheral adrenergic blocking drugs	1
+gefitinib	3
+gemfibrozil	6
+gemifloxacin	3
+gentamicin	18
+gentamycin	7
+gestodene	2
+ginkgo	1
+ginseng	1
+ginsenosides	8
+glatiramer acetate	2
+glibenclamide	2
+gliftor	1
+glimepiride	3
+glipizide	10
+glitazones	2
+glucagon	2
+glucocorticoid	1
+glucocorticoids	9
+glucose	14
+glutamate	4
+glutamic acid	1
+glutamic acid HCl	1
+glutethimide	6
+glyburide	34
+glyceryl trinitrate	1
+glycine	6
+glycosides	1
+gold	3
+gold medication	1
+granisetron	3
+green tea gallocatechins	1
+grepafloxacin	12
+griseofulvin	9
+guafacine	1
+guanadrel	1
+guanethidine	10
+guanfacine	10
+halofantrine	2
+halogenated hydrocarbon anesthetics	2
+halogenated hydrocarbon general anesthetics	1
+haloperidol	26
+halothane	17
+heparin	27
+heparin sodium	5
+heroin	7
+hexobarbital	4
+highly active antiretroviral	2
+histamine	3
+histamine H2 receptor antagonist	1
+histamine H2-receptor antagonists	1
+hormonal contraceptive	1
+hormonal contraceptives	14
+human growth hormone	1
+hydantoin	1
+hydantoin antiepileptic	1
+hydantoins	1
+hydralazine	10
+hydrochloroquine	1
+hydrochlorothiazide	25
+hydrocodone	6
+hydrocortisone	6
+hydrodolasetron	5
+hydroflumethiazide	1
+hydroxybupropion	3
+hydroxychloroquine	2
+hydroxyitraconazole	1
+hydroxylamine	1
+hydroxylated fenoprofen	1
+hydroxymethylglutaryl coenzyme A (HMG-CoA) reductase inhibitors	1
+hydroxyurea	6
+hydroxyzine	2
+hypnotic	1
+hypnotic agent	1
+hypnotic drugs	1
+hypnotic medications	1
+hypnotics	10
+hypoglycemic	1
+hypoglycemic agents	16
+hypoglycemic medications	1
+hypoglycemics	5
+hypotensive drugs	1
+ibandronate	4
+ibogaine	14
+ibuprofen	26
+ibutilide	3
+icodextrin	1
+idoxuridine	3
+ifosfamide	2
+iloprost	7
+imatinib	7
+imidazole	2
+imidazole antifungals	1
+imidazole compounds	1
+imidazole drugs	1
+imidazoles	2
+imipramine	9
+imipramine hydrochloride	1
+immuno-suppressant	1
+immunodepressant	1
+immunosuppressant agents	1
+immunosuppressants	4
+immunosuppressive	2
+immunosuppressive drugs	5
+inactivated vaccines	1
+indanedione anticoagulants	1
+indinavir	58
+indomethacin	34
+infliximab	1
+influenza virus vaccine	2
+inositol 1,4,5-trisphosphate	1
+insulin	47
+insulins	2
+interferon	1
+interferon beta-1a	2
+interferon-alfa	3
+interleukin	1
+interleukin-1 antagonist	2
+interleukin-2	4
+intraconazole	1
+iodamide	4
+iodine	6
+iodine-containing compounds	1
+iodoquinol	1
+ipratropium bromide	1
+irbesartan	4
+irinotecan	5
+iron	32
+iron supplement	2
+iron supplements	1
+isocarboxazid	2
+isoflurane	7
+isoniazid	30
+isoniazide	1
+isoproterenol	5
+isosorbide dinitrate	2
+isosorbide mononitrate	2
+isotretinoin	1
+isradipine	20
+itraconazole	36
+jacalin	3
+kanamycin	1
+kaolin	4
+kappa-selective opioids	1
+ketamine	15
+ketoconazole	107
+ketoprofen	19
+ketorolac	5
+ketorolac tromethamine	3
+labetalol	2
+labetalol HCl	9
+lactulose	3
+lamivudine	13
+lamotrigine	4
+lansoprazole	7
+lapatinib	7
+latamoxef	1
+latanoprost	1
+laxative	1
+lead	1
+leflunomide	6
+lenalidomide	5
+letrozole	1
+leucovorin	5
+leukocyte transfusions	1
+levamisole	1
+levamisole hydrochloride	2
+levetiracetam	12
+levobupivacaine	4
+levodopa	18
+levofloxacin	7
+levonorgestrel	5
+levorphanol	2
+levothyroxine	4
+levothyroxine sodium	4
+lidocaine	16
+lignocaine	1
+lincomycin	3
+linezolid	2
+lisinopril	2
+lithium	120
+lithium carbonate	4
+live attenuated vaccines	1
+live typhoid vaccines	1
+live vaccines	2
+live-attenuated vaccines	1
+lofexidine	1
+lomefloxacin	19
+long-acting benzodiazepine	1
+long-acting benzodiazepines	1
+long-acting nitrates	1
+loop diuretics	11
+loperamide	1
+lopinavir	4
+loracarbef	2
+loratadine	9
+lorazepam	9
+losartan	10
+lovastatin	30
+low molecular weight heparins	1
+loxapine	3
+lung surfactant	2
+lymecycline	2
+macrolide antibiotics	14
+macrolide class	1
+macrolide immunosuppressant	1
+macrolide products	1
+macrolides	2
+magnesium	46
+magnesium hydroxide	8
+magnesium salicylate	1
+magnesium salt	1
+magnesium sparing diuretics	1
+magnesium sulfate	1
+magnesium trisilicate	2
+magnesium/choline salicylate	1
+major tranquilizers	1
+maprotiline	1
+mazindol	1
+mecamylamine	2
+mechlorethamine	1
+meclofenamate sodium	6
+meclofenamic acid	1
+medroxyprogesterone	1
+medroxyprogesterone acetate	1
+mefenamic acid	6
+mefloquine	1
+melarsoprol	4
+meperidine	4
+meprobamate	2
+mercaptopurine	5
+mesalamine	1
+mesoridazine	1
+metaclopramide	1
+metamizol	4
+metformin	20
+methadone	12
+methamphetamine	4
+methandrostenolone	1
+methanol	1
+methaqualone	4
+methdilazine	1
+methenamine	3
+methotrexate	62
+methoxyflurane	1
+methsuximide	1
+methyldopa	9
+methylergonovine	2
+methylphenidate	4
+methylprednisolone	8
+methylxanthines	7
+methysergide	3
+metoclopramide	11
+metoprolol	12
+metrizamide	1
+metronidazole	5
+miconazole	12
+miconazole nitrate	1
+midazolam	29
+milrinone	2
+mineral oil	1
+minocycline	4
+mirtazapine	1
+misonidazole	2
+misoprostol	1
+mitotane	1
+mitoxantrone	1
+mixed agonist/antagonist analgesics	1
+moclobemide	3
+monoamine oxidase (MAO) inhibitors	8
+monoamine oxidase inhibiting drugs	1
+monoamine oxidase inhibitor	1
+monoamine oxidase inhibitors	21
+morphine	42
+mu-selective opioids	1
+multivalent cations	1
+multivitamin preparations	1
+multivitamins	5
+muromonab-CD3	1
+muscle relaxant	2
+muscle relaxant drugs	1
+muscle relaxants	8
+mycophenolate	1
+mycophenolate mofetil	4
+myocardial depressants	1
+n-dodecyl gallate	1
+nabumetone	2
+nadolol	2
+nafarelin acetate	1
+nafcillin	1
+nalbuphine	1
+nalidixic acid	5
+naloxone	10
+naltrexone	2
+nandrolone	1
+naproxen	18
+naproxen sodium	2
+naratriptan	4
+narcotic	1
+narcotic analgesic	2
+narcotic analgesics	5
+narcotics	10
+nasal vasoconstrictor	2
+nateglinide	2
+nefazadone	1
+nefazodone	8
+nelfinavir	27
+neomycin	7
+neomycin sulfate	2
+netilmicin	1
+neuroleptic	2
+neuroleptic drugs	1
+neuroleptics	10
+neuromuscular blocking agents	3
+neurotensin	5
+nevirapine	23
+niacin	4
+niacinamide	1
+nicardipine	7
+nicardipine HCl	6
+nicotinamide	1
+nicotine	9
+nicotinic acid	8
+nifedipine	34
+nilutamide	3
+nimodipine	6
+nisoldipine	8
+nitazoxanide	2
+nitrate	1
+nitrates	15
+nitric oxide donor compounds	1
+nitrite	1
+nitrites	2
+nitroferricyanide	2
+nitrofurantoin	8
+nitrogen mustard	1
+nitroglycerin	10
+nitroprusside	5
+nitrosourea	4
+nitrosoureas	1
+nitrous oxide	2
+nizatidine	2
+non- steroidal anti- inflammatory agents	1
+non- steroidal antiinflammatory agent	1
+non-depolarising muscle relaxant	1
+non-depolarizing muscle relaxants	1
+non-nucleoside reverse transcriptase inhibitor	1
+non-nucleoside reverse transcriptase inhibitors	1
+non-opioid analgesics	1
+non-potassium sparing diuretics	2
+non-selective MAO inhibitor	1
+non-selective MAO inhibitors	1
+non-selective beta-adrenergic-blocking agents	1
+non-steroidal anti-inflammatory	1
+non-steroidal anti-inflammatory agent	3
+non-steroidal anti-inflammatory agents	4
+non-steroidal anti-inflammatory drug	1
+non-steroidal anti-inflammatory drugs	4
+non-steroidal antiinflammatory drugs	1
+nonbarbiturate hypnotics	1
+nondepolarizing agents	1
+nondepolarizing muscle relaxants	2
+nondepolarizing neuromuscular blocking agents	2
+nonhormonal contraceptive product	6
+nonsteroial anti-inflammatory drugs	1
+nonsteroidal anti inflammatory drug	1
+nonsteroidal anti-inflammatory	2
+nonsteroidal anti-inflammatory agents	11
+nonsteroidal anti-inflammatory drug	3
+nonsteroidal anti-inflammatory drugs	13
+nonsteroidal antiinflammatories	1
+nonsteroidal antiinflammatory agents	1
+noradrenaline	8
+norbuprenorphine	1
+norepinephrine	29
+norethandrolone	1
+norethindrone	14
+norethindrone acetate	1
+norfloxacin	12
+norfluoxetine	1
+norgestrel	1
+nortriptyline	6
+nortriptyline hydrochloride	1
+octreotide	2
+ofloxacin	5
+olanzapine	19
+olprinone	1
+omega-agatoxin IVA	2
+omega-agatoxin VIA	1
+omega-conotoxin GVIA	3
+omeprazole	19
+ondansetron	4
+opiate	3
+opiate analgesics	1
+opiates	4
+opioid	9
+opioid analgesics	2
+opioids	10
+organic nitrates	1
+organophosphate insecticide	1
+organophosphorous compound	1
+orphenadrine	2
+ouabain	9
+oxacillin	1
+oxandrolone	1
+oxaprozin	1
+oxazepam	2
+oxcarbazepine	5
+oxipurinol	2
+oxolinic acid	2
+oxycodone	6
+oxygen	2
+oxymetazoline	1
+oxymetholone	2
+oxyphenbutazone	7
+oxytetracycline	1
+oxytocic agents	3
+oxytocic drugs	2
+oxytocics	1
+oxytocin	9
+p-aminosalicylic acid	1
+paclitaxel	4
+palonosetron	1
+palytoxin	1
+pancreatin	1
+pancuronium	1
+papaverine	1
+para-aminobenzoic acid	1
+para-aminosalicylic acid	1
+paraldehyde	2
+paraxanthine	1
+pargyline	5
+paroxetine	29
+peginterferon	2
+pegylated interferon alfa-2a	1
+penciclovir	2
+penicillamine	2
+penicillin	6
+penicillin G	2
+penicillin V	1
+penicillins	5
+pentagastrin	2
+pentamidine	8
+pentazocine	6
+pentobarbital	5
+pentostatin	1
+pentoxifylline	2
+perchlorate	4
+peripheral adrenergic blocking drugs	1
+peripheral vasoconstrictors	1
+peripherally restricted opioid antagonist	1
+perphenazine	2
+pertechnetate	3
+phenacemide	1
+phenazepam	1
+phencyclidine	4
+phenelzine	3
+phenelzine sulfate	2
+phenformin	2
+phenibut	1
+phenobarbital	68
+phenobarbital sodium	3
+phenobarbitone	1
+phenothiazine	2
+phenothiazine derivatives	2
+phenothiazines	40
+phenothiazines classes of antipsychotic agents	1
+phenprocoumon	2
+phentolamine	3
+phenylalkylamine	1
+phenylbutazone	13
+phenylpropanolamine	1
+phenyltoloxamine	1
+phenyramidol	2
+phenytoin	167
+phenytoin sodium	3
+phosphate	3
+photosensitizing agents	1
+physostigmine	2
+picrotoxin	3
+pilocarpine	1
+pimozide	9
+pioglitazone	1
+piperacillin	8
+piperazine	3
+piroxicam	3
+platelet aggregation inhibitors	1
+platelet inhibitors	2
+polyene antibiotics	2
+polymyxin	1
+polymyxins	5
+potassium	10
+potassium chloride	2
+potassium depleting diuretics	1
+potassium sparing diuretics	2
+potassium- sparing diuretics	1
+potassium-depleting diuretics	1
+potassium-sparing antihypertensives	1
+potassium-sparing diuretics	11
+pralidoxime	3
+pravastatin	8
+praziquantel	3
+prazosin	1
+prednisolone	7
+prednisolone sodium succinate	1
+prednisone	7
+prilocaine	1
+primidone	13
+probenecid	46
+procainamide	18
+procaine	2
+procarbazine	2
+prochlorperazine	4
+prochlorperazine edisylate	1
+progestational contraceptives	2
+progesterone	8
+progestin	4
+progestin-only oral contraceptives	1
+progestins	5
+progestogens	2
+prolonged narcotics	2
+promazine	1
+promethazine	5
+promoter	1
+propafenone	11
+propanolol	1
+propantheline	3
+propofol	4
+propoxyphene	6
+propoxyphene hydrochloride	1
+propranolol	54
+prostaglandin F2alpha	2
+prostaglandin synthetase inhibitors	1
+protamine	1
+protease inhibitor	5
+protease inhibitors	11
+prothrombin complex concentrates	1
+proton pump inhibitors	8
+protriptyline	2
+pseudoephedrine	5
+psychoactive drugs	2
+psychostimulants	1
+psychotropic agents	2
+psychotropic drug	1
+psychotropic drugs	4
+psychotropic medications	3
+psychotropics	3
+pulmonary surfactant	1
+pure agonist opioid analgesic	1
+putrescine	1
+pyrantel	1
+pyrazolones	2
+pyreneperone	1
+pyridoxine	3
+pyrilamine	1
+pyrimethamine	3
+quetiapine	5
+quinidine	58
+quinine	8
+quinolone	7
+quinolone anti-infectives	1
+quinolone antibiotics	3
+quinolone antimicrobial	2
+quinolone class	2
+quinolone class antimicrobial	1
+quinolones	24
+quinupristin	1
+radiographic iodinated contrast media	1
+radiopertechnetate	3
+radiopharmaceutical	2
+ramipril	2
+ranitidine	20
+rantidine hydrochloride	1
+rapamycin	1
+rauwolfia alkaloid	1
+receptor	1
+reserpine	18
+reseveratrol	1
+resin	7
+resins	4
+resorcinol	2
+resveratrol	6
+retinoid	1
+retinoids	4
+retinyl acetate	6
+reverse transcriptase inhibitors	1
+ribavirin	10
+rifabutin	29
+rifadin	1
+rifampicin	10
+rifampin	69
+rifamycin	1
+rifamycins	1
+rifapentine	1
+risperidone	14
+ritonavir	41
+rocuronium	1
+rofecoxib	13
+rosiglitazone	1
+rosuvastatin	1
+ruthenium red	2
+salbutamol	2
+salicylate	14
+salicylates	16
+salicylic acid	5
+salsalate	1
+sandimmune	3
+saquinavir	25
+scopolamine	1
+secobarbital	2
+secobarbitone sodium	1
+second generation (atypical) antipsychotic agent	1
+sedating drugs	1
+sedative	3
+sedative-hypnotics	3
+sedatives	16
+selective Ca(2+) channel blockers	1
+selective MAO inhibitor	1
+selective opioid agonists	1
+selective serotonin reuptake inhibitor	1
+selective serotonin reuptake inhibitors	10
+selegiline	5
+selegiline hydrochloride	1
+selenium	1
+serotonergic agents	5
+serotonin reuptake inhibitor drug	1
+serotonin reuptake inhibitors	2
+serotoninergic agents	2
+sertindole	1
+sertraline	19
+sevoflurane	1
+sex steroids	2
+short-acting  beta2-agonists	1
+short-acting benzodiazepines	1
+short-acting nitrates	1
+short-acting, inhaled beta2-agonists	2
+sildenafil	11
+sildenafil citrate	2
+silver	1
+simethicone	1
+simvastatin	12
+sirolimus	17
+skeletal muscle relaxants	3
+skeletal-muscle relaxants	1
+sodium acid phosphate	2
+sodium bicarbonate	3
+sodium carboxymethylcellulose	1
+sodium cephalothin	1
+sodium citrate	1
+sodium colistemethate	1
+sodium colistimethate	1
+sodium dodecyl sulfate	1
+sodium fluorescein	1
+sodium iodide I131	1
+sodium nitroprusside	2
+sodium perchlorate	2
+sodium polystyrene sulfonate	1
+sodium thiosulfate	1
+sodium valproate	1
+solvent	1
+somatostatin	2
+somatostatin analog	2
+somatostatin analogs	1
+somatrem	1
+somatropin	4
+sotalol	1
+sparfloxacin	2
+spermidine	2
+spironolactone	11
+stanozolol	1
+statin	2
+statins	2
+stavudine	5
+steroid	8
+steroid medicine	1
+steroidal anti-inflammatory agent	1
+steroids	6
+streptokinase	1
+streptomycin	1
+succinimides	1
+succinylcholine	19
+succinylcholine chloride	1
+sucralfate	14
+sulfadoxine	1
+sulfamethoxazole	9
+sulfapyridine	7
+sulfasalazine	6
+sulfinpyrazone	6
+sulfisoxazole	1
+sulfonamide	1
+sulfonamide antibiotics	2
+sulfonamide drug	1
+sulfonamides	13
+sulfonylurea	5
+sulfonylurea agent	1
+sulfonylureas	6
+sulfur	1
+sulindac	4
+sulphenazole	1
+sulphonylureas	2
+sumatriptan	8
+sumatriptan succinate	1
+surfactant	1
+sympathomimetic	2
+sympathomimetic agents	8
+sympathomimetic amine	1
+sympathomimetic amines	2
+sympathomimetic bronchodilators	2
+sympathomimetic drugs	6
+sympathomimetics	9
+synthetic 3-hydroxy-3-methylglutaryl coenzyme A (HMGCoA) reductase inhibitor	1
+synthetic estrogens	2
+synthetic steroidal estrogen	1
+synthetic steroidal progestogen	1
+synthetic steroids	1
+systemic corticosteroids	1
+t1	1
+tacrine	1
+tacrolimus	24
+tadalafil	1
+tamoxifen	8
+tamsulosin	3
+tannic acid	1
+tazobactam	1
+telithromycin	3
+temazepam	5
+teniposide	2
+tenofovir disoproxil fumarate	2
+terazosin	4
+terbinafine	1
+terbutaline	3
+terfenadine	37
+terodiline	1
+testosterone	1
+tetracyclic antidepressants	1
+tetracycline	8
+tetracycline class	1
+tetracyclines	15
+thalidomide	1
+theobromine	2
+theophylline	134
+therapeutic monoclonal antibodies	1
+thiabendazole	1
+thiazide	1
+thiazide diuretic	2
+thiazide diuretics	37
+thiazide-type diuretics	2
+thiazides	16
+thiazolesulfone	1
+thiazolidinediones	1
+thienobenzodiazepine derivative	1
+thimerosal	1
+thiocyanate	1
+thioridazine	10
+thiosulfate	6
+thiothixene	1
+thioxanthene classes of antipsychotic agents	1
+thioxanthenes	1
+thioxanthines	1
+threohydrobupropion	2
+thrombolytic agents	1
+thrombolytics	4
+thyroid	4
+thyroid drugs	2
+thyroid hormone	5
+thyroid hormones	4
+thyroid preparation	1
+thyroid preparations	2
+thyroid products	5
+thyroxin	1
+thyroxine	1
+tiagabine	23
+ticlopidine	1
+timolol	1
+tizoxanide	1
+tobramycin	2
+tolazamide	1
+tolazoline	1
+tolbutamide	32
+topiramate	4
+topoisomerase-targeting antitumor drugs	1
+toxin	2
+toxin A	9
+tramadol	3
+tranexamic acid	1
+tranquilizers	16
+transferrin	2
+tranylcypromine	2
+tranylcypromine sulfate	2
+trazodone	1
+trazodone hydrochloride	1
+triacetyloleandomycin	1
+triamterene	12
+triazolam	22
+triazole antifungals	1
+triazolobenzodiazepines	1
+trichlorfon	3
+triclofos sodium	2
+tricyclic	4
+tricyclic anti-depressants	2
+tricyclic antidepressant	20
+tricyclic antidepressant agent	2
+tricyclic antidepressant class	2
+tricyclic antidepressants	75
+tricyclics	5
+trifluoperazine	1
+triflupromazine	1
+trihexyphenidyl	1
+trimeprazine	1
+trimethoprim	10
+trimethyl lead	1
+tripelennamine	6
+troleandomycin	9
+trovafloxacin	2
+tubocurarine	8
+tuftsin	4
+unfractionated heparin	1
+uricosuric agents	3
+uricosuric medication	1
+vaccines	2
+valdecoxib	35
+valproate	27
+valproic acid	14
+valsartan	2
+vancomycin	9
+vardenafil	18
+vasoconstrictor drugs	1
+vasodilators	9
+vasopressor	2
+vasopressor drugs	3
+vasopressors	2
+vecuronium	4
+venlafaxine	4
+verapamil	36
+verapamil hydrochloride	1
+veratrum alkaloids	4
+verografin	1
+verografine	3
+vinblastine	2
+vincristine	4
+vinorelbine	2
+vitamin	1
+vitamin A	3
+vitamin B-12	1
+vitamin B12	6
+vitamin B6	1
+vitamin C	6
+vitamin D	28
+vitamin D analogues	6
+vitamin D preparations	1
+vitamin E	1
+vitamin K	11
+vitamin K antagonists	5
+vitamin supplements	1
+vitamin-D	1
+vitamins	3
+volatile inhalation anesthetics	1
+voriconazole	3
+warfarin	188
+warfarin anticoagulants	1
+warfarin sodium	5
+warfarin-type anticoagulant	1
+warfarin-type anticoagulants	1
+xanthine bronchodilators	1
+xanthine derivatives	2
+zafirlukast	1
+zalcitabine	21
+zaleplon	24
+zidovudine	18
+zileuton	2
+zinc	17
+zinc insulin	2
+ziprasidone	1
+zonisamide	1
+zopiclone	2
