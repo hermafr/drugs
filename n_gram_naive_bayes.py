@@ -1,18 +1,7 @@
 from corpus_reader import read_dataset
 from word_extraction import get_word_lists_from_sentence
 from naive_bayes import NaiveBayes
-
-def n_grams(word, n = 3, padding = True):
-    if padding:
-        pads = "#" * (n - 1)
-        word = pads + word + pads
-    ngrams = []
-    for i in range(0, len(word) - n + 1):
-        ngrams.append(word[i:(i+n)])
-    return ngrams
-
-def starts_with_uppercase(word):
-    return word[0].lower() != word[0]
+from feature_computation import n_grams, starts_with_uppercase
 
 def trained_naive_bayes(dataset):
     nb = NaiveBayes([True, False])

@@ -1,7 +1,7 @@
 
 VERBOSE = False
 
-EPSILON = 1
+EPSILON = 0.000001
 
 def verbose(str):
     if VERBOSE:
@@ -41,8 +41,9 @@ class NaiveBayes:
             freq = 0
         else:
             freq = self.class_frequencies[c]
-        freq = freq + EPSILON
+        freq = freq
         p = freq / self.n
+        p = p + EPSILON
         verbose("class\t" + str(c) + "\t" + str(freq) + "\t" + str(self.n) + "\t" + str(p))
         return p
     
@@ -51,9 +52,10 @@ class NaiveBayes:
             freq = 0
         else:
             freq = self.features[feature_name][value][class_label]
-        freq = freq + EPSILON
+        freq = freq
         divisor = self.f_counters[feature_name][class_label]
         p = freq / divisor
+        p = p + EPSILON
         verbose(feature_name + "\t" + str(value) + "\t" + str(freq) + "\t" + str(divisor) + "\t" + str(p))
         return p
     
