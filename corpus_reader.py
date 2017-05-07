@@ -45,13 +45,14 @@ class Entity:
 # a pair has an ID and consists of two entities
 # it has a boolean ddi and a type iff ddi == true
 class Pair:
-    def __init__(self, id, e1, e2, ddi, type, textBetween):
+    def __init__(self, id, e1, e2, ddi, type, textBetween, filename=""):
         self.id = id
         self.e1 = e1
         self.e2 = e2
         self.ddi = ddi
         self.type = type
         self.textBetween = textBetween
+        self.filename = filename
     
     def __str__(self):
         typeInteraction = ""
@@ -62,7 +63,7 @@ class Pair:
             else:
                 typeInteraction = "," + self.type
         
-        return "(" + self.e1.text + "," + self.textBetween +"," +  self.e2.text + "," + self.ddi + typeInteraction + ")"
+        return "(" + self.e1.text + "," + self.textBetween +"," +  self.e2.text + "," + self.filename + "," + self.ddi + typeInteraction + ")"
 
 
 # returns a document instance created from a xml file
@@ -107,7 +108,8 @@ def read_document(file_name):
                             e2,
                             element.attrib["ddi"],
                             element.attrib["type"] if "type" in element.attrib else None,
-                            textBetween)
+                            textBetween,
+                            file_name)
                 sentence.add_pair(pair)
         document.add_sentence(sentence)
     return document
