@@ -45,12 +45,24 @@ class Entity:
 # a pair has an ID and consists of two entities
 # it has a boolean ddi and a type iff ddi == true
 class Pair:
-    def __init__(self, id, e1, e2, ddi, type):
+    def __init__(self, id, e1, e2, ddi, type, textBetween):
         self.id = id
         self.e1 = e1
         self.e2 = e2
         self.ddi = ddi
         self.type = type
+        self.textBetween = textBetween
+    
+    def __str__(self):
+        typeInteraction = ""
+    
+        if self.ddi == "true":
+            if self.type == None: #to avoid special case bug
+                typeInteraction = "," + "None"
+            else:
+                typeInteraction = "," + self.type
+        
+        return "(" + pair.e1.text + "," +  pair.e2.text + "," + pair.ddi + typeInteraction + ")"
 
 
 # returns a document instance created from a xml file
