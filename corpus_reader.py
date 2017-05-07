@@ -42,7 +42,7 @@ class Entity:
         self.text = text
 
 
-# a pair has an ID and consists of two entity IDs
+# a pair has an ID and consists of two entities
 # it has a boolean ddi and a type iff ddi == true
 class Pair:
     def __init__(self, id, e1, e2, ddi, type):
@@ -63,6 +63,7 @@ def read_document(file_name):
     # loop over sentences in the xml file
     for child in root:
         sentence = Sentence(child.attrib["id"], child.attrib["text"])
+        entities = {}
         for element in child:
             if element.tag == "entity":
                 offs_str = element.attrib["charOffset"]
@@ -76,11 +77,12 @@ def read_document(file_name):
                                 char_offset,
                                 element.attrib["type"],
                                 element.attrib["text"])
+                entities[element.attrib["id"]] = entity
                 sentence.add_entity(entity)
             elif element.tag == "pair":
                 pair = Pair(element.attrib["id"],
-                            element.attrib["e1"],
-                            element.attrib["e2"],
+                            entities[element.attrib["e1"]],
+                            entities[element.attrib["e2"]],
                             element.attrib["ddi"],
                             element.attrib["type"] if "type" in element.attrib else None)
                 sentence.add_pair(pair)
