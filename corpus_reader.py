@@ -62,7 +62,7 @@ class Pair:
             else:
                 typeInteraction = "," + self.type
         
-        return "(" + pair.e1.text + "," +  pair.e2.text + "," + pair.ddi + typeInteraction + ")"
+        return "(" + self.e1.text + "," + self.textBetween +"," +  self.e2.text + "," + self.ddi + typeInteraction + ")"
 
 
 # returns a document instance created from a xml file
@@ -92,11 +92,22 @@ def read_document(file_name):
                 entities[element.attrib["id"]] = entity
                 sentence.add_entity(entity)
             elif element.tag == "pair":
+                
+                e1 = entities[element.attrib["e1"]]
+                e2 = entities[element.attrib["e2"]]
+                
+                text_start = e1.char_offset[0][1] +1
+                text_end = e2.char_offset[0][0]        #no +1 because slice in python exclude last end
+                
+                textBetween = sentence.text[text_start:text_end]
+                
+                
                 pair = Pair(element.attrib["id"],
-                            entities[element.attrib["e1"]],
-                            entities[element.attrib["e2"]],
+                            e1,
+                            e2,
                             element.attrib["ddi"],
-                            element.attrib["type"] if "type" in element.attrib else None)
+                            element.attrib["type"] if "type" in element.attrib else None,
+                            textBetween)
                 sentence.add_pair(pair)
         document.add_sentence(sentence)
     return document
