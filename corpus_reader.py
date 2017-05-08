@@ -66,7 +66,7 @@ class Pair:
         return "(" + self.e1.text + "," + self.textBetween +"," +  self.e2.text + "," + self.filename + "," + self.ddi + typeInteraction + ")"
 
     def getLabel(self):
-        label = "no_interaction"
+        label = "null"
     
         if self.ddi == "true":
             label = self.type
