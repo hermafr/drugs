@@ -1,6 +1,6 @@
 from os import listdir
 import xml.etree.ElementTree as etree
-
+import re
 
 corpus_path = "DDICorpus/Train/"
 folder_names = ["DrugBank/", "MedLine/"]
@@ -110,8 +110,9 @@ def read_document(file_name):
                 text_start = e1.char_offset[0][1] +1
                 text_end = e2.char_offset[0][0]        #no +1 because slice in python exclude last end
                 
-                textBetween = sentence.text[text_start:text_end]
-                
+                textBetween = sentence.text[text_start:text_end]    #get the raw text slice
+                textBetween = re.split("\W+", textBetween)          #take only words
+                textBetween = " ".join([w for w in textBetween if w != ""]) #remove empty words and join the text again
                 
                 pair = Pair(element.attrib["id"],
                             e1,
