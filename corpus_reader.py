@@ -14,6 +14,14 @@ class Document:
     
     def add_sentence(self, sentence):
         self.sentences.append(sentence)
+    
+    #we define the length of a document as the number of sentences
+    def __len__(self):
+        return len(self.sentences)
+    
+    #output the number of total pairs in the document
+    def nbPairs(self):
+        return sum( [ len(self.sentences[s].pairs)  for s in range(len(self)) ] )
 
 
 # a document has an ID and consists of text
