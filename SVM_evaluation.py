@@ -5,6 +5,7 @@ from SVM_class import SVM
 from sklearn import svm
 from DDIClassifier import DDIClassifier
 from MostFrequentBetweenStrategy import MostFrequentBetweenStrategy
+from EntropyStrategy import EntropyStrategy
 
 from corpus_reader import read_dataset
 from numpy.random import choice
@@ -30,9 +31,36 @@ test = [data[i] for i in test_ids]
 print("%i training documents" % len(training))
 print("%i test documents" % len(test))
 
+"""
+t = EntropyStrategy(nb_feature = 600, threshold_count = 20)
+
+t.count_words_doc(training, nb=-1)
+
+p = t.get_probability_count_words()
+entropy = t.get_entropy(p)
+
+for k in t.count_words:
+    print(k + ":\t" + str(t.count_words[k]))
+    print("-"*5)
+
+print("*"*5 + " PROBABILITIES " + "*"*5)
+    
+for k,v in p.items():
+    print(k + ":\t" + str(v))
+    print("-"*5)
 
 
-ddi_clf = DDIClassifier(MostFrequentBetweenStrategy(nb_feature = 20),
+print("*"*5 + " ENTROPY " + "*"*5)    
+    
+for k,v in entropy.items():
+    print((k + ":").center(40).lstrip() +"\t" + str(v))
+
+"""
+
+#"""
+
+ddi_clf = DDIClassifier(
+    featureStrategy = EntropyStrategy(nb_feature = 300, threshold_count = 50),
     clf = svm.LinearSVC())
 
 print("Creating feature matrix...")
@@ -107,3 +135,4 @@ for k in precision_count:
     print("Precision for class "+k+":")
     print_score(precision_count, k)
     
+#"""
