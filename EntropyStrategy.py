@@ -8,14 +8,15 @@ class EntropyStrategy:
     Then, we calculate the entropy of each counted word for each class
     """
     
-    def __init__(self, nb_feature = 20, threshold_count = 20):
+    def __init__(self, parent, nb_feature = 20, threshold_count = 20):
         """
         Constructor
         Initialize all the variables
         """
-        self.classes = ['null', 'advise', 'effect', 'int', 'mechanism']
+
         
-        self.parent = None
+        self.parent = parent
+        self.classes = parent.classes
         
         self.nb_feature = nb_feature
         self.threshold_count = threshold_count
@@ -40,7 +41,7 @@ class EntropyStrategy:
         * verbose : True for debugging output
         """
         nb = len(doc_list) if nb == -1 else nb
-        
+        print("COUNT WORDS")
         for doc in doc_list[:nb]:
             for sentence in doc.sentences:
                 if len(sentence.entities) >= 2:
@@ -50,9 +51,11 @@ class EntropyStrategy:
                             w = w.lower()
                             if w not in self.count_words: #if new word
                                 self.count_words[w] = {c : 0 for c in self.classes}
+                                
+
+                            p_class = self.parent.labelToClass[p.getLabel()]
                             
-                            plabel = p.getLabel()
-                            self.count_words[w][plabel] = self.count_words[w][plabel] + 1
+                            self.count_words[w][p_class] = self.count_words[w][p_class] + 1
                     
                     
                     if verbose:
