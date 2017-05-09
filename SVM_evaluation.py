@@ -1,7 +1,6 @@
 import numpy as np
 
-#import SVM_class
-from SVM_class import SVM
+
 from sklearn import svm
 from DDIClassifier import DDIClassifier
 from MostFrequentBetweenStrategy import MostFrequentBetweenStrategy
@@ -11,7 +10,9 @@ from corpus_reader import read_dataset
 from numpy.random import choice
 
 from time import time
+import sys
 
+import scipy.sparse
 
 print("Loading data")
 data = read_dataset()
@@ -19,7 +20,10 @@ n_docs = len(data)
 
 np.random.seed(42)
 
-classes = ['null', 'advise', 'effect', 'int', 'mechanism']
+
+
+
+
 
 train_amount = 0.7
 train_ids = choice(n_docs, int(train_amount * n_docs), replace=False)
@@ -55,21 +59,58 @@ print("*"*5 + " ENTROPY " + "*"*5)
 for k,v in entropy.items():
     print((k + ":").center(40).lstrip() +"\t" + str(v))
 
-"""
+#"""
 
 #"""
 
+labels = ['null', 'advise', 'effect', 'int', 'mechanism']
+classes = ['no_interaction', 'interaction']
+
+mappingLabelToClass = {
+    'null' : 'no_interaction'
+    }
+                
+for w in labels[1:]:
+    mappingLabelToClass[w] = "interaction"
+
+#classes = labels
+#mappingLabelToClass = None
+
+
+print("Classes : " + str(classes))
+    
 ddi_clf = DDIClassifier(
-    featureStrategy = EntropyStrategy(nb_feature = 300, threshold_count = 50),
-    clf = svm.LinearSVC())
+    classes = classes,
+    mappingLabelToClass = mappingLabelToClass,
+    featureStrategy = {
+    "name" : "entropy",
+    "nb_feature" : 600,
+    "threshold_count" : 500
+    }
+    )
 
 print("Creating feature matrix...")
 trainingFeature = ddi_clf.getFeatureMatrix(training)
+
+
+#sys.exit()
+
+print("shape: "+str(trainingFeature.shape))
+#print(sum(trainingFeature.T)[:40])
+
+#sys.exit()
+
 print("Done\n")
 
-print("Creating labels...")
-labels = ddi_clf.getLabels(training)
+print("Creating output classes...")
+labels = ddi_clf.getClasses(training)
 print("Done\n")
+
+weight = ddi_clf.weight_balancing(labels)
+#weight[1] *= 2
+#sys.exit()
+
+ddi_clf.clf = svm.LinearSVC(class_weight=weight)
 
 print("Fitting the model...")
 ddi_clf.fit(trainingFeature, labels, verbose=True)
@@ -82,7 +123,7 @@ correct = 0
 total = 0
 
 precision_count = { c : {} for c in classes}
-    
+print(precision_count)
 
 for k in precision_count:
     precision_count[k] = {
@@ -98,7 +139,7 @@ for tdoc in test:
         if len(sentence.entities) >= 2:
             for p in sentence.pairs:
                 pred = ddi_clf.predictFromTextBetween(p.textBetween)
-                true = p.getLabel()
+                true = ddi_clf.labelToClass[p.getLabel()]
                 
                 if pred == true:
                     precision_count[pred]["true_positive"] += 1
@@ -134,5 +175,7 @@ def print_score(count, label):
 for k in precision_count:
     print("Precision for class "+k+":")
     print_score(precision_count, k)
-    
+
+acc = float(correct)/total
+print("Accuracy :" + str(acc))
 #"""

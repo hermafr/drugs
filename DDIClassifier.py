@@ -4,7 +4,7 @@ import sys
 
 class DDIClassifier:
 
-    def __init__(self, classes, featureStrategy, clf, mappingLabelToClass = None):
+    def __init__(self, classes, featureStrategy, clf = None, mappingLabelToClass = None):
         """
         Constructor
         Initialize all the variables
@@ -33,8 +33,7 @@ class DDIClassifier:
         self.class_mapping = {v: k for k, v in self.class_index.items()}
         
         self.clf = clf
-        
-        self.clf = clf
+
         
         if featureStrategy["name"] == "entropy":
             from EntropyStrategy import EntropyStrategy
@@ -68,6 +67,10 @@ class DDIClassifier:
                         
     
     def fit(self, trainingFeature, labels, verbose=False):
+        
+        if self.clf == None:
+            sys.exit("Error, no classifier attributed to DDIClassifier ! (fit method)")
+        
         if verbose:
             print("Start training")
         start = time()
