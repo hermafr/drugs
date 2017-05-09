@@ -18,7 +18,11 @@ class DDIClassifier:
         
         self.clf = clf
         
+        featureStrategy.parent = self
+        
         self.featureStrategy = featureStrategy
+        
+        
     
     def getFeatureMatrix(self, doc_list):
         return self.featureStrategy.getFeatureMatrix(doc_list)
@@ -57,9 +61,9 @@ class DDIClassifier:
         
         return self.class_mapping[self.clf.predict(f)[0]]
     
-    def predict(self, matrix):
-        """
-        Given a matrix,
-        predicts
-        """
+    #def predict(self, matrix):
+    #    """
+    #    Given a matrix,
+    #    predicts
+    #    """
         

@@ -8,6 +8,8 @@ class MostFrequentBetweenStrategy:
         Constructor
         Initialize all the variables
         """
+        self.parent = None
+        
         self.nb_feature = nb_feature
         
         self.feature_index = {}
@@ -15,6 +17,7 @@ class MostFrequentBetweenStrategy:
         self.feature_words = []
         self.count_words = {}
     
+
     
     #count specific words in doc list
     def count_words_doc(self, doc_list, nb=-1, verbose = False):
@@ -35,7 +38,7 @@ class MostFrequentBetweenStrategy:
                     all_interaction_text = [p.textBetween for p in sentence.pairs]
                     
                     for interaction_text in all_interaction_text:
-                        for w in interaction_text:  #for each word of the interaction text list
+                        for w in interaction_text.split(' '):  #for each word of the interaction text list
                             self.count_words[w] = self.count_words.get(w,0) + 1
                     
                     if verbose:
