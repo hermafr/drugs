@@ -1,7 +1,9 @@
 
 VERBOSE = False
 
+EPSILON_SMOOTHING = True
 EPSILON = 0.000001
+ALPHA = 1
 
 def verbose(str):
     if VERBOSE:
@@ -54,15 +56,20 @@ class NaiveBayes:
             freq = self.features[feature_name][value][class_label]
         freq = freq
         divisor = self.f_counters[feature_name][class_label]
-        p = freq / divisor
-        p = p + EPSILON
+        if EPSILON_SMOOTHING:
+            p = freq / divisor
+            p = p + EPSILON
+        else:
+            p = (freq + ALPHA) / (divisor + ALPHA * len(self.features[feature_name]))
         verbose(feature_name + "\t" + str(value) + "\t" + str(freq) + "\t" + str(divisor) + "\t" + str(p))
         return p
     
-    def get_prob(self, features, c):
+    def get_prob(self, features, c, use_prior):
         verbose(c)
         verbose("-" * 10)
-        p = self.p_class(c)
+        p = 1
+        if use_prior:
+            p = self.p_class(c)
         for f in features:
             fname = f[0]
             fvalue = f[1]
@@ -70,11 +77,11 @@ class NaiveBayes:
             verbose("\t" + str(p))
         return p
     
-    def classify(self, features):
+    def classify(self, features, use_prior=True):
         max_p = -1
         predicted_class = None
         for c in self.classes:
-            p = self.get_prob(features, c)
+            p = self.get_prob(features, c, use_prior)
             verbose("-" * 10)
             verbose("p(" + str(c) + ") = " + str(p))
             verbose("")

@@ -1,0 +1,5 @@
+None : {'MD': 2954, 'VB': 369, 'NNS': 4632, 'CC': 118, 'IN': 289, 'Fg': 3, 'VBD': 2418, 'DT': 1, 'VBN': 234, 'VBG': 161, 'not_found': 4, 'NN': 9418, 'Fz': 4, 'Z': 57, 'VBP': 549, 'RB': 10, 'JJR': 1, 'Ft': 2, 'Fx': 7, 'TO': 11, 'NP': 1038, 'JJ': 191, 'null': 71, 'VBZ': 1225, 'PRP': 4}
+effect : {'MD': 564, 'VB': 69, 'NNS': 132, 'CC': 5, 'JJ': 3, 'VBD': 111, 'VBN': 38, 'NP': 62, 'IN': 11, 'NN': 300, 'VBZ': 165, 'VBP': 169, 'VBG': 59}
+mechanism : {'RB': 2, 'MD': 280, 'VB': 34, 'NNS': 77, 'CC': 10, 'JJ': 1, 'VBD': 188, 'VBG': 7, 'VBN': 26, 'NP': 50, 'IN': 18, 'NN': 274, 'Z': 1, 'VBP': 176, 'VBZ': 175}
+advise : {'MD': 320, 'VB': 39, 'NNS': 50, 'CC': 6, 'JJ': 5, 'VBD': 5, 'VBN': 42, 'VBG': 45, 'VBZ': 72, 'IN': 4, 'NN': 150, 'VBP': 14, 'NP': 74}
+int : {'MD': 98, 'VB': 2, 'NNS': 7, 'IN': 2, 'VBD': 1, 'VBN': 1, 'NP': 10, 'JJ': 1, 'NN': 39, 'Z': 2, 'VBZ': 11, 'VBP': 14}

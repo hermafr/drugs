@@ -4,7 +4,7 @@ from feature_computation import n_grams, starts_with_uppercase
 from corpus_reader import read_dataset
 from numpy.random import choice
 
-VERBOSE = True
+VERBOSE = False
 
 class PosNgramNaiveBayes:
     def __init__(self):

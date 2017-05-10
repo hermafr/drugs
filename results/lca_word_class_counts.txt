@@ -1,0 +1,1746 @@
+may : {'mechanism': 239, None: 2142, 'advise': 33, 'effect': 460, 'int': 93}
+should : {'mechanism': 5, None: 587, 'advise': 274, 'effect': 8}
+is : {'mechanism': 62, None: 474, 'advise': 69, 'effect': 61, 'int': 5}
+was : {'mechanism': 42, None: 464, 'effect': 18}
+diuretics : {None: 496, 'advise': 1, 'effect': 2}
+topiramate : {None: 479}
+has : {'mechanism': 44, None: 348, 'advise': 1, 'effect': 45, 'int': 2}
+have : {'mechanism': 46, None: 315, 'effect': 60, 'int': 3}
+were : {'mechanism': 13, None: 390, 'effect': 7}
+did : {'mechanism': 1, None: 392, 'effect': 1, 'int': 1}
+e.g. : {None: 379}
+antibiotics : {None: 363, 'effect': 2}
+agents : {'mechanism': 1, None: 312, 'advise': 14, 'effect': 9, 'int': 1}
+antifungals : {None: 334}
+decreased : {'mechanism': 26, None: 266, 'effect': 32}
+are : {'mechanism': 111, None: 108, 'advise': 10, 'effect': 30, 'int': 1}
+resulted : {'mechanism': 20, None: 235}
+tramadol : {None: 240}
+had : {'mechanism': 20, None: 207, 'effect': 3}
+can : {'mechanism': 20, None: 123, 'advise': 2, 'effect': 75, 'int': 5}
+inhibitors : {None: 204, 'advise': 5, 'effect': 10}
+drugs : {None: 194, 'advise': 1, 'effect': 2}
+zileuton : {None: 182}
+increased : {'mechanism': 35, None: 130, 'advise': 4, 'effect': 4}
+phenytoin : {'mechanism': 3, None: 165, 'effect': 1}
+administration : {'mechanism': 19, None: 97, 'advise': 12, 'effect': 12, 'int': 10}
+acid : {'mechanism': 1, None: 148, 'effect': 1}
+use : {'mechanism': 11, None: 76, 'advise': 15, 'effect': 44}
+cyclosporine : {'mechanism': 3, None: 137, 'advise': 1, 'effect': 1}
+atorvastatin : {'mechanism': 3, None: 124, 'effect': 1}
+wort : {None: 127}
+does : {None: 123, 'effect': 1}
+carbamazepine : {'mechanism': 3, None: 115, 'advise': 1}
+corticosteroids : {None: 117}
+quinidine : {'mechanism': 1, None: 112, 'advise': 2}
+ketoconazole : {'mechanism': 6, None: 103, 'advise': 2, 'effect': 2}
+antidepressants : {'mechanism': 3, None: 102, 'advise': 1, 'effect': 7}
+and : {'mechanism': 9, None: 94, 'advise': 3, 'effect': 5}
+salts : {None: 104, 'effect': 6}
+phenothiazines : {None: 108, 'effect': 1}
+warfarin : {'mechanism': 2, None: 100, 'advise': 1, 'effect': 3, 'int': 1}
+overdosage : {None: 107}
+tamoxifen : {None: 98}
+effect : {'mechanism': 4, None: 91, 'effect': 2}
+danazol : {None: 97}
+cimetidine : {'mechanism': 1, None: 96}
+with : {'mechanism': 2, None: 90, 'effect': 3}
+fluoxetine : {'mechanism': 1, None: 94}
+digoxin : {'mechanism': 3, None: 88, 'effect': 3, 'int': 1}
+ibuprofen : {None: 92, 'advise': 1}
+effects : {None: 76, 'advise': 1, 'effect': 10}
+barbiturates : {None: 87}
+alcohol : {'mechanism': 1, None: 86}
+blockers : {None: 78, 'advise': 2, 'effect': 5}
+anticoagulants : {None: 78, 'advise': 2, 'effect': 3, 'int': 1}
+erythromycin : {'mechanism': 4, None: 58, 'effect': 6, 'int': 14}
+diazepam : {None: 78, 'advise': 1}
+loratadine : {None: 78}
+anesthetics : {None: 75, 'advise': 2, 'effect': 1}
+antacids : {'mechanism': 6, None: 70, 'effect': 1}
+chloramphenicol : {None: 74}
+include : {'mechanism': 5, None: 3, 'effect': 65}
+theophylline : {'mechanism': 1, None: 69, 'advise': 1, 'effect': 1}
+null : {None: 71}
+drug : {None: 54, 'effect': 16}
+increases : {'mechanism': 10, None: 55, 'effect': 3}
+produced : {'mechanism': 11, None: 50, 'effect': 5}
+ketoprofen : {None: 64, 'advise': 2}
+itraconazole : {'mechanism': 2, None: 64}
+furosemide : {'mechanism': 2, None: 62, 'advise': 1, 'effect': 1}
+receiving : {'mechanism': 4, None: 28, 'advise': 10, 'effect': 23}
+propranolol : {None: 64}
+be : {None: 49, 'advise': 8, 'effect': 7}
+aspirin : {'mechanism': 1, None: 53, 'advise': 2, 'effect': 7}
+antagonists : {'mechanism': 1, None: 54, 'effect': 7}
+administered : {'mechanism': 3, None: 35, 'advise': 5, 'effect': 19}
+Coadministration : {'mechanism': 11, None: 45, 'advise': 1, 'effect': 5}
+acetaminophen : {None: 59, 'effect': 2}
+isoniazid : {'mechanism': 1, None: 57, 'advise': 1, 'effect': 1}
+amiodarone : {'mechanism': 1, None: 56, 'effect': 2}
+estrogens : {None: 58}
+phenylbutazone : {None: 57}
+thiazides : {None: 47, 'effect': 9}
+received : {None: 56}
+inhibits : {'mechanism': 16, None: 36, 'effect': 3}
+will : {'mechanism': 9, None: 40, 'advise': 3, 'effect': 2}
+suggest : {None: 41, 'effect': 3, 'int': 10}
+antipsychotics : {None: 53, 'effect': 1}
+clarithromycin : {None: 52, 'advise': 1}
+anticonvulsants : {None: 53}
+indicate : {'mechanism': 3, None: 49}
+concentrations : {'mechanism': 4, None: 46, 'advise': 1, 'effect': 1}
+showed : {'mechanism': 1, None: 50}
+depressants : {None: 50, 'effect': 1}
+phenobarbital : {None: 49, 'effect': 1}
+diclofenac : {None: 49, 'effect': 1}
+taking : {None: 21, 'advise': 13, 'effect': 15}
+of : {'mechanism': 4, None: 44, 'advise': 1}
+Drugs : {'mechanism': 21, None: 27, 'effect': 1}
+contraceptives : {None: 48}
+causes : {'mechanism': 8, None: 40}
+nifedipine : {None: 46, 'effect': 1}
+glycosides : {None: 47}
+Antacids : {None: 47}
+intraconazole : {None: 46}
+opioids : {None: 45}
+beta-blockers : {None: 44, 'advise': 1}
+lithium : {'mechanism': 4, None: 38, 'effect': 2}
+indomethacin : {'mechanism': 3, None: 38, 'advise': 2, 'effect': 1}
+analgesics : {None: 42, 'effect': 2}
+Probenecid : {'mechanism': 1, None: 43}
+verapamil : {'mechanism': 2, None: 39, 'effect': 2}
+levels : {'mechanism': 5, None: 37, 'effect': 1}
+including : {None: 42, 'effect': 1}
+given : {'mechanism': 3, None: 35, 'advise': 3, 'effect': 2}
+rifampin : {'mechanism': 6, None: 36}
+magnesium : {None: 40, 'effect': 2}
+indinavir : {'mechanism': 2, None: 40}
+clindamycin : {None: 38, 'effect': 3, 'int': 1}
+morphine : {None: 41}
+coadministration : {'mechanism': 3, None: 36, 'advise': 1, 'effect': 1}
+supplements : {'mechanism': 1, None: 32, 'effect': 3, 'int': 4}
+lovastatin : {None: 38, 'advise': 2}
+glyburide : {None: 39, 'int': 1}
+Co-administration : {'mechanism': 3, None: 33, 'effect': 4}
+ritonavir : {'mechanism': 1, None: 38}
+chlordiazepoxide : {None: 39}
+vancomycin : {None: 38}
+Cholestyramine : {None: 38}
+salicylate : {None: 37}
+miconazole : {None: 33, 'effect': 3, 'int': 1}
+compounds : {'mechanism': 1, None: 36}
+ampicillin : {None: 37}
+terfenadine : {'mechanism': 2, None: 31, 'advise': 1, 'effect': 2}
+felbamate : {'mechanism': 1, None: 35}
+doxycycline : {None: 36}
+chlorpropamide : {None: 36}
+increase : {'mechanism': 5, None: 22, 'advise': 2, 'effect': 6}
+enflurane : {'mechanism': 2, None: 33}
+intake : {None: 33, 'effect': 1}
+dicumarol : {None: 34}
+by : {None: 34}
+Use : {None: 29, 'effect': 5}
+studies : {None: 33}
+Ketoconazole : {None: 32, 'int': 1}
+propafenone : {'mechanism': 1, None: 31}
+midazolam : {None: 32}
+mg : {'mechanism': 4, None: 23, 'effect': 5}
+medication : {None: 32}
+lidocaine : {None: 32}
+levodopa : {None: 32}
+tablets : {'mechanism': 1, None: 28, 'advise': 1, 'effect': 1}
+reduced : {'mechanism': 7, None: 20, 'effect': 4}
+hydrochlorothiazide : {None: 31}
+disopyramide : {None: 31}
+cyclophosphamide : {None: 31}
+ethosuximide : {None: 30}
+doxorubicin : {None: 30}
+decrease : {'mechanism': 3, None: 26, 'effect': 1}
+would : {'mechanism': 3, None: 22, 'effect': 4}
+tacrolimus : {'mechanism': 3, None: 23, 'advise': 2}
+sodium : {None: 24, 'advise': 2, 'effect': 2}
+or : {'mechanism': 1, None: 24, 'advise': 3}
+clofibrate : {None: 28}
+salicylates : {None: 27}
+products : {None: 25, 'effect': 2}
+methotrexate : {'mechanism': 1, None: 24, 'advise': 1, 'effect': 1}
+disulfiram : {None: 26, 'effect': 1}
+astemizole : {None: 24, 'advise': 3}
+antihistamines : {None: 24, 'effect': 3}
+alfentanil : {None: 26, 'advise': 1}
+used : {'mechanism': 1, None: 21, 'advise': 2, 'effect': 2}
+might : {'mechanism': 2, None: 15, 'effect': 9}
+doses : {'mechanism': 2, None: 23, 'effect': 1}
+Aprepitant : {'mechanism': 6, None: 20}
+Administration : {'mechanism': 3, None: 11, 'advise': 2, 'effect': 10}
+sulfonamides : {None: 24, 'effect': 1}
+probenecid : {'mechanism': 5, None: 19, 'advise': 1}
+nevirapine : {'mechanism': 2, None: 21, 'effect': 1, 'int': 1}
+haloperidol : {'mechanism': 1, None: 24}
+fluvoxamine : {'mechanism': 1, None: 16, 'advise': 7, 'int': 1}
+dose : {'mechanism': 1, None: 14, 'advise': 4, 'effect': 6}
+demonstrated : {'mechanism': 4, None: 21}
+coadministered : {'mechanism': 5, None: 7, 'advise': 12, 'effect': 1}
+caused : {'mechanism': 4, None: 16, 'effect': 5}
+bupropion : {'mechanism': 3, None: 15, 'advise': 7}
+benzodiazepines : {None: 25}
+that : {'mechanism': 5, None: 14, 'advise': 2, 'effect': 3}
+narcotics : {None: 24}
+diltiazem : {'mechanism': 4, None: 18, 'advise': 1, 'int': 1}
+atenolol : {None: 24}
+Fondaparinux : {None: 24}
+Anticoagulants : {None: 23, 'effect': 1}
+valproate : {'mechanism': 1, None: 22}
+phenelzine : {None: 23}
+on : {None: 23}
+monoamine : {None: 14, 'effect': 9}
+halothane : {None: 23}
+fluconazole : {'mechanism': 1, None: 21, 'int': 1}
+co-administration : {'mechanism': 1, None: 12, 'advise': 10}
+cisapride : {'mechanism': 1, None: 20, 'advise': 1, 'effect': 1}
+azathioprine : {None: 22, 'advise': 1}
+aluminum : {None: 23}
+acyclovir : {None: 23}
+sedatives : {None: 22}
+metabolism : {'mechanism': 4, None: 18}
+heparin : {None: 22}
+guanethidine : {None: 22}
+gold : {None: 22}
+Lithium : {None: 20, 'advise': 2}
+trimethoprim : {None: 21}
+sulfamethoxazole-trimethoprim : {None: 21}
+sucralfate : {None: 21}
+quinolones : {'mechanism': 8, None: 10, 'effect': 3}
+paraldehyde : {None: 21}
+nabumetone : {None: 21}
+methsuximide : {None: 21}
+medications : {None: 11, 'advise': 9, 'effect': 1}
+lorazepam : {None: 21}
+interfere : {'mechanism': 2, None: 19}
+index : {None: 21}
+if : {None: 21}
+hypnotics : {None: 21}
+etodolac : {None: 21}
+dapsone : {None: 20, 'advise': 1}
+could : {'mechanism': 2, None: 13, 'effect': 6}
+cholestyramine : {'mechanism': 7, None: 14}
+androgens : {None: 21}
+analogues : {'mechanism': 2, None: 18, 'effect': 1}
+Anticonvulsants : {'mechanism': 12, None: 9}
+treated : {None: 18, 'advise': 1, 'effect': 1}
+reduces : {'mechanism': 4, None: 15, 'effect': 1}
+reduce : {'mechanism': 5, None: 14, 'effect': 1}
+occurred : {'mechanism': 2, None: 17, 'effect': 1}
+efavirenz : {None: 19, 'advise': 1}
+dopamine : {None: 17, 'effect': 3}
+ciprofloxacin : {'mechanism': 2, None: 15, 'advise': 1, 'effect': 2}
+cetirizine : {'mechanism': 1, None: 19}
+bromocriptine : {None: 19, 'advise': 1}
+aminoglutethimide : {None: 20}
+tranquilizers : {None: 18, 'effect': 1}
+quinolone : {'mechanism': 17, None: 2}
+procainamide : {None: 19}
+methyldopa : {None: 18, 'effect': 1}
+iron : {None: 19}
+antiarrhythmics : {None: 18, 'advise': 1}
+alprazolam : {None: 17, 'int': 2}
+added : {'mechanism': 1, None: 13, 'advise': 2, 'effect': 3}
+thinners : {None: 18}
+sertraline : {None: 18}
+response : {None: 7, 'effect': 11}
+nitrates : {None: 18}
+isocarboxazid : {None: 18}
+inhibit : {'mechanism': 7, None: 5, 'effect': 6}
+hexobarbital : {None: 18}
+cisplatin : {'mechanism': 1, None: 16, 'effect': 1}
+bronchodilators : {None: 15, 'effect': 3}
+basis : {None: 18}
+aminoglycosides : {None: 18}
+Theophylline : {None: 18}
+SSRIs : {None: 18}
+Digoxin : {None: 18}
+Agents : {None: 18}
+tolbutamide : {None: 17}
+quantities : {None: 17}
+paroxetine : {None: 17}
+muscle : {None: 17}
+methylprednisolone : {None: 17}
+gallamine : {None: 11, 'effect': 6}
+elimination : {None: 17}
+diphenhydramine : {None: 17}
+clozapine : {None: 9, 'advise': 8}
+azithromycin : {None: 16, 'advise': 1}
+appeared : {'mechanism': 1, None: 14, 'effect': 2}
+amitriptyline : {None: 17}
+Cimetidine : {'mechanism': 2, None: 15}
+Antibiotics : {None: 17}
+produces : {'mechanism': 1, None: 5, 'effect': 10}
+interferes : {'mechanism': 10, None: 4, 'effect': 2}
+indicated : {None: 12, 'advise': 4}
+fentanyl : {'mechanism': 3, None: 12, 'advise': 1}
+dexamethasone : {'mechanism': 2, None: 14}
+clearance : {'mechanism': 5, None: 11}
+captopril : {None: 16}
+Rifampin : {None: 15, 'int': 1}
+Cyclosporine : {None: 16}
+Alcohol : {None: 15, 'effect': 1}
+triazolam : {'mechanism': 1, None: 14}
+therapy : {None: 13, 'advise': 1, 'effect': 1}
+sirolimus : {None: 14, 'advise': 1}
+rifabutin : {None: 14, 'advise': 1}
+pyrazolones : {None: 15}
+pharmacokinetics : {'mechanism': 1, None: 14}
+nortriptyline : {None: 15}
+inhibitor : {'mechanism': 1, None: 11, 'effect': 3}
+glucocorticoids : {None: 15}
+fluphenazine : {None: 14, 'effect': 1}
+estradiol : {None: 15}
+enhances : {'mechanism': 2, None: 10, 'effect': 3}
+enhance : {None: 10, 'effect': 5}
+decreases : {'mechanism': 3, None: 12}
+containing : {'mechanism': 1, None: 6, 'effect': 8}
+chlorpromazine : {None: 15}
+chloroquine : {None: 15}
+celecoxib : {None: 15}
+antipyrine : {None: 15}
+NSAIDs : {None: 13, 'advise': 1, 'effect': 1}
+Carbamazepine : {None: 15}
+Antihypertensives : {None: 15}
+reported : {None: 12, 'effect': 2}
+preparations : {None: 14}
+polymyxins : {None: 14}
+ondansetron : {None: 14}
+nicotine : {'mechanism': 2, None: 11, 'effect': 1}
+niacin : {None: 14}
+nelfinavir : {None: 13, 'effect': 1}
+flecainide : {None: 14}
+ergotamine : {None: 14}
+citalopram : {None: 14}
+VIRACEPT : {None: 13, 'advise': 1}
+Phenytoin : {None: 14}
+Acetaminophen : {'mechanism': 1, None: 13}
+selegiline : {None: 12, 'effect': 1}
+saquinavir : {None: 13}
+resins : {None: 13}
+relaxants : {None: 13}
+pentazocine : {None: 12, 'effect': 1}
+penicillin : {None: 13}
+isoflurane : {None: 13}
+insulin : {None: 12, 'effect': 1}
+hydralazine : {None: 13}
+glutethimide : {None: 13}
+g. : {None: 13}
+digitalis : {None: 13}
+contraceptive : {None: 11, 'advise': 2}
+carboxymethylcellulose : {None: 13}
+caffeine : {'mechanism': 3, None: 10}
+asparaginase : {None: 13}
+allopurinol : {'mechanism': 1, None: 9, 'effect': 3}
+absorption : {'mechanism': 6, None: 7}
+Warfarin : {'mechanism': 2, None: 11}
+Levothyroxine_Sodium_Absorption : {'mechanism': 6, None: 7}
+Fluconazole : {None: 13}
+Cephalosporins-Cephalosporins : {None: 13}
+B : {None: 12, 'effect': 1}
+Antihistamines : {None: 13}
+treatment : {None: 9, 'advise': 3}
+tell : {'advise': 12}
+quinine : {None: 12}
+propofol : {None: 12}
+produce : {'effect': 12}
+prednisone : {None: 12}
+potentiated : {None: 8, 'effect': 4}
+pimozide : {None: 11, 'advise': 1}
+methadone : {None: 12}
+lamotrigine : {None: 12}
+hydrate : {None: 11, 'int': 1}
+do : {None: 12}
+didanosine : {None: 12}
+coumarin : {'mechanism': 1, None: 11}
+combination : {'mechanism': 1, None: 11}
+calcium : {None: 12}
+atropine : {None: 10, 'advise': 1, 'effect': 1}
+amprenavir : {'mechanism': 1, None: 11}
+alkaloids : {None: 12}
+a-blockers : {None: 12}
+Nervous_System_Depressants : {None: 12}
+Amprenavir : {'mechanism': 3, None: 6, 'advise': 1, 'effect': 2}
+Amiodarone : {None: 12}
+vincristine : {None: 11}
+to : {None: 11}
+sulfate : {None: 11}
+rifampicin : {'mechanism': 1, None: 8, 'effect': 2}
+requires : {None: 9, 'advise': 2}
+must : {None: 3, 'advise': 8}
+mirtazapine : {None: 11}
+metoclopramide : {None: 11}
+methylxanthines : {None: 11}
+ketamine : {None: 10, 'int': 1}
+inhibited : {'mechanism': 2, None: 3, 'effect': 6}
+in : {None: 9, 'effect': 2}
+ibogaine : {None: 7, 'effect': 4}
+hydrochloride : {'mechanism': 3, None: 6, 'effect': 2}
+griseofulvin : {None: 11}
+famotidine : {None: 11}
+ethanol : {None: 11}
+epinephrine : {None: 11}
+diflunisal : {'mechanism': 2, None: 4, 'advise': 1, 'effect': 4}
+atazanavir : {None: 11}
+after : {'mechanism': 3, None: 8}
+addition : {'mechanism': 3, None: 6, 'effect': 2}
+TAXOL : {None: 11}
+Phenobarbital : {'mechanism': 1, None: 10}
+HIV_Protease_Inhibitors : {'mechanism': 1, None: 10}
+Effects : {None: 11}
+Benzodiazepines : {None: 11}
+Aspirin : {None: 11}
+vasodilators : {None: 10}
+toxicity : {None: 8, 'effect': 2}
+study : {None: 9, 'effect': 1}
+solutions : {None: 10}
+regimen : {None: 9, 'advise': 1}
+procarbazine : {None: 10}
+procaine : {None: 10}
+phosphate : {'mechanism': 6, None: 4}
+methylphenidate : {None: 10}
+metformin : {None: 10}
+mean : {None: 10}
+isosorbide : {None: 10}
+imipramine : {None: 10}
+ethionamide : {None: 10}
+entacapone : {None: 10}
+dipyridamole : {None: 10}
+demonstrate : {None: 10}
+conduction : {None: 10}
+co-administered : {None: 3, 'advise': 6, 'effect': 1}
+antacid : {'mechanism': 1, None: 9}
+amlodipine : {None: 10}
+administering : {'advise': 10}
+Quinolones : {None: 10}
+LODOSYN : {None: 10}
+Ketoconazole_Erythromycin_Clarithromycin_Telithromycin_HIV : {None: 10}
+Corticosteroids : {None: 10}
+voriconazole : {None: 9}
+valsartan : {None: 9}
+using : {None: 5, 'advise': 1, 'effect': 3}
+temazepam : {'mechanism': 2, None: 7}
+sympathomimetics : {None: 9}
+somatropin : {None: 9}
+reserpine : {None: 9}
+removes : {None: 4, 'effect': 5}
+prednisolone : {None: 9}
+potentiates : {None: 1, 'effect': 8}
+phenothiazine : {None: 9}
+norethindrone : {None: 9}
+levothyroxine : {None: 9}
+leads : {'mechanism': 2, None: 7}
+indicates : {None: 9}
+fibrates : {None: 9}
+dihydroergotamine : {None: 9}
+dextran : {None: 9}
+desipramine : {None: 6, 'effect': 3}
+concentration : {None: 9}
+channel : {None: 9}
+cefazolin : {None: 9}
+cause : {None: 9}
+anxiolytics : {None: 9}
+VISTIDE : {'advise': 9}
+Sucralfate : {None: 9}
+Didanosine : {None: 9}
+Argatroban : {None: 8, 'effect': 1}
+Antiarrhythmics : {None: 9}
+Antagonists : {None: 9}
+zalcitabine : {'mechanism': 1, None: 2, 'advise': 4, 'effect': 1}
+spironolactone : {None: 8}
+shown : {'mechanism': 1, None: 7}
+show : {'mechanism': 2, None: 6}
+reduction : {'mechanism': 2, None: 2, 'advise': 4}
+propoxyphene : {None: 8}
+pravastatin : {None: 8}
+observed : {None: 5, 'effect': 3}
+metronidazole : {None: 8}
+metoprolol : {None: 8}
+medicine : {None: 8}
+inducers : {None: 8}
+improves : {None: 8}
+hormones : {None: 8}
+fenofibrate : {'mechanism': 4, None: 3, 'advise': 1}
+exhibited : {None: 7, 'effect': 1}
+digitoxin : {None: 8}
+derivatives : {None: 5, 'effect': 3}
+coumaphos : {None: 8}
+class : {None: 8}
+beta-blocker : {None: 8}
+bepridil : {None: 8}
+alpha-blockers : {None: 8}
+affects : {None: 8}
+Vitamin : {None: 8}
+Supplements : {None: 8}
+SUSTIVA : {None: 7, 'effect': 1}
+Requirements : {None: 8}
+Itraconazole : {'mechanism': 1, None: 2, 'advise': 3, 'effect': 2}
+INDOCIN : {'mechanism': 1, None: 2, 'advise': 3, 'effect': 2}
+Fluoxetine : {None: 8}
+Coingestion : {None: 8}
+Coadministration_of_VIRACEPT : {'mechanism': 1, None: 7}
+Bezalip : {None: 7, 'effect': 1}
+works : {None: 7}
+verografin : {None: 7}
+trichlorfon : {None: 7}
+tests : {None: 7}
+taken : {'mechanism': 3, None: 3, 'effect': 1}
+suppression : {None: 7}
+steroids : {None: 7}
+resin : {None: 7}
+pyrilamine : {None: 7}
+noted : {None: 6, 'effect': 1}
+methandrostenolone : {None: 7}
+lamivudine : {None: 7}
+iodine-containing : {None: 7}
+interactions : {None: 7}
+induce : {'mechanism': 3, None: 4}
+imatinib : {None: 7}
+hypoglycemics : {None: 7}
+hydroxides : {None: 7}
+exposure : {'mechanism': 1, None: 6}
+exists : {None: 7}
+diazoxide : {None: 7}
+depression : {None: 6, 'effect': 1}
+clonidine : {None: 5, 'effect': 2}
+clonazepam : {None: 7}
+cilexetil : {None: 7}
+cephalosporins : {'effect': 7}
+cefoperazone : {None: 7}
+butorphanol : {None: 2, 'effect': 5}
+azoles : {None: 7}
+amylase : {None: 7}
+amantadine : {None: 7}
+VIOXX : {None: 4, 'advise': 2, 'effect': 1}
+Uricosuric_Agents : {None: 7}
+TORADOL : {None: 3, 'advise': 1, 'effect': 3}
+Since : {None: 5, 'int': 2}
+Niacin : {None: 7}
+NON-NARCOTIC_ANALGESICS_AND_BARBITURATES : {None: 5, 'effect': 2}
+Methotrexate : {None: 7}
+Magnesium : {None: 7}
+MAOI : {None: 7}
+In : {'mechanism': 1, None: 6}
+Erythromycin : {None: 7}
+Dihydropyridine : {None: 7}
+Contraceptives : {None: 7}
+Codeine : {'effect': 7}
+Because : {'mechanism': 2, None: 3, 'effect': 2}
+Antifungals : {None: 7}
+Amphotericin_B : {None: 7}
+; : {None: 7}
+vardenafil : {'mechanism': 1, None: 5}
+under-dosage : {None: 6}
+triamterene : {None: 6}
+tranylcypromine : {None: 6}
+tetracycline : {None: 4, 'effect': 2}
+subsalicylate : {'mechanism': 1, None: 5}
+sildenafil : {None: 6}
+sedative-hypnotics : {None: 5, 'effect': 1}
+reveal : {'effect': 6}
+resorcinol : {None: 6}
+pseudoephedrine : {None: 6}
+propanolol : {None: 6}
+prolongs : {'mechanism': 1, None: 2, 'effect': 3}
+prolong : {None: 1, 'effect': 5}
+others : {None: 6}
+nizatidine : {None: 6}
+neurotensin : {None: 3, 'effect': 3}
+multivitamins : {None: 6}
+modify : {None: 2, 'effect': 4}
+mercaptopurine : {None: 6}
+meperidine : {None: 6}
+iodoquinol : {None: 6}
+investigated : {None: 6}
+initiated : {'mechanism': 1, None: 4, 'advise': 1}
+granisetron : {None: 6}
+excretion : {'mechanism': 1, None: 5}
+eplerenone : {'mechanism': 4, None: 2}
+discontinuing : {None: 4, 'advise': 1, 'effect': 1}
+d-amphetamine : {'mechanism': 6}
+corticotropin : {None: 6}
+cocaine : {None: 6}
+chlorthalidone : {None: 6}
+carvedilol : {None: 6}
+bombesin : {None: 6}
+blunts : {'mechanism': 1, None: 3, 'effect': 2}
+bishydroxycoumarin : {None: 6}
+binds : {'mechanism': 2, None: 4}
+attenuates : {None: 2, 'effect': 4}
+appears : {'mechanism': 1, None: 5}
+antimuscarinics : {None: 6}
+antagonized : {None: 2, 'effect': 4}
+acetate : {None: 6}
+ZYVOX : {'advise': 1, 'effect': 5}
+WELLBUTRIN : {'advise': 4, 'int': 2}
+Sedatives : {None: 6}
+Paroxetine : {None: 6}
+Ophthalmic_Solution : {'advise': 6}
+Hydrochlorothiazide : {None: 4, 'advise': 1, 'effect': 1}
+Effect : {None: 6}
+Diclofenac : {None: 6}
+Chlorpromazine : {None: 6}
+Atorvastatin : {'mechanism': 2, None: 4}
+Although : {None: 6}
+Agenerase : {None: 6}
+ALPHAGAN_P : {'advise': 6}
+zidovudine : {None: 5}
+zaleplon : {'mechanism': 1, None: 4}
+wshow : {None: 5}
+vitamins : {None: 5}
+vaccines : {None: 5}
+tetracyclines : {None: 2, 'advise': 1, 'effect': 2}
+take : {'mechanism': 1, None: 1, 'advise': 3}
+sulindac : {None: 5}
+sulfisoxazole : {None: 5}
+sulfinpyrazone : {None: 5}
+substrates : {None: 5}
+substrate : {'mechanism': 1, None: 4}
+since : {None: 4, 'effect': 1}
+simethicone : {'mechanism': 1, None: 4}
+proved : {None: 5}
+protamine : {None: 5}
+prochlorperazine : {None: 5}
+pill : {None: 5}
+oxcarbazepine : {None: 5}
+opiates : {None: 5}
+omeprazole : {None: 5}
+nisoldipine : {None: 5}
+mycophenolate : {None: 5}
+lowered : {'mechanism': 1, None: 4}
+loop : {None: 5}
+involvement : {None: 5}
+interaction : {None: 3, 'effect': 1, 'int': 1}
+influenced : {None: 5}
+influence : {None: 5}
+improved : {None: 5}
+impairs : {None: 5}
+hydroxide : {None: 5}
+glucose : {None: 5}
+gabapentin : {'mechanism': 2, None: 3}
+fluorescein : {None: 5}
+felodipine : {None: 5}
+failed : {None: 4, 'effect': 1}
+ethchlorvynol : {None: 5}
+estazolam : {'mechanism': 5}
+escitalopram : {None: 5}
+enalapril : {None: 5}
+elevated : {None: 5}
+decongestants : {None: 4, 'advise': 1}
+cyclosporin : {None: 5}
+competes : {'mechanism': 1, None: 4}
+cefmenoxime : {None: 5}
+cefdinir : {'mechanism': 3, None: 2}
+capsules : {'mechanism': 3, None: 2}
+butyrophenones : {None: 5}
+between : {None: 5}
+beta-endorphin : {None: 5}
+benzodiazepine : {None: 5}
+bacitracin : {None: 5}
+augmented : {None: 3, 'effect': 2}
+aripiprazole : {'mechanism': 1, None: 4}
+anakinra : {None: 3, 'effect': 2}
+amphotericin : {None: 1, 'effect': 4}
+aminoglycoside : {'mechanism': 1, None: 1, 'effect': 3}
+activities : {None: 5}
+action : {None: 1, 'effect': 4}
+acitretin : {'mechanism': 1, None: 3, 'effect': 1}
+acebutolol : {None: 5}
+TMP : {None: 5}
+Patients : {None: 4, 'advise': 1}
+Metoclopramide : {'mechanism': 1, None: 4}
+May : {None: 5}
+Isoflurane : {None: 5}
+INVIRASE : {None: 5}
+Hypoglycemics : {None: 5}
+HMG-CoA_Reductase_Inhibitors : {None: 5}
+Glyburide : {None: 5}
+Diuretics : {None: 5}
+Dilantin : {None: 5}
+Derivatives : {None: 5}
+Decreasing_Heparin_Effect : {None: 5}
+DCG-IV : {None: 5}
+Cytokines : {None: 5}
+Crixivan : {None: 5}
+Cisplatin : {None: 5}
+CYP1A2 : {None: 5}
+Bacteriostatic_Antibiotics : {None: 5}
+BREVIBLOC : {None: 4, 'advise': 1}
+Azole_Antifungals : {None: 5}
+Antidepressants : {None: 5}
+Anti-inflammatory_Drugs : {None: 5}
+Amphetamines : {None: 5}
+weeks : {None: 4}
+troleandomycin : {'mechanism': 1, None: 3}
+triple : {None: 4}
+thioridazine : {None: 4}
+supplementation : {None: 4}
+sulphonylureas : {None: 4}
+sulfonylureas : {None: 4}
+sulfasalazine : {None: 3, 'effect': 1}
+suggests : {'int': 4}
+suggesting : {None: 4}
+simvastatin : {None: 3, 'effect': 1}
+sevoflurane : {None: 4}
+risperidone : {None: 4}
+recommended : {'advise': 3, 'effect': 1}
+ranitidine : {None: 4}
+ramipril : {None: 4}
+profound : {None: 4}
+prevent : {None: 4}
+not_found : {None: 4}
+norfloxacin : {None: 2, 'effect': 2}
+norepinephrine : {None: 4}
+noradrenaline : {None: 4}
+naloxone : {None: 2, 'effect': 2}
+naftate : {None: 4}
+nafcillin : {None: 4}
+mixed : {None: 4}
+min : {None: 4}
+metamizol : {None: 4}
+metabolite : {None: 4}
+maintained : {None: 2, 'advise': 1, 'effect': 1}
+levofloxacin : {None: 4}
+injection : {'mechanism': 2, 'advise': 1, 'effect': 1}
+glucagon : {None: 4}
+found : {None: 4}
+following : {None: 3, 'effect': 1}
+flurbiprofen : {None: 2, 'advise': 2}
+evaluated : {None: 4}
+elevation : {None: 4}
+elevate : {None: 4}
+droperidol : {None: 4}
+dosage : {None: 4}
+dexmedetomidine : {None: 4}
+derive : {None: 4}
+debrisoquin : {None: 4}
+dantrolene : {None: 4}
+dalfopristin : {None: 4}
+combining : {None: 1, 'advise': 3}
+clobazam : {None: 4}
+changes : {None: 4}
+cephalexin : {'mechanism': 2, None: 1, 'advise': 1}
+beyond : {None: 4}
+betablockers : {None: 4}
+becausedecreases : {None: 4}
+attenuated : {None: 2, 'effect': 2}
+antibiotic : {None: 4}
+acting : {None: 2, 'advise': 2}
+Valproate : {None: 4}
+Thiazides : {None: 4}
+Simvastatin : {None: 4}
+Saquinavir : {None: 4}
+SSRI-TCA : {'effect': 1, 'int': 3}
+R-warfarin : {None: 4}
+Propoxyphene : {None: 4}
+PEGASYS : {None: 4}
+Norepinephrine : {None: 4}
+Nevirapine : {None: 2, 'advise': 2}
+Naproxen : {None: 4}
+Midazolam : {None: 4}
+Meperidine : {None: 4}
+MTX : {None: 4}
+MAY : {None: 4}
+MAO_Inhibitors : {None: 4}
+II : {None: 4}
+I : {None: 4}
+Haloperidol : {None: 4}
+HEXALEN : {None: 2, 'effect': 2}
+HCTZ : {None: 4}
+Glibenclamide : {None: 4}
+Furosemide : {None: 4}
+Fortovase : {None: 4}
+Ethosuximide : {None: 4}
+Estazolam : {None: 4}
+Diltiazem : {None: 4}
+Digitalis : {None: 3, 'effect': 1}
+Dicumarol : {None: 4}
+Diazepam : {None: 3, 'effect': 1}
+Compounds : {'effect': 4}
+Chloramphenicol : {None: 3, 'effect': 1}
+Arginine : {None: 4}
+Antimycobacterial_Agents : {None: 4}
+Anti-inflammatory_Agents : {None: 4}
+Anesthetics : {None: 4}
+Allopurinol : {None: 4}
+undergoing : {'effect': 3}
+treatments : {None: 3}
+toxin : {None: 3}
+thiazolidinediones : {None: 3}
+terodiline : {None: 3}
+tended : {None: 2, 'effect': 1}
+supplement : {None: 3}
+sulfur : {None: 3}
+succinylcholine : {None: 3}
+succinimides : {None: 3}
+stavudine : {None: 3}
+rifapentine : {None: 3}
+rifadin : {None: 3}
+revealed : {None: 3}
+require : {None: 3}
+regimens : {None: 2, 'effect': 1}
+reaction : {None: 3}
+rats : {'mechanism': 1, None: 2}
+progesterone : {None: 3}
+potentiate : {None: 1, 'effect': 2}
+potassium-sparing : {None: 3}
+perphenazine : {None: 3}
+patients : {None: 2, 'effect': 1}
+pancuronium : {None: 3}
+palliates : {None: 3}
+oxyphenbutazone : {'mechanism': 2, None: 1}
+oxacillin : {None: 3}
+overdose : {None: 3}
+nitrofurantoin : {'mechanism': 2, None: 1}
+nalbuphine : {None: 3}
+modifies : {'mechanism': 2, None: 1}
+lopinavir : {None: 3}
+lomefloxacin : {None: 3}
+levobupivacaine : {None: 3}
+lead : {None: 3}
+latamoxef : {None: 3}
+juice : {None: 3}
+irinotecan/5-FU/leucovorin : {None: 3}
+involving : {None: 3}
+initiation : {None: 3}
+initiating : {'advise': 3}
+included : {None: 3}
+iloprost : {None: 3}
+guanadrel : {None: 3}
+fosphenytoin : {None: 3}
+fosinoprilat : {None: 3}
+formulation : {'mechanism': 1, None: 2}
+for : {None: 3}
+fell : {'mechanism': 1, None: 2}
+everolimus : {None: 3}
+ethambutol : {None: 2, 'advise': 1}
+estrogen-containing : {None: 3}
+erythromycins : {None: 2, 'effect': 1}
+ergonovine : {None: 3}
+enoximone : {None: 3}
+enoxacin : {None: 2, 'effect': 1}
+enkephalins : {None: 3}
+dosed : {None: 3}
+discontinuation : {None: 1, 'advise': 1, 'effect': 1}
+dextrothyroxine : {None: 3}
+delavirdine : {None: 3}
+deficiency : {None: 3}
+dacarbazine : {None: 3}
+conversion : {None: 3}
+contains : {None: 3}
+contain : {'advise': 3}
+codeine : {None: 3}
+catecholamines : {None: 3}
+carbonate : {None: 3}
+calcium-channel-blocking : {None: 3}
+bumetanide : {None: 2, 'advise': 1}
+budesonide : {None: 3}
+bind : {'mechanism': 2, None: 1}
+beta-adrenoceptor : {'effect': 3}
+before : {None: 3}
+atracurium : {'effect': 3}
+antivirals : {None: 3}
+anesthetic : {None: 3}
+anesthesia : {'effect': 3}
+aminophylline : {None: 3}
+aluminum-containing : {None: 3}
+altered : {None: 3}
+alosetron : {None: 1, 'advise': 2}
+affected : {None: 3}
+adjustment : {None: 3}
+acts : {'mechanism': 2, None: 1}
+activity : {None: 3}
+abuse : {None: 3}
+Vasopressors : {None: 3}
+Vardenafil : {None: 1, 'advise': 2}
+Trileptal : {None: 3}
+Triazolam : {None: 3}
+Treatment : {None: 3}
+Theobromine_Grepafloxacin : {None: 3}
+Tegretol : {None: 3}
+TIKOSYN : {None: 3}
+THE_POTENTIATING_ACTION_OF_HYDROXYZINE_MUST_BE_CONSIDERED_WHEN_THE_DRUG_IS_USED_IN_CONJUNCTION_WITH_CENTRAL_NERVOUS_SYSTEM_DEPRESSANTS_SUCH_AS_NARCOTICS : {None: 1, 'effect': 2}
+TAMBOCOR : {'mechanism': 1, None: 1, 'effect': 1}
+Studies : {None: 3}
+STADOL_NS : {None: 3}
+Rofecoxib : {None: 3}
+Rifampicin : {None: 3}
+Rifabutin : {None: 3}
+REVIA : {'effect': 3}
+Quinidine : {None: 3}
+Propranolol : {None: 2, 'effect': 1}
+Phenytoin_Keppra : {None: 3}
+Phenobarbitol : {None: 3}
+Phenobarbital_Carbamazepine : {None: 3}
+NSAIDS : {None: 3}
+Monoamine_Oxidase_Inhibitors : {None: 3}
+Methotrexate_There : {None: 3}
+Methadone : {None: 3}
+Metabolism : {None: 3}
+Lodine : {None: 2, 'advise': 1}
+Lamivudine : {None: 2, 'effect': 1}
+L-glutamine : {'mechanism': 1, 'effect': 2}
+L-arginine : {None: 3}
+Invirase : {None: 3}
+Influence : {None: 3}
+Imitrex : {None: 3}
+If : {None: 2, 'advise': 1}
+However : {'mechanism': 2, None: 1}
+Glucose : {None: 3}
+GI_Motility_Agents_Anti-Migraine_Antifungal : {None: 3}
+Flurbiprofen : {None: 3}
+Fibric_Acid_Derivatives : {None: 3}
+Fentanyl : {None: 3}
+FACTIVE : {'mechanism': 3}
+Estrogens : {None: 3}
+Enalapril : {None: 2, 'effect': 1}
+EGF : {None: 3}
+DynaCirc : {None: 3}
+Coadministration_of_Itraconazole : {'mechanism': 3}
+Co-administration_of_Trileptal : {'mechanism': 1, None: 2}
+Clozapine : {None: 2, 'advise': 1}
+Calcitriol : {None: 3}
+Caffeine : {None: 2, 'effect': 1}
+CYP2C9 : {None: 3}
+Blockers : {None: 3}
+BASELINE_PHENYTOIN_SERUM_LEVEL_SHOULD_BE_OBTAINED : {None: 3}
+Astemizole : {None: 3}
+Antithrombotics_Aspirin : {None: 3}
+Antipyrine : {None: 3}
+Anticoagulants_CAUTION_SHOULD_BE_EXERCISED_WHEN_COUMARIN_ANTICOAGULANTS_ARE_GIVEN_IN_CONJUNCTION_WITH_TRICOR : {None: 2, 'advise': 1}
+Analogues_Didanosine_Co-administration_of_COPEGUS : {None: 2, 'advise': 1}
+Anakinra : {None: 3}
+Ampicillin : {None: 3}
+Aminoglycosides : {None: 3}
+Aminoglutethimide : {'mechanism': 1, None: 2}
+Acid : {None: 3}
+Acebutolol : {None: 3}
+Absorption : {None: 3}
+AED_AED_Felbatol : {None: 3}
+ACE_Inhibitors : {None: 3}
+3H-spiroperidol : {None: 3}
+2D3 : {None: 3}
+18-Methoxycoronaridine : {None: 3}
+125 : {None: 3}
+- : {None: 3}
++ : {None: 3}
+wthionamide : {None: 2}
+warned : {'advise': 2}
+vitamin : {None: 2}
+vinblastine : {None: 2}
+verografine : {None: 2}
+vasopressors : {None: 2}
+trovafloxacin : {None: 2}
+trimeprazine : {None: 2}
+tricyclics : {None: 2}
+triazolo-benzodiazepines : {None: 2}
+transferrin : {None: 2}
+thrombolytics : {None: 2}
+thiocyanate : {None: 2}
+terbinafine : {None: 2}
+system : {None: 2}
+syndrome : {None: 2}
+support : {None: 2}
+sulphenazole : {None: 2}
+sulfamethoxazole : {None: 2}
+strains : {None: 2}
+stopping : {'advise': 2}
+stimulated : {None: 1, 'effect': 1}
+stanozolol : {None: 2}
+side-effects : {None: 2}
+seen : {None: 2}
+sedative : {None: 2}
+secobarbital : {None: 2}
+result : {'advise': 1, 'effect': 1}
+responsiveness : {None: 2}
+reports : {None: 2}
+regulation : {None: 2}
+reflects : {None: 2}
+receive : {None: 2}
+rate : {'mechanism': 1, None: 1}
+pyrimethamine : {None: 2}
+provided : {'effect': 2}
+protriptyline : {None: 2}
+properties : {'advise': 1, 'effect': 1}
+promethazine : {None: 2}
+prolonged : {None: 2}
+progestogens : {None: 2}
+progestins : {None: 2}
+profiles : {None: 2}
+prevents : {'effect': 2}
+potent : {None: 2}
+potassium : {None: 2}
+piroxicam : {None: 2}
+piperazine : {'effect': 2}
+piperacillin : {None: 1, 'effect': 1}
+phenyltoloxamine : {None: 2}
+phenformin : {None: 2}
+phencyclidine : {None: 2}
+phenazepam : {None: 2}
+pharmacodynamics : {None: 2}
+perchlorate : {None: 2}
+penicillins : {None: 2}
+penicillamine : {None: 2}
+peginterferon : {None: 2}
+parameters : {None: 2}
+oxycodone : {None: 2}
+oxidation : {None: 2}
+olanzapine : {None: 2}
+occurs : {None: 2}
+non-potassium : {None: 2}
+ng : {None: 2}
+neutralized : {None: 2}
+neomycin : {None: 2}
+nefazodone : {None: 2}
+naproxen : {None: 1, 'advise': 1}
+mode : {None: 2}
+metrizamide : {None: 2}
+methanol : {None: 2}
+medicines : {None: 2}
+maintain : {None: 2}
+mL : {None: 2}
+live : {None: 2}
+life : {'mechanism': 1, None: 1}
+level : {None: 2}
+kaolin-pectin : {None: 2}
+interference : {None: 2}
+interact : {None: 1, 'int': 1}
+inhibition : {'mechanism': 1, None: 1}
+inhibiting : {None: 2}
+induced : {None: 2}
+hydroxylamine : {None: 2}
+hydoxide : {None: 2}
+hydantoins : {None: 2}
+grepafloxacin : {None: 2}
+glibenclamide : {None: 2}
+gentamicin : {None: 2}
+ganglionic : {None: 2}
+from : {None: 2}
+fosinopril : {None: 2}
+foscarnet : {None: 2}
+forms : {None: 2}
+fluvastatin : {None: 2}
+fenoprofen : {'mechanism': 1, None: 1}
+exposures : {None: 2}
+explain : {None: 2}
+experienced : {None: 2}
+experience : {None: 2}
+exercised : {None: 1, 'int': 1}
+evidence : {None: 2}
+events : {None: 2}
+esters : {None: 2}
+entecavir : {None: 2}
+employed : {None: 2}
+echistatin : {None: 2}
+during : {'mechanism': 1, None: 1}
+dolasetron : {None: 2}
+disulfiram-ethanol : {None: 2}
+dirithromycin : {None: 2}
+diminishes : {'effect': 2}
+diet : {'mechanism': 1, None: 1}
+dictate : {None: 2}
+depresses : {'mechanism': 1, 'effect': 1}
+consisted : {None: 2}
+concerning : {None: 2}
+colestipol : {'mechanism': 2}
+cobalt : {'mechanism': 1, None: 1}
+cis-platinum : {None: 2}
+chlortetracycline : {None: 2}
+chlorprothixene : {'advise': 2}
+chlorothiazide : {None: 1, 'advise': 1}
+charcoal : {'mechanism': 1, None: 1}
+changed : {None: 2}
+centrally : {'advise': 2}
+carbidopa-levodopa : {None: 2}
+buprenorphine : {'effect': 1, 'int': 1}
+bosentan : {None: 1, 'advise': 1}
+bleomycin : {None: 2}
+benzothiadiazines : {None: 2}
+been : {None: 2}
+averaged : {None: 2}
+augments : {'effect': 2}
+at : {None: 2}
+as : {None: 2}
+arsenate : {None: 2}
+arginine : {None: 2}
+approved : {'mechanism': 1, None: 1}
+apomorphine : {None: 1, 'advise': 1}
+antipyretics : {None: 2}
+antimicrobial : {'effect': 2}
+antihypertensives : {None: 1, 'effect': 1}
+antiemetics : {None: 2}
+antidepressant : {None: 1, 'effect': 1}
+anticoagulant : {'mechanism': 1, None: 1}
+anticholinergic : {None: 2}
+analogs : {None: 2}
+anagrelide : {None: 2}
+amrinone : {None: 2}
+amphetamine : {None: 2}
+amine : {None: 2}
+amiloride : {None: 2}
+amikacin : {None: 2}
+allow : {None: 2}
+albuterol : {None: 2}
+account : {None: 2}
+ability : {None: 2}
+Zidovudine : {None: 2}
+WelChol : {None: 2}
+Vecuronium : {None: 2}
+Tetracyclines : {None: 2}
+Tetracycline : {None: 2}
+Taking : {None: 2}
+Sumatriptan : {None: 1, 'advise': 1}
+Stavudine : {None: 2}
+Starlix : {None: 2}
+Sonata : {'mechanism': 1, None: 1}
+SUBUTEX : {None: 2}
+S-warfarin : {None: 2}
+Ritonavir : {'mechanism': 1, None: 1}
+Refer : {'advise': 2}
+R : {None: 2}
+QD : {None: 2}
+Purinethol : {None: 2}
+Pregnancy : {None: 2}
+Phenylbutazone : {None: 2}
+Phenothiazines : {None: 2}
+PROLEUKIN : {None: 1, 'effect': 1}
+PCP : {None: 2}
+Orudis : {None: 2}
+OXC : {None: 2}
+ORENCIA : {'advise': 2}
+Norpace : {'mechanism': 1, None: 1}
+Nalfon : {'advise': 2}
+NaFlu : {None: 2}
+NRTIs : {None: 2}
+NIMBEX : {None: 2}
+Multivitamins : {None: 2}
+Motrin : {None: 2}
+Metformin : {None: 2}
+MYOBLOC : {'advise': 2}
+Loratadine : {None: 2}
+Lopinavir : {None: 2}
+Loperamide : {None: 2}
+L-phenylalanine : {'effect': 2}
+L-CCG-1 : {None: 2}
+Kineret : {'effect': 2}
+Ketoprofen : {None: 2}
+Ketamine : {None: 2}
+Kaletra : {None: 2}
+Insulin : {None: 2}
+Innovar_Vet : {None: 1, 'effect': 1}
+Inhibition : {None: 2}
+Ibuprofen : {None: 2}
+HUMORSOL : {'int': 2}
+H2-antagonists : {None: 2}
+H1 : {None: 2}
+Gris-PEG : {None: 2}
+Glycosides : {None: 2}
+Flupenthixol : {None: 1, 'effect': 1}
+FORADIL : {None: 2}
+F2alpha : {None: 1, 'int': 1}
+Enhancing_Heparin_Effect : {None: 2}
+Effects_of_Felbatol : {None: 2}
+ERYTHROMYCIN : {None: 2}
+ENBREL : {'effect': 2}
+Duloxetine : {None: 1, 'advise': 1}
+Doxorubicin : {None: 2}
+Doses : {None: 2}
+Dipyridamole : {None: 2}
+Dexamethasone : {None: 2}
+Day5 : {None: 2}
+DRUGS_CAN_LEAD_TO_PHENYTOIN_INTOXICATION : {None: 2}
+Cyclosporin : {None: 2}
+Coumarin-Type_Anticoagulants : {None: 2}
+Coadministration_of_NIZORAL_Tablets : {'mechanism': 2}
+Clonidine : {None: 2}
+Class_IA : {None: 2}
+CRIXIVAN : {None: 1, 'advise': 1}
+Beta-blockers : {None: 1, 'effect': 1}
+BOTOX : {'advise': 2}
+Astramorph : {None: 2}
+Antiinflammatory_Agents : {None: 2}
+Anaprox : {None: 2}
+Amphotericin : {None: 2}
+Alprazolam : {None: 2}
+Alpha-blockers : {None: 2}
+Acetazolamide : {None: 1, 'effect': 1}
+Acellular : {None: 2}
+Acarbose : {'mechanism': 1, None: 1}
+AZOPT : {None: 2}
+AUC : {None: 2}
+ARAVA : {'advise': 1, 'effect': 1}
+AOM : {None: 2}
+ACEI : {None: 2}
+5-DFUR : {None: 2}
+40 : {'mechanism': 1, None: 1}
+1-methyl-4-phenyl-1256-tetrahydropyridine : {None: 2}
+% : {None: 2}
+zinc : {None: 1}
+yielded : {None: 1}
+withhold : {'effect': 1}
+withdrawal : {None: 1}
+want : {None: 1}
+vivo : {'mechanism': 1}
+vasopressor : {None: 1}
+vasoconstrictor : {None: 1}
+values : {None: 1}
+undergoes : {None: 1}
+types : {None: 1}
+tricyclic : {None: 1}
+triacetyloleandomycin : {'mechanism': 1}
+transport : {None: 1}
+transfusions : {'effect': 1}
+tolerance : {None: 1}
+time : {'effect': 1}
+ticlopidine : {None: 1}
+threohydrobupropion : {None: 1}
+those : {None: 1}
+thioxanthines : {None: 1}
+thioxanthenes : {None: 1}
+thioxanthene : {None: 1}
+thiosulfate : {None: 1}
+thiazide : {None: 1}
+thiabendazole : {'effect': 1}
+theophylline-quinolone : {'effect': 1}
+tacrine : {None: 1}
+synthetic : {None: 1}
+symptoms : {None: 1}
+sympathomimetic : {None: 1}
+sympathomimet-ics : {None: 1}
+superiority : {None: 1}
+sumatriptan : {None: 1}
+sulfonylurea : {None: 1}
+sulfonamide : {None: 1}
+sulfadoxine : {None: 1}
+suggested : {None: 1}
+subjects : {None: 1}
+streptomycin : {None: 1}
+stered : {'mechanism': 1}
+step : {None: 1}
+starting : {None: 1}
+spermidine : {None: 1}
+sparfloxacin : {None: 1}
+somatrem : {None: 1}
+sirolimus-diltiazem : {'advise': 1}
+secretion : {None: 1}
+scintigraphy : {None: 1}
+schedule : {None: 1}
+salsalate : {None: 1}
+salbutamol : {None: 1}
+safety : {None: 1}
+rosuvastatin : {None: 1}
+rosiglitazone : {None: 1}
+rofecoxib : {None: 1}
+ribavirin : {None: 1}
+retinoids : {'advise': 1}
+resulting : {'mechanism': 1}
+restricted : {None: 1}
+report : {None: 1}
+remains : {None: 1}
+relaxing : {None: 1}
+relationship : {'effect': 1}
+red : {None: 1}
+rechallenged : {None: 1}
+receptors : {'effect': 1}
+raise : {None: 1}
+radiopertechnetate : {None: 1}
+proves : {'effect': 1}
+protects : {'effect': 1}
+propantheline : {None: 1}
+progestin-only : {None: 1}
+profile : {None: 1}
+product : {None: 1}
+prior : {'effect': 1}
+prescribed : {'effect': 1}
+preparation : {'effect': 1}
+precede : {None: 1}
+prazosin : {None: 1}
+praziquantel : {None: 1}
+potential : {None: 1}
+polyphenols : {None: 1}
+physostigmine : {None: 1}
+phenyramidol : {None: 1}
+phenylpropanolamine : {None: 1}
+phenobarbitone : {None: 1}
+phenibut : {None: 1}
+pharmacological : {None: 1}
+permits : {'mechanism': 1}
+pentobarbital : {'effect': 1}
+pentamidine : {'effect': 1}
+paclitaxel : {'mechanism': 1}
+oxytetracycline : {None: 1}
+oxide : {None: 1}
+oxazepam : {None: 1}
+oxaprozin : {None: 1}
+orphenadrine : {None: 1}
+organophosphate : {None: 1}
+opiate : {None: 1}
+olprinone : {None: 1}
+oil : {'mechanism': 1}
+occur : {'effect': 1}
+obtain : {None: 1}
+norgestrel : {None: 1}
+nitroprusside : {None: 1}
+nitroglycerin : {None: 1}
+nimodipine : {None: 1}
+nicotinamide : {None: 1}
+nicardipine : {None: 1}
+naratriptan : {None: 1}
+naltrexone : {'mechanism': 1}
+nadolol : {None: 1}
+morphine-induced : {None: 1}
+modulates : {'effect': 1}
+moclobemide : {None: 1}
+mixing : {None: 1}
+minute : {'mechanism': 1}
+milrinone : {None: 1}
+micrograms : {None: 1}
+microg : {None: 1}
+methamphetamine : {None: 1}
+metastasis : {None: 1}
+meprobamate : {None: 1}
+measurement : {'advise': 1}
+mcg : {None: 1}
+magnitude : {None: 1}
+macrolides : {'effect': 1}
+lowers : {None: 1}
+lower : {None: 1}
+locomotion : {None: 1}
+lincomycin : {'effect': 1}
+lignocaine : {None: 1}
+levamisole : {'advise': 1}
+leucovorin : {'effect': 1}
+lapatinib : {None: 1}
+lansoprazole : {None: 1}
+lack : {None: 1}
+ketorolac : {None: 1}
+juices : {None: 1}
+isradipine : {None: 1}
+isoproterenol : {None: 1}
+irinotecan : {None: 1}
+irbesartan : {None: 1}
+interleukin : {None: 1}
+interferon-alfa : {'effect': 1}
+interferon : {None: 1}
+insulins : {None: 1}
+injections : {None: 1}
+initiate : {'advise': 1}
+ingestion : {None: 1}
+infusion : {None: 1}
+infection : {'effect': 1}
+increasing : {None: 1}
+incombination : {None: 1}
+implications : {'int': 1}
+immunodepressant : {None: 1}
+imidazole : {None: 1}
+hypotension : {'effect': 1}
+hypnotic : {None: 1}
+hydroxyzine : {None: 1}
+hydroxychloroquine : {None: 1}
+hydrogen : {None: 1}
+hydroflumethiazide : {'advise': 1}
+hydrocodone : {None: 1}
+half-life : {None: 1}
+gram : {'effect': 1}
+glycine : {'effect': 1}
+ginkgo : {None: 1}
+gentamycin : {'int': 1}
+gemfibrozil : {'advise': 1}
+galangin : {None: 1}
+furafylline : {None: 1}
+formula : {None: 1}
+followed : {None: 1}
+fluoroquinolones : {None: 1}
+fibrinogen : {None: 1}
+fibrate : {'effect': 1}
+fexofenadine : {'mechanism': 1}
+fentayl : {None: 1}
+fenoldopam : {'advise': 1}
+famciclovir : {None: 1}
+extract : {None: 1}
+expected : {None: 1}
+expanders : {None: 1}
+examined : {None: 1}
+exacerbated : {'effect': 1}
+ethoxzolamide : {'effect': 1}
+ethotoin : {None: 1}
+ethinylestradiol : {None: 1}
+ethinyl : {None: 1}
+estrogen : {None: 1}
+ergotamine-containing : {'effect': 1}
+ephedrine : {None: 1}
+enter : {None: 1}
+endotoxin : {None: 1}
+encountered : {None: 1}
+elicited : {'effect': 1}
+elapse : {'advise': 1}
+efficacy : {'effect': 1}
+duloxetine : {'mechanism': 1}
+drinking : {'effect': 1}
+doubled : {'mechanism': 1}
+dosing : {None: 1}
+dofetillide : {None: 1}
+dobutamine : {'effect': 1}
+diuretic : {None: 1}
+displaces : {'mechanism': 1}
+discontinued : {'advise': 1}
+diminished : {'mechanism': 1}
+digoxin-amiodarone : {None: 1}
+differ : {None: 1}
+diagnostic : {None: 1}
+dezocine : {None: 1}
+developing : {None: 1}
+determined : {None: 1}
+des-ciclesonide : {None: 1}
+depletors : {'advise': 1}
+depletion : {None: 1}
+demonstrates : {'mechanism': 1}
+decreasing : {None: 1}
+decamethonium : {None: 1}
+cypermethrin : {None: 1}
+course : {'mechanism': 1}
+corticosteroid : {None: 1}
+correlated : {None: 1}
+converting : {None: 1}
+converted : {None: 1}
+consumption : {'advise': 1}
+consuming : {'effect': 1}
+constitutes : {None: 1}
+constitute : {None: 1}
+conjugated : {None: 1}
+confirm : {None: 1}
+concentrates : {None: 1}
+complication : {None: 1}
+compared : {None: 1}
+combinations : {'effect': 1}
+collected : {None: 1}
+cloxacillin : {None: 1}
+clotrimazole : {None: 1}
+cinoxacin : {'advise': 1}
+cinacalcet : {'mechanism': 1}
+cimetidines : {'mechanism': 1}
+chymotrypsin : {None: 1}
+chloride : {None: 1}
+chemotherapy : {None: 1}
+channel-blockers : {None: 1}
+change : {None: 1}
+ceftazidime : {None: 1}
+cases : {'mechanism': 1}
+care : {'effect': 1}
+carboxytolbutamide : {None: 1}
+carboxymethylcellulose-cysteine : {None: 1}
+carbidopa : {None: 1}
+carbachol : {None: 1}
+captopril-digoxin : {None: 1}
+cannabinoids : {None: 1}
+cabergoline : {None: 1}
+blocks : {'effect': 1}
+blocked : {'effect': 1}
+block : {'effect': 1}
+binding : {None: 1}
+beta2-agonist : {None: 1}
+beta-interferon : {None: 1}
+beta-agonists : {'advise': 1}
+benzocaine : {None: 1}
+benefits : {'effect': 1}
+benazepril : {None: 1}
+beginning : {None: 1}
+began : {None: 1}
+azoxymethane : {None: 1}
+avoid : {'advise': 1}
+augment : {'effect': 1}
+ataxia : {None: 1}
+assessment : {None: 1}
+arabinoside : {None: 1}
+aprepitant : {None: 1}
+applied : {'effect': 1}
+appear : {None: 1}
+anxiolytic : {None: 1}
+antiretroviral : {'advise': 1}
+antiplatelet : {'advise': 1}
+antiinflammatories : {None: 1}
+antihistaminics : {None: 1}
+antifungal : {None: 1}
+antiepileptic : {'int': 1}
+antidiabetics : {'effect': 1}
+anticholinergics : {'effect': 1}
+anti-arrhythmic : {None: 1}
+antagonize : {None: 1}
+antagonist : {'effect': 1}
+antagonism : {None: 1}
+angiotensin : {'effect': 1}
+androgen : {None: 1}
+anastrozole : {'mechanism': 1}
+analgesic : {'advise': 1}
+amplifies : {'effect': 1}
+amphetamines : {None: 1}
+aminopyrine : {None: 1}
+ameliorate : {None: 1}
+alter : {None: 1}
+alpha : {None: 1}
+allows : {'effect': 1}
+aliskiren : {None: 1}
+alfentanyl : {None: 1}
+alcohols : {None: 1}
+agonists : {'advise': 1}
+affinity : {None: 1}
+affect : {None: 1}
+advised : {None: 1}
+adrenergic : {None: 1}
+adrenaline : {'advise': 1}
+adjust : {'advise': 1}
+additive : {None: 1}
+add : {'effect': 1}
+activation : {None: 1}
+acidifying : {None: 1}
+acenocoumarol : {None: 1}
+accumulation : {None: 1}
+accelerates : {'mechanism': 1}
+accelerated : {'mechanism': 1}
+accelerate : {None: 1}
+Zidovudine_Ribavirin : {None: 1}
+Zarontin : {None: 1}
+ZDV : {None: 1}
+With_Ribavirin_Ribavirin : {None: 1}
+Which_Require_a_Dose_Reduction_When_Coadminstered_With_VIRACEPT_Antimycobacterial : {'advise': 1}
+Warfarin-Vitamin_K : {None: 1}
+Voltaren : {None: 1}
+Videx : {None: 1}
+Vasoconstrictors : {None: 1}
+VIDEX_Chewable : {None: 1}
+Using : {'effect': 1}
+UROXATRAL : {None: 1}
+Trimethoprim_Alone : {None: 1}
+Topamax : {None: 1}
+Tiagabine : {None: 1}
+That_Should_Not_Be_Coadministered_With_VIRACEPT_Antiarrhythmics : {'advise': 1}
+That_Should_Not_Be_Coadministered_With_INVIRASE : {None: 1}
+That_Alter_Renal_Excretion_Ibuprofen : {None: 1}
+TYSABRI : {None: 1}
+TRICOR : {'advise': 1}
+TRACLEER : {'advise': 1}
+TORADOL_ORAL : {'mechanism': 1}
+T4 : {None: 1}
+Survanta : {None: 1}
+Sulfonylureas : {None: 1}
+Stimulation : {None: 1}
+Spermine : {None: 1}
+Somatrem : {None: 1}
+Solganal : {None: 1}
+Sirolimus : {None: 1}
+Serotonin_Reuptake_Inhibitors : {None: 1}
+Selegiline : {None: 1}
+Sedative : {None: 1}
+Salicylates-Salicylates : {None: 1}
+SUBOXONE : {None: 1}
+STRATTERA : {None: 1}
+SSRI-TCAinteractions : {'int': 1}
+SN38 : {None: 1}
+SINCE_CHOLESTYRAMINE_RESIN : {None: 1}
+Robinul_Injection : {'mechanism': 1}
+Rifadin : {None: 1}
+Racemic_Citalopram_Citalopram : {None: 1}
+REVLIMID : {None: 1}
+REMICADE : {'effect': 1}
+Pyrantel : {None: 1}
+Propantheline : {None: 1}
+Prolixin : {None: 1}
+Pretreatment : {None: 1}
+Prelone : {None: 1}
+Prednisone : {None: 1}
+Potentiation : {None: 1}
+Potassium : {None: 1}
+Ponstel : {'advise': 1}
+Pimozide : {None: 1}
+Phenurone : {None: 1}
+Phencyclidine : {None: 1}
+Penthrane : {None: 1}
+PROSCAR : {None: 1}
+PROPECIA : {None: 1}
+PRIOR_TO_ADMINISTERING_DISULFIRAM_TO_A_PATIENT_ON_PHENYTOIN_THERAPY : {'effect': 1}
+Oxytocin : {None: 1}
+Other_Antiepileptic_Drugs_Phenytoin : {None: 1}
+Orudis_KT : {None: 1}
+Ortho-Novum : {None: 1}
+Orlistat-Orlistat : {None: 1}
+Omeprazole : {None: 1}
+Olanzapine : {None: 1}
+Observe : {None: 1}
+NovoSeven : {None: 1}
+NovoLog : {None: 1}
+Norvir : {None: 1}
+Norethindrone : {None: 1}
+Nonsteroidal_Antiinflammatory_Drugs : {None: 1}
+Nondepolarizing_Muscle_Relaxants : {None: 1}
+Nizoral : {None: 1}
+Nimodipine : {None: 1}
+Nifedipine : {None: 1}
+Nicotine : {None: 1}
+Neuroleptic : {None: 1}
+Neoral : {None: 1}
+Nefazodone_Cyclosporine_Large : {None: 1}
+Naprosyn : {None: 1}
+NUROMAX : {None: 1}
+NSAID : {None: 1}
+NORVIR : {None: 1}
+N6-cyclopentyladenosine : {None: 1}
+N-desmethylclozapine : {None: 1}
+N-allylnormetazocine : {None: 1}
+Multivitamins_Quinolones : {None: 1}
+Methylxanthines : {None: 1}
+Methionine : {None: 1}
+Mercaptopurine : {None: 1}
+Mentax : {None: 1}
+Medications : {None: 1}
+Macrolides : {None: 1}
+Maalox : {None: 1}
+MPTP : {None: 1}
+MIDAMOR : {'advise': 1}
+MEPRON : {None: 1}
+Loratadine_Descarboethoxyloratadine : {None: 1}
+Levodopa : {None: 1}
+Lanoxin : {None: 1}
+LEXAPRO : {'advise': 1}
+L-tyrosine : {'effect': 1}
+L-histidine : {None: 1}
+Ketoconazole_Fexofenadine : {None: 1}
+Keppra : {None: 1}
+Kadian : {None: 1}
+KRM-1648 : {None: 1}
+Isoniazid : {None: 1}
+Isocarboxazid : {'advise': 1}
+Iodine : {None: 1}
+InsP : {'effect': 1}
+Injection : {'effect': 1}
+Inhibitors : {None: 1}
+Indomethacin : {None: 1}
+Indinavir : {'advise': 1}
+Imipramine : {None: 1}
+Ibogaine : {None: 1}
+IRESSA : {None: 1}
+INSPRA : {'advise': 1}
+INH : {None: 1}
+Hypnotics : {None: 1}
+Hydrocortisone : {None: 1}
+Hydrocodone : {None: 1}
+HUMIRA : {None: 1}
+HOURS_AFTER_CHOLESTYRAMINE_RESIN : {None: 1}
+HMG-CoA_Reductase_Inhibitor : {None: 1}
+HCl : {'effect': 1}
+Griseofulvin : {None: 1}
+Gliftor : {None: 1}
+Gleevec_Gleevec : {None: 1}
+Geocillin : {None: 1}
+Gemzar : {None: 1}
+GVIA : {None: 1}
+Foscarnet : {None: 1}
+Fluvoxamine_Tablets : {'advise': 1}
+Fluoroquinolones : {None: 1}
+Felbatol_Phenytoin : {None: 1}
+Felbatol : {None: 1}
+Failure : {None: 1}
+FOSCAVIR : {'effect': 1}
+Exjade : {None: 1}
+Ethinyl_Estradiol : {None: 1}
+Ethanol : {None: 1}
+Estrogen : {None: 1}
+Ergotamine : {None: 1}
+Eproxindine : {None: 1}
+Ephedrine : {None: 1}
+EXTRANEAL : {'advise': 1}
+ERGOMAR : {'effect': 1}
+ERGAMISOL : {None: 1}
+ERBITUX : {None: 1}
+ENBREL_CI : {None: 1}
+EDECRIN : {'effect': 1}
+E2 : {None: 1}
+E : {None: 1}
+Drug_Interactions_Oral_Contraceptives_Keppra : {None: 1}
+Drug-Drug_Interactions_Between_Keppra_And_Other_Antiepileptic_Drugs : {None: 1}
+Drug : {None: 1}
+Diphenoxylate_HCl : {None: 1}
+Diphenhydramine : {None: 1}
+Dihydroergotamine : {None: 1}
+Dextromethorphan : {None: 1}
+Deltasone : {None: 1}
+Decreasing : {None: 1}
+Decrease : {None: 1}
+Day9 : {None: 1}
+DURAGESIC : {None: 1}
+DISULFIRAM_SHOULD_BE_USED_WITH_CAUTION_IN_THOSE_PATIENTS_REVEIVING_PHENYTOIN_AND_ITS_CONGENERS : {'advise': 1}
+DIAMOX : {'advise': 1}
+DEET : {None: 1}
+D-Ala2-metenkephalinamide : {None: 1}
+D : {None: 1}
+Cuprimine : {None: 1}
+Contraceptives_Rofecoxib : {None: 1}
+Conjugation : {None: 1}
+Coated_Aspirin : {None: 1}
+Coadministration_of_SULAR : {'advise': 1}
+Coadministration_of_Maalox_TC : {None: 1}
+Coadministration_of_LEXAPRO : {None: 1}
+Coadministration_of_Femara : {'mechanism': 1}
+Coadministration_of_Aprepitant : {'mechanism': 1}
+Clomipramine : {None: 1}
+Changes : {None: 1}
+Caverject : {None: 1}
+CYP2D6 : {None: 1}
+CONTRAINDICATED : {None: 1}
+CMI : {None: 1}
+CEFOTAN : {'effect': 1}
+CCNU : {None: 1}
+CANCIDAS : {'effect': 1}
+C129H223N3O54 : {None: 1}
+Butyrophenones : {None: 1}
+Broad-Spectrum_Antibiotics-Broad-spectrum : {None: 1}
+Bepridil : {None: 1}
+Barbiturates : {None: 1}
+Bactrim : {None: 1}
+BEXTRA : {'advise': 1}
+BETAGAN : {'effect': 1}
+B3 : {None: 1}
+B12 : {'int': 1}
+Atropine : {None: 1}
+As : {None: 1}
+AquaMEPHYTON : {None: 1}
+Antimycobacterial : {None: 1}
+Anti-arrhythmics : {None: 1}
+Anti-Inflammatory_Drugs : {None: 1}
+Antacids_Administration : {None: 1}
+Antacid : {None: 1}
+Analgesic : {None: 1}
+Amitriptyline : {'effect': 1}
+Aminophylline_Etomidate : {None: 1}
+Aluminum-containing_Antacid_Products : {None: 1}
+Aleve : {None: 1}
+Affect_ABILIFY_Aripiprazole : {None: 1}
+Advil : {None: 1}
+Adenocard : {None: 1}
+Actions : {None: 1}
+Acitretin : {'effect': 1}
+Accutane : {'advise': 1}
+AUC_of_R : {None: 1}
+ATACAND : {None: 1}
+ARIMIDEX : {None: 1}
+ANTACID : {None: 1}
+AMEVIVE : {None: 1}
+AED_On_MHD_Concentration : {None: 1}
+ADL : {None: 1}
+ACTH : {None: 1}
+8-cyclopentyl-13-dipropylxanthine : {None: 1}
+8-2698 : {None: 1}
+6-MP/AZA : {None: 1}
+5-oxo-desethylzaleplon : {None: 1}
+5-FU : {None: 1}
+4-hydroxytamoxifen : {None: 1}
+3-Hydroxydesloratadine : {None: 1}
+3 : {None: 1}
+21 : {None: 1}
+18-MC : {None: 1}
+120 : {None: 1}
+* : {None: 1}

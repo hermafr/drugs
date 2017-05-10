@@ -8,7 +8,7 @@ class FreebaseAdapter:
         # get requested language
         self.lang = "en"
         # get installation path
-        self.ipath = "/usr";
+        self.ipath = "/usr"
         # path to language data   
         self.lpath = self.ipath + "/share/freeling/" + self.lang + "/"
     

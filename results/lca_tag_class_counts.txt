@@ -1,0 +1,25 @@
+NN : {'effect': 300, None: 9418, 'int': 39, 'advise': 150, 'mechanism': 274}
+NNS : {'effect': 132, None: 4632, 'int': 7, 'mechanism': 77, 'advise': 50}
+MD : {'effect': 564, None: 2954, 'int': 98, 'advise': 320, 'mechanism': 280}
+VBD : {'int': 1, None: 2418, 'mechanism': 188, 'advise': 5, 'effect': 111}
+VBZ : {'int': 11, None: 1225, 'advise': 72, 'mechanism': 175, 'effect': 165}
+NP : {'effect': 62, None: 1038, 'int': 10, 'mechanism': 50, 'advise': 74}
+VBP : {'int': 14, None: 549, 'mechanism': 176, 'advise': 14, 'effect': 169}
+VB : {'int': 2, None: 369, 'mechanism': 34, 'effect': 69, 'advise': 39}
+VBN : {'int': 1, None: 234, 'mechanism': 26, 'advise': 42, 'effect': 38}
+IN : {'effect': 11, None: 289, 'int': 2, 'mechanism': 18, 'advise': 4}
+VBG : {'effect': 59, 'mechanism': 7, None: 161, 'advise': 45}
+JJ : {'int': 1, None: 191, 'advise': 5, 'mechanism': 1, 'effect': 3}
+CC : {'effect': 5, None: 118, 'advise': 6, 'mechanism': 10}
+null : {None: 71}
+Z : {'int': 2, None: 57, 'mechanism': 1}
+RB : {None: 10, 'mechanism': 2}
+TO : {None: 11}
+Fx : {None: 7}
+not_found : {None: 4}
+PRP : {None: 4}
+Fz : {None: 4}
+Fg : {None: 3}
+Ft : {None: 2}
+JJR : {None: 1}
+DT : {None: 1}

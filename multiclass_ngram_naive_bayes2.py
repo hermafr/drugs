@@ -4,7 +4,7 @@ from feature_computation import n_grams, starts_with_uppercase
 from corpus_reader import read_dataset
 from numpy.random import choice
 from k_fold import k_folds
-from baseline_word_drug_predictor import BaseLineWordDrugPredictor
+from baseline_drug_span_predictor import BaselineDrugSpanPredictor
 import numpy as np
 
 VERBOSE = False
@@ -124,6 +124,14 @@ class MulticlassPosNgramNaiveBayes:
             label = self.nb.classify(feature_list[i])
             labels.append(label)
         return labels
+    
+    def classify_tagged_words_as_spans(self, tagged_words):
+        labels = self.classify_tagged_words(tagged_words)
+        return wordlist_labels_to_span_predictions(tagged_words, labels)
+    
+    def classify_spans(self, sentence):
+        tagged_words = self.tagger.pos_tag(sentence)
+        return self.classify_tagged_words_as_spans(tagged_words)
 
 def get_spans_from_entities(entities):
     spans = []
@@ -192,8 +200,44 @@ def print_confusion_matrix(m):
         for pred in sorted(m[truth]):
             print(truth, pred, m[truth][pred])
 
+def wordlist_labels_to_span_predictions(tagged_words, labels):
+    span_preds = []
+    for i in range(len(tagged_words)):
+        if labels[i] != "none":
+            span_preds.append((tagged_words[i].word, [tagged_words[i].span], labels[i]))
+    return span_preds
+
+def get_gt_prediction_pairs_from_spans(span_labels, entities):
+    entity_labels = ["none"] * len(entities)
+    pairs = []
+    # try to match labels with entities
+    for span_label in span_labels:
+        entity_found = False
+        for e_i, entity in enumerate(entities):
+            if span_label[1] == entity.char_offset:
+                pairs.append((span_label[0],  # the word
+                              entity.type,  # truth
+                              span_label[2]  # prediction
+                              ))
+                entity_labels[e_i] = span_label[2]
+                entity_found = True
+                break
+        if not entity_found:  # false prediction
+            pairs.append((span_label[0],  # the word
+                          "none",  # truth
+                          span_label[2]  # prediction
+                          ))
+    # entities that are not predicted
+    for e_i, entity in enumerate(entities):
+        if entity_labels[e_i] == "none":
+            pairs.append((entity.text,  # the word
+                          entity.type,  # truth
+                          "none"  # prediction
+                          ))
+    return pairs
+
 if __name__ == "__main__":
-    np.random.seed(43)
+    np.random.seed(43)    
     
     data = read_dataset()
     n_docs = len(data)
@@ -217,8 +261,8 @@ if __name__ == "__main__":
         print("%i training documents" % len(training))
         print("%i test documents" % len(test))
         
-        nb = MulticlassPosNgramNaiveBayes()
-        # TODO nb = BaseLineWordDrugPredictor()
+        # TODO nb = MulticlassPosNgramNaiveBayes()
+        nb = BaselineDrugSpanPredictor()
         nb.train(training)
         
         counters = {}
@@ -229,14 +273,8 @@ if __name__ == "__main__":
         
         for doc in test:
             for sentence in doc.sentences:
-                tagged_words = nb.tagger.pos_tag(sentence.text)
-                labels = nb.classify_tagged_words(tagged_words)
-                gt_pred_pairs = get_gt_prediction_pairs(tagged_words, sentence.entities, labels)
-                
-                if VERBOSE:
-                    print(sentence.text)
-                    print(gt_pred_pairs)
-                    print("")
+                span_labels = nb.classify_spans(sentence.text)
+                gt_pred_pairs = get_gt_prediction_pairs_from_spans(span_labels, sentence.entities)
                 
                 for pair in gt_pred_pairs:
                     truth = pair[1]
@@ -251,6 +289,8 @@ if __name__ == "__main__":
                     
                     #if truth != pred:
                     #    print(pair)
+                    if truth != pred and pred == "drug_n":
+                        print(pair)
         
                 confusion_matrix(conf_matrix, gt_pred_pairs)
         print_confusion_matrix(conf_matrix)
