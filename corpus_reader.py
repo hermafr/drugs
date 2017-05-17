@@ -3,6 +3,8 @@ import xml.etree.ElementTree as etree
 import re
 
 corpus_path = "DDICorpus/Train/"
+test_task1_path = "DDICorpus/Test/Test for DrugNER task/"
+test_task2_path = "DDICorpus/Test/Test for DDI Extraction task/"
 folder_names = ["DrugBank/", "MedLine/"]
 
 
@@ -134,12 +136,19 @@ def read_document(file_name):
     return document
 
 
-def read_dataset():
+def read_dataset(test = False, task = 1):
+    if test:
+        if task == 1:
+            path = test_task1_path
+        else:
+            path = test_task2_path
+    else:
+        path = corpus_path
     documents = []
     for folder_name in folder_names:
-        path = corpus_path + folder_name
-        file_names = listdir(path)
+        folder_path = path + folder_name
+        file_names = listdir(folder_path)
         for file_name in file_names:
-            file_path = path + file_name
+            file_path = folder_path + file_name
             documents.append(read_document(file_path))
     return documents

@@ -7,6 +7,8 @@ from k_fold import k_folds
 from baseline_drug_span_predictor import BaselineDrugSpanPredictor
 import numpy as np
 
+TEST = True
+
 VERBOSE = False
 
 class MulticlassPosNgramNaiveBayes:
@@ -237,26 +239,38 @@ def get_gt_prediction_pairs_from_spans(span_labels, entities):
     return pairs
 
 if __name__ == "__main__":
-    np.random.seed(43)    
+    np.random.seed(42)    
     
     data = read_dataset()
     n_docs = len(data)
     
-    n_folds = 2
+    n_folds = 10
     folds = k_folds(n_docs, n_folds)
-    n_folds = 1 # TODO remove this
     
     classes = ["none", "brand", "drug", "drug_n", "group"]
     cv_results = {}
+    cv_precisions = []
+    cv_recalls = []
+    cv_fs = []
+    cv_2class_precisions = []
+    cv_2class_recalls = []
+    cv_2class_fs = []
+    
+    if TEST:
+        n_folds = 1
     
     for i_f in range(n_folds):
         print("*" * 20)
         print("FOLD %i" % i_f)
         
-        train_ids = folds[i_f][0]
-        test_ids = folds[i_f][1]
-        training = [data[i] for i in train_ids]
-        test = [data[i] for i in test_ids]
+        if not TEST:
+            train_ids = folds[i_f][0]
+            test_ids = folds[i_f][1]
+            training = [data[i] for i in train_ids]
+            test = [data[i] for i in test_ids]
+        else:
+            training = data
+            test = read_dataset(test = True, task = 1)
         
         print("%i training documents" % len(training))
         print("%i test documents" % len(test))
@@ -265,35 +279,67 @@ if __name__ == "__main__":
         nb = BaselineDrugSpanPredictor()
         nb.train(training)
         
-        counters = {}
-        for c in classes:
-            counters[c] = [0, 0, 0]  # true positives, false positive, false negatives
+        ## test
         
-        conf_matrix = {}
+        gt_pred_pairs = []
         
         for doc in test:
             for sentence in doc.sentences:
                 span_labels = nb.classify_spans(sentence.text)
-                gt_pred_pairs = get_gt_prediction_pairs_from_spans(span_labels, sentence.entities)
-                
-                for pair in gt_pred_pairs:
-                    truth = pair[1]
-                    pred = pair[2]
-                    if pred == truth:  # correct prediction
-                        counters[pred][0] = counters[pred][0] + 1
-                    elif pred == "none":  # false negative
-                        counters[truth][2] = counters[truth][2] + 1
-                    else:  # wrong prediction
-                        counters[pred][1] = counters[pred][1] + 1  # false positive of predicted class
-                        counters[truth][2] = counters[truth][2] + 1  # false negative of true class
-                    
-                    #if truth != pred:
-                    #    print(pair)
-                    if truth != pred and pred == "drug_n":
-                        print(pair)
+                new_gt_pred_pairs = get_gt_prediction_pairs_from_spans(span_labels, sentence.entities)
+                for new_pair in new_gt_pred_pairs:
+                    gt_pred_pairs.append(new_pair)
         
-                confusion_matrix(conf_matrix, gt_pred_pairs)
-        print_confusion_matrix(conf_matrix)
+        ## evaluation
+        
+        conf_matrix = {}
+        counters = {}
+        for c in classes:
+            counters[c] = [0, 0, 0]  # true positives, false positive, false negatives
+        
+        tp = 0
+        fp = 0
+        fn = 0
+        
+        c2_tp = 0
+        c2_fp = 0
+        c2_fn = 0
+        
+        fn_gaps = 0
+        
+        for pair in gt_pred_pairs:
+            truth = pair[1]
+            pred = pair[2]
+            
+            if pred == truth:  # correct prediction
+                counters[pred][0] = counters[pred][0] + 1
+                if pred != "none":
+                    tp += 1
+            elif pred == "none":  # false negative
+                counters[truth][2] = counters[truth][2] + 1
+                fn += 1
+                print(pair)
+                if " " in pair[0]:
+                    fn_gaps += 1
+            else:  # wrong prediction
+                counters[pred][1] = counters[pred][1] + 1  # false positive of predicted class
+                counters[truth][2] = counters[truth][2] + 1  # false negative of true class
+                fp += 1
+                if truth != "none":  # if truth is none it's just a false positive
+                    fn += 1
+            
+            if pred != "none" and truth != "none":
+                c2_tp += 1
+            elif pred != "none" and truth == "none":
+                c2_fp += 1
+            elif pred == "none" and truth != "none":
+                c2_fn += 1
+        
+        print("fn gaps = ", fn_gaps)
+        
+        #conf_matrix = {}
+        #confusion_matrix(conf_matrix, gt_pred_pairs)
+        #print_confusion_matrix(conf_matrix)
         
         for c in sorted(counters):
             true_positives = counters[c][0]
@@ -309,10 +355,42 @@ if __name__ == "__main__":
             cv_results[c][0].append(precision)
             cv_results[c][1].append(recall)
             cv_results[c][2].append(f1)
+        
+        micro_precision = tp / (tp + fp)
+        micro_recall = tp / (tp + fn)
+        micro_f1 = 2 * micro_precision * micro_recall / (micro_precision + micro_recall)
+        cv_precisions.append(micro_precision)
+        cv_recalls.append(micro_recall)
+        cv_fs.append(micro_f1)
+        
+        c2_precision = c2_tp / (c2_tp + c2_fp)
+        c2_recall = c2_tp / (c2_tp + c2_fn)
+        c2_f1 = 2 * c2_precision * c2_recall / (c2_precision + c2_recall)
+        cv_2class_fs.append(c2_f1)
+        
+        print("%s: %s, p=%f, r=%f, f=%f" % ("2class",
+                                            str([c2_tp, c2_fp, c2_fn]),
+                                            c2_precision,
+                                            c2_recall,
+                                            c2_f1
+                                            ))
+        
+        print("%s: %s, p=%f, r=%f, f=%f" % ("micro",
+                                            str([tp, fp, fn]),
+                                            micro_precision,
+                                            micro_recall,
+                                            micro_f1
+                                            ))
     
     print("*" * 20)
+    f_sum = 0
     for c in sorted(cv_results):
+        f = np.mean(cv_results[c][2])
+        f_sum += f
         print("%s: p=%f, r=%f, f=%f" % (c,
                                         np.mean(cv_results[c][0]),
                                         np.mean(cv_results[c][1]),
-                                        np.mean(cv_results[c][2])))
+                                        f))
+    print("*" * 20)
+    print("avg. 2c f = %f" % np.mean(cv_2class_fs))
+    print("avg. micro f = %f" % np.mean(cv_fs))

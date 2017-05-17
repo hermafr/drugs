@@ -84,7 +84,7 @@ print(lca.get_word().get_form())
 """
 
 if __name__ == "__main__":
-    data = read_dataset()
+    data = read_dataset(test = True, task = 2)
 
     parser = ParseTreeFeatureExtractor()
 
