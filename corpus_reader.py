@@ -89,6 +89,8 @@ class Pair:
         self.textBetween = textBetween
         self.filename = filename
     
+    #when str() is applied to a pair,
+    #output a string giving useful information about it
     def __str__(self):
         """ a string containing the stored information
         """
@@ -102,6 +104,7 @@ class Pair:
         
         return "(" + self.e1.text + "," + self.textBetween +"," +  self.e2.text + "," + self.filename + "," + self.ddi + typeInteraction + ")"
 
+    #gives the label that is the type if interaction else null
     def getLabel(self):
         """ returns the class label or 'null' if no interaction
         """
@@ -110,7 +113,7 @@ class Pair:
         if self.ddi == "true":
             label = self.type
             
-            if label == None:
+            if label == None: #to avoid special case bug
                 label = "None"
         
         return label
