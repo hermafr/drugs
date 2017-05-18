@@ -2,12 +2,17 @@ from time import time
 import numpy as np
 import sys
 
+# This object represents the whole process of Drug-Drug Interaction classification
+# Any classifier can be put in it as long as it has a fit method.
 class DDIClassifier:
 
     def __init__(self, classes, featureStrategy, clf = None, mappingLabelToClass = None):
         """
         Constructor
         Initialize all the variables
+        
+        Note about the mappingLabelToClass parameter. This is used in the case that we 
+        want to do the binary problem (interaction/no-interaction).
         """
         
         self.classes = classes
@@ -40,12 +45,16 @@ class DDIClassifier:
             thresh = featureStrategy["threshold_count"] if "threshold_count" in featureStrategy else 30
             nb_feat = featureStrategy["nb_feature"] if "nb_feature" in featureStrategy else 1000
             self.featureStrategy = EntropyStrategy(self, nb_feature = nb_feat, threshold_count = thresh)
-        
-    
-    def mapLabelToClass(self,label):
-        return "no_interaction" if label == "null" else "interaction"    
+        elif featureStrategy["name"] == "mostfrequent":
+            from MostFrequentBetweenStrategy import MostFrequentBetweenStrategy
+            nb_feat = featureStrategy["nb_feature"] if "nb_feature" in featureStrategy else 1000
+            self.featureStrategy = MostFrequentBetweenStrategy(self, nb_feature = nb_feat)
+          
     
     def getFeatureMatrix(self, doc_list):
+        """
+        This just call the getFeatureMatrix method of the selected strategy
+        """
         return self.featureStrategy.getFeatureMatrix(doc_list)
     
     def getClasses(self, doc_list):
@@ -67,6 +76,9 @@ class DDIClassifier:
                         
     
     def fit(self, trainingFeature, labels, verbose=False):
+        """
+        call the fit function of the selected classifier
+        """
         
         if self.clf == None:
             sys.exit("Error, no classifier attributed to DDIClassifier ! (fit method)")
@@ -82,6 +94,10 @@ class DDIClassifier:
 
     
     def predictFromTextBetween(self, textBetween):
+        '''
+        Given the text between two drugs,
+        output the prediction of the DDIClassifier
+        '''
         s = textBetween.lower().split(' ')
         f = self.featureStrategy.get_feature_from_text(s).reshape(1,-1)
         
@@ -90,13 +106,7 @@ class DDIClassifier:
         
         
         return self.class_mapping[pred]
-    
-    #def predict(self, matrix):
-    #    """
-    #    Given a matrix,
-    #    predicts
-    #    """
-    
+
     
     #SVC (but not NuSVC) implement a keyword class_weight in the fit method.
     #It is a dictionary of the form {class_label : value}, where value is a floating point number > 0

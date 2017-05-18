@@ -3,12 +3,13 @@ import re
 
 class MostFrequentBetweenStrategy:
     
-    def __init__(self, nb_feature = 20):
+    def __init__(self, parent, nb_feature = 20):
         """
         Constructor
         Initialize all the variables
         """
-        self.parent = None
+        self.parent = parent
+        self.classes = parent.classes
         
         self.nb_feature = nb_feature
         
@@ -67,6 +68,10 @@ class MostFrequentBetweenStrategy:
     
     
     def get_feature_from_text(self, wordList):
+        '''
+        Given a list of words
+        Transform it as a feature vector
+        '''
         output = np.zeros(self.nb_feature)
         for w in wordList:
             if w in self.feature_index:
@@ -75,6 +80,10 @@ class MostFrequentBetweenStrategy:
         return output
     
     def get_features_from_pair(self, pair):
+        '''
+        Given a pair, get the text between the two drugs involved
+        Then create a feature vector calling another method
+        '''
         text = re.split("\W+", pair.textBetween)
         text = " ".join([w for w in text if w != ""])
         

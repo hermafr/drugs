@@ -127,6 +127,10 @@ class EntropyStrategy:
     
     
     def get_feature_from_text(self, wordList):
+        '''
+        Given a list of words
+        Transform it as a feature vector
+        '''
         output = np.zeros(self.nb_feature)
         for w in wordList:
             if w in self.feature_index:
@@ -135,6 +139,10 @@ class EntropyStrategy:
         return output
     
     def get_features_from_pair(self, pair):
+        '''
+        Given a pair, get the text between the two drugs involved
+        Then create a feature vector calling another method
+        '''
         text = re.split("\W+", pair.textBetween)
         text = " ".join([w for w in text if w != ""])
         
