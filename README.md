@@ -9,15 +9,15 @@
 
 ### baseline
 
-run the following program:
+run the following program:  
 python3 multiclass_ngram_naive_bayes2.py --baseline
 
-### naive bayes apporach
+### naive bayes approach
 
-run the following program:
-python3 multiclass_ngram_naive_bayes2.py --baseline
+run the following program:  
+python3 multiclass_ngram_naive_bayes2.py
 
 ## task2
 
-run the following program:
+run the following program:  
 python3 multiclass_ngram_naive_bayes2.py
