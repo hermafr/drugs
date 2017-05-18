@@ -16,6 +16,8 @@ def contains_negation(word_list):
     return "no" in word_list or "not" in word_list or "none" in word_list or "never" in word_list
 
 def get_feature_list(feature_reader, pair, sentence):
+    """ creates featurs of a pair in a sentence
+    """
     features = []
     
     # parsing features

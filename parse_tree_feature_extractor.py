@@ -2,23 +2,36 @@ from parsing_example import get_parser, parse
 from corpus_reader import Entity, read_dataset
 
 def to_span(node, isWord = False):
+    """ gives the span for a node or word
+    """
     if not isWord:
         node = node.get_word()
     span = (node.get_span_start(), node.get_span_finish())
     return span
 
 class ParseTreeFeatureExtractor:
+    """ extracts features from a dependency parse tree
+    """
+    
     def __init__(self):
+        """ creates a freeling parser
+        """
         self.parser = get_parser()
     
     def parse(self, sentence):
+        """ parses a sentence
+        """
         return parse(self.parser, sentence)
     
     def get_trees(self, sentence):
+        """ a list of parse trees for a sentence
+        """
         sentence_list = self.parse(sentence)
         return [s.get_dep_tree() for s in sentence_list]
     
     def rec_find(self, node, entity):
+        """ recursive search in the parse tree
+        """
         leftmost_pos = entity.char_offset[0][0]
         if node.get_word().get_span_start() <= leftmost_pos and node.get_word().get_span_finish() > leftmost_pos:
             return True, node
@@ -29,6 +42,8 @@ class ParseTreeFeatureExtractor:
         return False, None
     
     def find(self, parsed_sentence, entity):
+        """ finds the node corresponding to an entity in a parsed sentence
+        """
         for tree in parsed_sentence:
             found, node = self.rec_find(tree.get_dep_tree().begin(), entity)
             if found:
@@ -36,6 +51,8 @@ class ParseTreeFeatureExtractor:
         return False, None
     
     def is_head(self, node, ls):
+        """ returns true iff the node is the head
+        """
         for l in ls:
             node_span = to_span(node)
             head_span = to_span(l.get_dep_tree().begin())
@@ -44,6 +61,8 @@ class ParseTreeFeatureExtractor:
         return False
     
     def lowest_common_ancestor(self, node1, node2, ls):
+        """ returns the LCA of two nodes in a list of sentences
+        """
         ancestors = set()
         # ancestors of node1:
         node = node1

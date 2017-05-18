@@ -2,6 +2,8 @@ from pos_tagging import PosTagger
 import re
 
 def find_all(string, substring):
+    """ returns a list of positions of a substring in a string
+    """
     positions = []
     offset = 0
     pos = string.find(substring)
@@ -13,14 +15,23 @@ def find_all(string, substring):
     return positions
 
 def overlap(i1, i2):
+    """ returns true iff two intervals overlap
+    """
     return not (i1[1] < i2[0] or i1[0] > i2[1])
 
 class BaselineDrugSpanPredictor:
+    """ a simple dictionary based approach for task 1
+    """
+    
     def __init__(self):
+        """ initialises the drug dictionary
+        """
         self.dict = {}
         self.drugs = []
     
     def train(self, data):
+        """ stores drug names seen in the given training documents
+        """
         for doc in data:
             for sentence in doc.sentences:
                 for entity in sentence.entities:
@@ -31,6 +42,8 @@ class BaselineDrugSpanPredictor:
         self.drugs = [(entry[1], entry[2]) for entry in srt]
     
     def classify_spans(self, sentence):
+        """ for a given sentence, returns a list of predicted tuples (word, span, label)
+        """
         spans = []
         for drug in self.drugs:
             positions = find_all(sentence, drug[0])

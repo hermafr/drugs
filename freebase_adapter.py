@@ -2,6 +2,9 @@ import lib.freeling as freeling
 
 
 class FreebaseAdapter:
+    """ we meant freeling adapter actually
+    """
+    
     def __init__(self):
         # set locale to an UTF8 compatible locale 
         freeling.util_init_locale("default");
@@ -12,7 +15,9 @@ class FreebaseAdapter:
         # path to language data   
         self.lpath = self.ipath + "/share/freeling/" + self.lang + "/"
     
-    def my_maco_options(self, lang,lpath) :
+    def my_maco_options(self, lang,lpath):
+        """ sets the options
+        """
         # create options holder 
         opt = freeling.maco_options(self.lang);
         # Provide files for morphological submodules. Note that it is not 
@@ -27,12 +32,18 @@ class FreebaseAdapter:
         return opt;
     
     def tokenizer(self):
+        """ returns a freeling tokenizer
+        """
         return freeling.tokenizer(self.lpath+"tokenizer.dat");
     
     def splitter(self):
+        """ returns a freeling sentence splitter
+        """
         return freeling.splitter(self.lpath+"splitter.dat");
     
     def morfo(self):
+        """ returns a freeling morfo object
+        """
         morfo=freeling.maco(self.my_maco_options(self.lang,self.lpath));
         morfo.set_active_options (False,  # UserMap 
                                   True,  # NumbersDetection,  
@@ -49,4 +60,6 @@ class FreebaseAdapter:
         return morfo
     
     def tagger(self):
+        """ returns a freeling pos tagger
+        """
         return freeling.hmm_tagger(self.lpath+"tagger.dat",True,2)

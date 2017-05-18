@@ -7,18 +7,24 @@ from k_fold import k_folds
 from baseline_drug_span_predictor import BaselineDrugSpanPredictor
 import numpy as np
 
+BASELINE = False
+
 TEST = True
 
 VERBOSE = False
 
 class MulticlassPosNgramNaiveBayes:
     def __init__(self):
+        """ initialises the naive bayes
+        """
         self.classes = ["drug", "group", "brand", "drug_n", "none"]
         self.nb = NaiveBayes(self.classes)
         self.tagger = PosTagger()
         self.set_feature_names()
     
     def set_feature_names(self):
+        """ registers all the feature names for naive bayes
+        """
         self.ngram_feature_name = "ngram"
         self.nb.register_feature(self.ngram_feature_name)
         self.word_length_feature_name = "word_length"
@@ -51,6 +57,8 @@ class MulticlassPosNgramNaiveBayes:
         self.nb.register_feature(self.pos_after2_feature_name)
     
     def train(self, data):
+        """ train naive bayes on training documents
+        """
         for doc in data:
             for sentence in doc.sentences:
                 tagged_words = self.tagger.pos_tag(sentence.text)
@@ -63,6 +71,8 @@ class MulticlassPosNgramNaiveBayes:
                         self.nb.count_feature(f[0], f[1], label)
     
     def tagged_words_to_features(self, tagged_words):
+        """ extract freatures from a list of tagged words
+        """
         feature_list = []
         for i in range(len(tagged_words)):
             tagged_word = tagged_words[i]
@@ -103,10 +113,14 @@ class MulticlassPosNgramNaiveBayes:
         return feature_list
     
     def intervals_intersect(self, i1, i2):
+        """ true if two intervals directly follow each other
+        """
         intersect = i1[0] == i2[0] and i1[1] == i2[1]
         return intersect
     
     def get_ground_truth(self, tagged_words, entities):
+        """ a list of ground truth labels for each word in a list of tagged words
+        """
         labels = []
         for tw in tagged_words:
             label = "none"
@@ -120,6 +134,8 @@ class MulticlassPosNgramNaiveBayes:
         return labels
     
     def classify_tagged_words(self, tagged_words):
+        """ classifies each word in a list of tagged words
+        """
         labels = []
         feature_list = self.tagged_words_to_features(tagged_words)
         for i in range(len(tagged_words)):
@@ -128,26 +144,38 @@ class MulticlassPosNgramNaiveBayes:
         return labels
     
     def classify_tagged_words_as_spans(self, tagged_words):
+        """ returns a list of labeled spans
+        given a list of tagged words
+        """
         labels = self.classify_tagged_words(tagged_words)
         return wordlist_labels_to_span_predictions(tagged_words, labels)
     
     def classify_spans(self, sentence):
+        """ returns a list of labeled spans
+        given a sentence
+        """
         tagged_words = self.tagger.pos_tag(sentence)
         return self.classify_tagged_words_as_spans(tagged_words)
 
 def get_spans_from_entities(entities):
+    """ returns ground truth spans
+    """
     spans = []
     for e in entities:
         spans.append(e.char_offset)
     return spans
 
 def get_texts_from_entities(entities):
+    """ a list of texts of all entities given
+    """
     texts = []
     for e in entities:
         texts.append(e.text)
     return texts
 
 def simple_concatenation(words, spans):
+    """ concatenates consecutive labels
+    """
     new_words = []
     new_spans = []
     for i in range(len(words)):
@@ -164,6 +192,8 @@ def simple_concatenation(words, spans):
     return new_words, new_spans
 
 def get_gt_prediction_pairs(tagged_words, entities, labels):
+    """ creates pairs of truth and predictions
+    """
     pairs = []
     n_words = len(tagged_words)
     n_entities = len(entities)
@@ -188,6 +218,9 @@ def get_gt_prediction_pairs(tagged_words, entities, labels):
     return pairs
 
 def confusion_matrix(m, pairs):
+    """ update step of the confusion matrix
+    given a list of truth-prediction pairs
+    """
     for p in pairs:
         truth = p[1]
         pred = p[2]
@@ -198,11 +231,15 @@ def confusion_matrix(m, pairs):
         m[truth][pred] = m[truth][pred] + 1
 
 def print_confusion_matrix(m):
+    """ prints the given matrix
+    """
     for truth in sorted(m):
         for pred in sorted(m[truth]):
             print(truth, pred, m[truth][pred])
 
 def wordlist_labels_to_span_predictions(tagged_words, labels):
+    """ transforms tagged words and labels to a list of (word, label) tuples
+    """
     span_preds = []
     for i in range(len(tagged_words)):
         if labels[i] != "none":
@@ -210,6 +247,8 @@ def wordlist_labels_to_span_predictions(tagged_words, labels):
     return span_preds
 
 def get_gt_prediction_pairs_from_spans(span_labels, entities):
+    """ creates pairs of truth and predictions
+    """
     entity_labels = ["none"] * len(entities)
     pairs = []
     # try to match labels with entities
@@ -275,8 +314,10 @@ if __name__ == "__main__":
         print("%i training documents" % len(training))
         print("%i test documents" % len(test))
         
-        # TODO nb = MulticlassPosNgramNaiveBayes()
-        nb = BaselineDrugSpanPredictor()
+        if not BASELINE:
+            nb = MulticlassPosNgramNaiveBayes()
+        else:
+            nb = BaselineDrugSpanPredictor()
         nb.train(training)
         
         ## test

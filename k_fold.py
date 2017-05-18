@@ -1,6 +1,9 @@
 import numpy.random as rnd
 
 def k_folds(n, k):
+    """ returns a list of folds
+    each fold contains a list of training and a list of validation indices
+    """
     inds = rnd.permutation(n)
     folds =[]
     fold_size = n / k

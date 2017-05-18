@@ -10,6 +10,9 @@ def verbose(str):
         print(str)
 
 class NaiveBayes:
+    """ an implementation of the naive bayes classifier
+    """
+    
     def __init__(self, classes):
         self.classes = classes
         self.features = {}
@@ -20,10 +23,14 @@ class NaiveBayes:
             self.class_frequencies[class_label] = 0
     
     def count_class(self, class_label):
+        """ a class label was seen
+        """
         self.n = self.n + 1
         self.class_frequencies[class_label] = self.class_frequencies[class_label] + 1
     
     def register_feature(self, feature_name):
+        """ counters of the feature are initialised
+        """
         if feature_name not in self.features:
             self.features[feature_name] = {}
             self.f_counters[feature_name] = {}
@@ -31,6 +38,8 @@ class NaiveBayes:
                 self.f_counters[feature_name][c] = 0
     
     def count_feature(self, feature_name, value, class_label):
+        """ a value of a feature was seen, given a class
+        """
         if value not in self.features[feature_name]:
             self.features[feature_name][value] = {}
             for c in self.classes:
@@ -39,6 +48,8 @@ class NaiveBayes:
         self.f_counters[feature_name][class_label] = self.f_counters[feature_name][class_label] + 1
     
     def p_class(self, c):
+        """ returns p(class = c)
+        """
         if c not in self.class_frequencies:
             freq = 0
         else:
@@ -50,6 +61,8 @@ class NaiveBayes:
         return p
     
     def p_feature_given_class(self, feature_name, value, class_label):
+        """ returns p(feature = value | class)
+        """
         if value not in self.features[feature_name]:
             freq = 0
         else:
@@ -65,6 +78,10 @@ class NaiveBayes:
         return p
     
     def get_prob(self, features, c, use_prior):
+        """ returns p(class = c | features)
+        use_prior specifies whether the learned probabilites for classes should be used,
+        or if all classes should be treated equally likely (use False then)
+        """
         verbose(c)
         verbose("-" * 10)
         p = 1
@@ -78,6 +95,8 @@ class NaiveBayes:
         return p
     
     def classify(self, features, use_prior=True):
+        """ returns the class that has highest probability given the features
+        """
         max_p = -1
         predicted_class = None
         for c in self.classes:

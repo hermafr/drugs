@@ -4,6 +4,8 @@ def overwrite(txt, begin, end, symbol = "#"):
     return txt[0:begin] + symbol * (end - begin) + txt[end:len(txt)]
 
 def remove_puntuations(txt):
+    """ removes puntuations in a string
+    """
     # end of line
     if txt[-1:] == "\n":
         txt = txt[:-1]
@@ -18,6 +20,8 @@ def remove_puntuations(txt):
     return txt
 
 def get_word_lists_from_sentence(sentence):
+    """ splits a sentence into words
+    """
     txt = sentence.text
     drug_words = []
     neutral_words = []
