@@ -6,6 +6,7 @@ from numpy.random import choice
 from k_fold import k_folds
 from baseline_drug_span_predictor import BaselineDrugSpanPredictor
 import numpy as np
+import sys
 
 BASELINE = False
 
@@ -278,6 +279,10 @@ def get_gt_prediction_pairs_from_spans(span_labels, entities):
     return pairs
 
 if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        if sys.argv[1] == "--baseline":
+            BASELINE = True
+
     np.random.seed(42)    
     
     data = read_dataset()
@@ -359,7 +364,6 @@ if __name__ == "__main__":
             elif pred == "none":  # false negative
                 counters[truth][2] = counters[truth][2] + 1
                 fn += 1
-                print(pair)
                 if " " in pair[0]:
                     fn_gaps += 1
             else:  # wrong prediction
