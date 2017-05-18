@@ -20,4 +20,4 @@ python3 multiclass_ngram_naive_bayes2.py
 ## task2
 
 run the following program:  
-python3 multiclass_ngram_naive_bayes2.py
+python3 task2_naive_bayes.py
