@@ -19,12 +19,12 @@ python3 multiclass_ngram_naive_bayes2.py
 
 ## Task 2
 
-### SVM model
+### SVM approach
 
 run the following program:  
 python3 SVM_evaluation.py
 
-### SVM model
+### Naive Bayes approach
 
 for the Naive Bayes model, run:  
 python3 task2_naive_bayes.py
