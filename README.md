@@ -18,6 +18,8 @@ run the following program:
 python3 multiclass_ngram_naive_bayes2.py
 
 ## task2
+for the SVM model, run:
+python3 SVM_evaluation.py
 
-run the following program:  
+for the Naive Bayes model, run:  
 python3 task2_naive_bayes.py
